@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Solartech || Home One || Responsive HTML 5 Template</title>
+	<title>Moon Star Power & Technology</title>
 
 	<!-- responsive meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +27,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-one/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-one/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-one/favicon-16x16.png">
-    <link rel="manifest" href="images/favicon-one//manifest.json">
+    <link rel="manifest" href="images/favicon-one/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="images/favicon-one//ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
@@ -41,35 +41,6 @@
 
     <div class="preloader"></div> 
 
-    <!-- Start Top Bar style1 -->  
-    <section class="top-bar-style1">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12 col-lg-12 col-md-12">
-                    <div class="top-style1 clearfix">
-                        <div class="top-left-style1 float-left clearfix">
-                            <div class="find-text">
-                                <p>Find a Solartech Authorized Professional<span class="icon-null"></span></p>
-                            </div>
-                        </div>
-                        <div class="top-right-style1 float-right">
-                            <div class="for-enquiry float-left fix">
-                                <p><span class="icon-question"></span>For Enquiry: +31 541.754.3010</p>
-                            </div>
-                            <ul class="top-social-style1 sociallinks-style-one float-right fix">
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            </ul> 
-                        </div>
-                    </div>    
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Top Bar style1 -->  
-     
     <!--Start header style1 area-->
     <header class="header-style1-area">
         <div class="container">
@@ -78,9 +49,8 @@
                     <div class="header-style1 clearfix">
                         <div class="headers1-logo float-left">
                             <a href="index.html">
-                                <img src="images/resources/logo.png" alt="Awesome Logo">
-                            </a>
-                        </div>   
+                                <img src="images/resources/logo.png" alt="Moon Star Power & Technology">
+                            </a>                       </div>   
                         <div class="headers1-header-right float-right">
                             <ul class="header-contact-info clearfix">
                                 <li>
@@ -90,7 +60,7 @@
                                         </div>
                                         <div class="text">
                                             <h3>For Visitors</h3>
-                                            <p>47 W 13th Street, NY</p>    
+                                            <p>Gulshan-1, Dhaka-1212.</p>    
                                         </div>
                                     </div>
                                 </li>
@@ -101,13 +71,15 @@
                                         </div>
                                         <div class="text">
                                             <h3>Mail Us On</h3> 
-                                            <p>info@solartech.com</p>   
+                                            <p>msptl.amr@gmail.com</p>   
                                         </div>
                                     </div>
                                 </li>
                             </ul>
                             <div class="headers1-button">
-                                <a class="btn-one" href="#"><b>Consultation</b><span class="icon-null"></span></a>    
+                                <a class="btn-one" href="index.html">
+                                    <b>Consultation</b><span class="icon-null"></span>
+                                </a>  
                             </div>    
                         </div>
                     </div>
@@ -122,7 +94,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="inner-content clearfix">
+                    <div class="inner-content clearfix d-flex justify-content-center">
                         <nav class="main-menu clearfix">
                             <div class="navbar-header clearfix">   	
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -133,94 +105,27 @@
                             </div>
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
-                                    <li class="dropdown current"><a href="index.html">Home</a>
-                                        <ul>
-    								        <li><a href="index.html">Solartech</a></li>
-    								        <li><a href="index-2.html">Hydrotech</a></li>
-    								        <li><a href="index-3.html">Windtech</a></li>
-    								        <li><a href="index-4.html">Fueltech</a></li>
-    								        <li><a href="index-5.html">Geotech</a></li>
-    								        <li><a href="index-6.html">MassTech</a></li>
-    								        <li class="dropdown"><a href="#">Header Styles</a>
-                                                <ul>
-                                                    <li><a href="index.html">Header Style 01</a></li>
-                                                    <li><a href="index-2.html">Header Style 02</a></li>
-                                                    <li><a href="index-3.html">Header Style 03</a></li>
-    								                <li><a href="index-4.html">Header Style 04</a></li>
-    								                <li><a href="index-5.html">Header Style 05</a></li>
-    								                <li><a href="index-6.html">Header Style 06</a></li> 
-                                                </ul>    
-                                            </li>
-    								    </ul>
+                                    <li class="dropdown" :class="{ current: isActive('/')}">
+                                        <a href="index.html">Home</a>
                                     </li>
-                                    <li class="dropdown"><a href="about.html">About us</a>
-                                        <ul>
-                                            <li><a href="about.html">About Company</a></li>
-                                            <li><a href="faq.html">FAQ’s</a></li>
-                                            <li><a href="404-page.html">Error Page</a></li>
-                                        </ul>
+                                    <li class="dropdown" :class="{ current: isActive('/about')}">
+                                        <a href="#">About us</a>
                                     </li>
-                                    <li class="dropdown"><a href="services.html">Services</a>
-                                        <ul>
-                                            <li><a href="ser-installation.html">Installation</a></li>
-                                            <li><a href="ser-maintenance.html">Maintenance</a></li>
-                                            <li><a href="ser-monitoring.html">Monitoring</a></li>
-                                            <li><a href="ser-consultation.html">Consultation</a></li>
-                                            <li><a href="ser-roof-solution.html">Roof Solution</a></li>
-                                            <li><a href="ser-inverter-repair.html">Inverter Repair</a></li>
-                                        </ul>
+                                    <li class="dropdown" :class="{ current: isActive('/products')}">
+                                        <a href="#">Products</a>
                                     </li>
-                                    <li class="dropdown"><a href="project.html">Projects</a>
-                                        <ul>
-                                            <li><a href="project.html">2 Columns Creative</a></li>
-                                            <li><a href="project-v2.html">3 Columns Modern</a></li>
-                                            <li><a href="project-v3.html">4 Columns Classic</a></li>
-                                            <li><a href="project-v4.html">Projects Fullwidth</a></li>
-                                            <li><a href="project-v5.html">Masonry Style</a></li>
-                                            <li><a href="project-single.html">Projects Single</a></li>
-                                        </ul>
+                                    <li class="dropdown" :class="{ current: isActive('/services')}">
+                                        <a href="#">Services</a>
                                     </li>
-                                    <li class="dropdown"><a href="blog.html">Blog</a>
-                                        <ul>
-                                            <li><a href="blog.html">Blog Style 01</a></li>
-                                            <li><a href="blog-v2.html">Blog Style 02</a></li>
-                                            <li><a href="blog-v3.html">Blog Style 03</a></li>
-                                            <li><a href="blog-single.html">Blog Single Post</a></li>
-                                        </ul>
+                                    <li class="dropdown" :class="{ current: isActive('/media')}">
+                                        <a href="#">Media</a>
                                     </li>
-                                    <li class="dropdown"><a href="shop.html">Shop</a>
-                                        <ul>
-                                            <li><a href="shop.html">Our Products</a></li>
-                                            <li><a href="shop-single.html">Products Single</a></li>
-                                            <li><a href="shopping-cart.html">Shopping Cart</a></li>
-                                            <li><a href="checkout.html">Checkout</a></li>
-                                            <li><a href="account.html">My Account</a></li>
-                                        </ul>
+                                    <li :class="{ current: isActive('/contact')}"> 
+                                        <a href="#">Contact Us</a>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
                                 </ul>
                             </div>
                         </nav>
-                        
-                        <div class="mainmenu-right">
-                            <div class="outer-search-box">
-                                <div class="seach-toggle"><i class="fa fa-search"></i></div>
-                                <ul class="search-box">
-                                    <li>
-                                        <form method="post" action="index.html">
-                                            <div class="form-group">
-                                                <input type="search" name="search" placeholder="Search Here" required>
-                                                <button type="submit"><i class="fa fa-search"></i></button>
-                                            </div>
-                                        </form>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="cart-box">
-                                <a href="shoping-cart.html"><span class="icon-cart"><span class="number">0</span></span></a>
-                            </div> 
-                        </div> 
-                          
                     </div>
                 </div>
             </div>
@@ -233,9 +138,9 @@
         <div class="rev_slider_wrapper fullwidthbanner-container"  id="rev_slider_one_wrapper" data-source="gallery">
             <div class="rev_slider fullwidthabanner" id="rev_slider_one" data-version="5.4.1">
                 <ul>
-                    <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1689" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/slides/v1-1.jpg" data-title="Slide Title" data-transition="parallaxvertical">
+                    <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1689" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/slides/v2-1.jpg" data-title="Slide Title" data-transition="parallaxvertical">
 
-                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/slides/v1-1.jpg"> 
+                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/slides/v2-1.jpg"> 
                         
                         <div class="tp-caption" 
                         data-paddingbottom="[0,0,0,0]"
@@ -331,9 +236,9 @@
                         </div>   
                     </li>
                     
-                    <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1687" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/slides/v1-2.jpg" data-title="Slide Title" data-transition="parallaxvertical">
+                    <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1687" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/slides/v2-2.jpg" data-title="Slide Title" data-transition="parallaxvertical">
                     
-                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/slides/v1-2.jpg">
+                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/slides/v2-2.jpg">
                         
                         <div class="tp-caption" 
                         data-paddingbottom="[0,0,0,0]"
@@ -429,8 +334,8 @@
                         </div> 
                     </li>
                     
-                    <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/slides/v1-3.jpg" data-title="Slide Title" data-transition="parallaxvertical">
-                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/slides/v1-3.jpg"> 
+                    <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/slides/v2-3.jpg" data-title="Slide Title" data-transition="parallaxvertical">
+                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/slides/v2-3.jpg"> 
 
                         
                         <div class="tp-caption" 
@@ -914,7 +819,7 @@
                             <div class="count-box">
                                 <h1>
                                     <i class="flaticon-add"></i>
-                                    <span class="timer" data-from="1" data-to="5258" data-speed="5000" data-refresh-interval="50">5258</span>
+                                    <span class="timer" data-from="1" data-href="5258" data-speed="5000" data-refresh-interval="50">5258</span>
                                 </h1>
                                 <div class="title">
                                     <h3>5.258 Projects Completed<br> Successfully</h3>
@@ -925,7 +830,7 @@
                             <div class="count-box">
                                 <h1>
                                     <i class="flaticon-percentage"></i>
-                                    <span class="timer" data-from="1" data-to="97" data-speed="5000" data-refresh-interval="50">97</span>
+                                    <span class="timer" data-from="1" data-href="97" data-speed="5000" data-refresh-interval="50">97</span>
                                 </h1>
                                 <div class="title">
                                     <h3>Positive Feedback<br> By 97.41% of Customers</h3>
@@ -1640,7 +1545,7 @@
     </section>
     <!--End Download Material area-->
       
-    <!--Start footer area-->  
+     <!--Start footer area-->  
     <footer class="footer-area">
         <div class="scroll-to-top scroll-to-target wow slideInRight" data-wow-delay="300ms" data-wow-duration="1500ms" data-target="html">
             <span class="fa fa-angle-up"></span>
@@ -1653,16 +1558,16 @@
                         <div class="contact-info-box">
                             <div class="footer-logo">
                                 <a href="index.html">
-                                    <img src="images/resources/logo-2.png" alt="Awesome Logo">
+                                    <img src="images/resources/logo.png" alt="Moon Star Power & Technology" style="height: 60px;">
                                 </a>    
                             </div>
                             <div class="text">
-                                <p>47 W Soft Road 13th street, NY 10011<br> Unitd States</p>
+                                <p>House: 86, Flat: B-1, Road: 10/1, Block: D, Niketan, Gulshan-1, Dhaka-1212, Bangladesh.</p>
                                 <ul>
-                                    <li>solartech@example.com</li>
-                                    <li>Mon - Fri: 9am to 6pm, <span>W.e/ Holiday</span></li>
+                                    <li>msptl.amr@gmail.com</li>
+                                    <li>Mon - Fri: 10am to 7pm, <span>W.e/ Holiday</span></li>
                                 </ul>
-                                <a class="btn-two" href="#">go to Map<span class="icon-null"></span></a>
+                                <a class="btn-two" href="https://maps.app.goo.gl/CJ1gadZBftEDggBr6" target="_blank" rel="noopener noreferrer">go to Map<span class="icon-null"></span></a>
                             </div>    
                         </div>
                     </div>
@@ -1678,21 +1583,17 @@
                             <div class="row">
                                 <div class="col-xl-6">
                                     <ul>
-                                        <li><a href="#">About Company</a></li>
-                                        <li><a href="#">Meet Experts</a></li>
-                                        <li><a href="#">Our Case Studies</a></li>
-                                        <li><a href="#">Get a Quote</a></li>
-                                        <li><a href="#">Testimonials</a></li>
-                                        <li><a href="#">Pricing & Plans</a></li>
+                                        <li><a href="/about">About Company</a></li>
+                                        <li><a href="/services">Our Services</a></li>  
+                                        <li><a href="#">Meet Experts</a></li> 
+                                        
                                     </ul>    
                                 </div>
                                 <div class="col-xl-6">
                                     <ul>
-                                        <li><a href="#">Our Services</a></li>    
-                                        <li><a href="#">Latest News</a></li>    
+                                        <li><a href="/products">Products</a></li>
                                         <li><a href="#">Privacy Policy</a></li>    
-                                        <li><a href="#">Our Materials</a></li>    
-                                        <li><a href="#">Contact Us</a></li>      
+                                        <li><a href="/contact">Contact Us</a></li>      
                                     </ul>
                                 </div>
                             </div>
@@ -1795,7 +1696,7 @@
             <div class="row">
                 <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12">
                     <div class="copyright-text">
-                        <p>© 2009–2019 All Rights Reserved by <a href="#">Solartech.</a> <br>Certified Solar Energy Company.</p>
+                        <p>© 2026 All Rights Reserved by <br> <a href="index.html">Moon Star Power & Technology</a></p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
@@ -1805,7 +1706,7 @@
                         </div>
                         <div class="title">
                             <span>Any question? Call Us</span>
-                            <h3>(+31) 541.754.3010</h3>
+                            <h3>(+880) 1911-284405</h3>
                         </div>    
                     </div>
                 </div>
@@ -1813,7 +1714,7 @@
                     <div class="footer-social-links float-right">
                         <ul class="sociallinks-style-two fix">
                             <li>
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="https://www.facebook.com/moonstarpower/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                             </li>
                             <li>
                                 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -1827,11 +1728,10 @@
                         </ul>
                     </div>
                 </div>
-                
             </div>
         </div>    
     </section>
-    <!--End footer bottom area-->   
+    <!--End footer bottom area-->
 
 </div>  
 
