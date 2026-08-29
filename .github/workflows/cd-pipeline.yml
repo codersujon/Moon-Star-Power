@@ -1,0 +1,36 @@
+name: Deploy (moonstarpower.com) 
+
+on:
+    workflow_run:
+        workflows: ["Moon Star Power & Technology CI"]
+        types:
+          - completed
+jobs:
+
+    # JOB 1: 
+    Deploy:
+        if: ${{ github.event.workflow_run.conclusion == 'success' }}
+        runs-on: ubuntu-latest
+
+        steps:
+
+            # Step 1: Checkout Code
+            - name: Checkout Repository
+              uses: actions/checkout@v5
+
+            # ‍Step 2: Deploy Website via SSH
+            - name: SSH Deploy
+              uses: appleboy/ssh-action@v1.0.3
+              with:
+                host: ${{ secrets.SSH_HOST }}
+                username: ${{ secrets.SSH_USERNAME }}
+                password: ${{ secrets.SSH_PASSWORD }}
+                port: ${{ secrets.SSH_PORT }}
+
+                script: |
+                  cd ~/public_html
+                  git pull origin main
+                  echo "✅ Deployment Completed Successfully"
+...
+            
+           
