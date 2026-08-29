@@ -44,7 +44,7 @@ jobs:
             - name: Verify Required Files
               run: |
                 test -f index.php
-                test -f mail.php
+                test -f sendmail.php
 
             # Step 7: Verify Directories
             - name: Verify Directories
