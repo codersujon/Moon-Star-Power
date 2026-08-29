@@ -11458,7 +11458,7 @@ select:focus {
     position: relative;
     display: block;
     background: #ffffff;
-    padding: 100px 0 100px;
+    padding: 60px 0 60px;
 }
 .project-filter.style1 {
     position: relative;
@@ -11478,7 +11478,7 @@ select:focus {
     font-size: 16px;
     font-weight: 700;
     display: block;
-    padding: 27px 30px 25px;
+    padding: 15px 40px 15px;
     padding-right: 26px;
     cursor: pointer;
     transition: all .4s ease;
