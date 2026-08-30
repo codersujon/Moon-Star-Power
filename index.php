@@ -328,16 +328,16 @@
                         <span class="icon-solar-energy"></span>
                     </div>
                     <div class="image-box-one">
-                        <img src="images/resources/about-1.png" alt="Awesome Image">
+                        <img src="images/resources/about-1.png" alt="Power Equipment">
                     </div>
                     <div class="image-box-two">
-                        <img src="images/resources/about-2.png" alt="Awesome Image">
+                        <img src="images/resources/about-2.png" alt="Transformers">
                     </div>
                     <div class="image-box-three">
-                        <img src="images/resources/about-3.png" alt="Awesome Image">
+                        <img src="images/resources/about-3.png" alt="Generators">
                     </div>
                     <div class="image-box-four">
-                        <img src="images/resources/about-4.png" alt="Awesome Image">
+                        <img src="images/resources/about-4.png" alt="Solar Energy">
                     </div>
                 </div>
             </div>
@@ -345,17 +345,13 @@
                 <div class="about-text">
                     <div class="sec-title">
                         <p>About Our Company</p>
-                        <div class="title">Simplicity & Efficiency</div>
+                        <div class="title">Reliable Power, Smarter Solutions</div>
                         <div class="border-box"></div>
                     </div>
                     <div class="inner-content">
-                        <h3>Experience The Power of The Sun at its Finest.</h3>
+                        <h3>Your Trusted Partner in Power & Electrical Engineering</h3>
                         <div class="text">
-                            <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power
-                                off choice isuntrammelled and when nothing prevents our being able do what we like
-                                bestevery pleasure.</p>
-                            <p>Perfectly simple and easy to distinguish. In a free hour, when our power choice is
-                                untrammelled and when nothing prevents we give best.</p>
+                            <p>Founded by <strong>Md. Abdul Mannan</strong>, Moon Star Power & Technology is a leading provider of electrical and power solutions in Bangladesh. We supply, install, and maintain Transformers, HT & LT Panels, Diesel Generators, PFI Panels, and Solar Power Systems.</p>
                         </div>
                         <ul class="solar-services">
                             <li class="single-solar-box">
@@ -363,7 +359,7 @@
                                     <span class="icon-farm"></span>
                                 </div>
                                 <div class="title">
-                                    <h3>Solar In<br> Agriculture Farm</h3>
+                                    <h3>Transformers &<br> PFI Panels</h3>
                                 </div>
                             </li>
                             <li class="single-solar-box">
@@ -371,18 +367,17 @@
                                     <span class="icon-farming-and-gardening"></span>
                                 </div>
                                 <div class="title">
-                                    <h3>Solar In<br> Residential Areas</h3>
+                                    <h3>Generators &<br> Solar Systems</h3>
                                 </div>
                             </li>
                         </ul>
                         <div class="button">
-                            <a class="btn-two" href="#">More About Solartech<span class="icon-null"></span></a>
+                            <a class="btn-two" href="#">Learn More<span class="icon-null"></span></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 </section>
 <!--End about Area-->
@@ -394,10 +389,10 @@
             <div class="col-xl-12">
                 <div class="inner-content fix">
                     <div class="title float-left">
-                        <h2>Custom fit residential<br> solar power solutions for your home.</h2>
+                        <h2>Reliable power solutions engineered<br> for industrial & residential needs.</h2>
                     </div>
                     <div class="button float-right">
-                        <a class="btn-three" href="#">Make an Apppointment<span class="icon-null"></span></a>
+                        <a class="btn-three" href="contact.php">Make an Appointment<span class="icon-null"></span></a>
                     </div>
                 </div>
             </div>
@@ -413,90 +408,89 @@
             <p>Our Services</p>
             <div class="title">Quality With Dedication</div>
             <div class="border-box center"></div>
-            <span>Solartech redefines your relationship with energy. Save money. Minimize your carbon footprint.
-                Take control of your power costs today!</span>
+            <span>Moon Star Power & Technology delivers reliable, high-efficiency electrical and energy solutions. From substations to green energy, we keep your power uninterrupted!</span>
         </div>
         <div class="row">
-            <!--Start single solution style1-->
+            <!--Start single solution style1: Transformer Service-->
             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                 <div class="single-service-style1">
                     <div class="img-holder">
-                        <img src="images/services/1.jpg" alt="Awesome Image">
+                        <img src="images/services/1.jpg" alt="Transformer Service">
                         <div class="overlay-style-two"></div>
                         <div class="overlay-content-box">
                             <div class="icon">
-                                <span class="icon-drill"></span>
+                                <span class="icon-power-1"></span>
                             </div>
                             <div class="title">
-                                <h3>Installation</h3>
+                                <h3>Transformer Services</h3>
                             </div>
                         </div>
                     </div>
                     <div class="text-holder">
-                        <p>Indignation and dislikes men who are so beguiled and demoralized by that charms of pleasure
-                            of the moment...</p>
+                        <p>Complete supply, installation, testing, commissioning, and maintenance for HT/LT Distribution Transformers and Substation Panels.</p>
                         <div class="button">
-                            <a class="btn-two" href="#">Read More<span class="icon-null"></span></a>
+                            <a class="btn-two" href="services.php">Read More<span class="icon-null"></span></a>
                         </div>
                     </div>
                 </div>
             </div>
             <!--End single solution style1-->
-            <!--Start single solution style1-->
+
+            <!--Start single solution style1: Generator Service-->
             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                 <div class="single-service-style1">
                     <div class="img-holder">
-                        <img src="images/services/2.jpg" alt="Awesome Image">
+                        <img src="images/services/2.jpg" alt="Generator Service">
                         <div class="overlay-style-two"></div>
                         <div class="overlay-content-box">
                             <div class="icon">
                                 <span class="icon-gear"></span>
                             </div>
                             <div class="title">
-                                <h3>Maintenance</h3>
+                                <h3>Generator Services</h3>
                             </div>
                         </div>
                     </div>
                     <div class="text-holder">
-                        <p>Foresee the pain and trouble that we are bounds to ensue & equal blame belongs to those who
-                            fail in their duty...</p>
+                        <p>High-performance Diesel Generator supply, ATS panel integration, troubleshooting, and 24/7 maintenance for uninterrupted power backup.</p>
                         <div class="button">
-                            <a class="btn-two" href="#">Read More<span class="icon-null"></span></a>
+                            <a class="btn-two" href="services.php">Read More<span class="icon-null"></span></a>
                         </div>
                     </div>
                 </div>
             </div>
             <!--End single solution style1-->
-            <!--Start single solution style1-->
+
+            <!--Start single solution style1: Solar Service-->
             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                 <div class="single-service-style1">
                     <div class="img-holder">
-                        <img src="images/services/1.jpg" alt="Awesome Image">
+                        <img src="images/services/3.jpg" alt="Solar Service">
                         <div class="overlay-style-two"></div>
                         <div class="overlay-content-box">
                             <div class="icon">
-                                <span class="icon-cctv"></span>
+                                <span class="icon-solar-energy"></span>
                             </div>
                             <div class="title">
-                                <h3>Monitoring</h3>
+                                <h3>Solar Power Services</h3>
                             </div>
                         </div>
                     </div>
                     <div class="text-holder">
-                        <p>When our power of choice untrammelled and when nothing prevents being able to do what we like
-                            best work...</p>
+                        <p>Customized On-Grid & Off-Grid Solar Energy Solutions for residential, commercial, and industrial facilities to reduce electricity costs.</p>
                         <div class="button">
-                            <a class="btn-two" href="#">Read More<span class="icon-null"></span></a>
+                            <a class="btn-two" href="services.php">Read More<span class="icon-null"></span></a>
                         </div>
                     </div>
                 </div>
             </div>
             <!--End single solution style1-->
         </div>
+
         <div class="row">
             <div class="col-xl-12">
                 <div class="emergency-call wow slideInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <h6>Any Emergency? Call our 24/7 customer support team at <span>1800.123.456</span></h6>
+                    <h6>Any Emergency? Call our 24/7 customer support team at <span>+880 1911-284405</span></h6>
                 </div>
             </div>
         </div>
@@ -508,81 +502,82 @@
 <section class="why-choose-area secpd1">
     <div class="container">
         <div class="sec-title">
-            <p>Benefits of Solar Energy</p>
-            <div class="title">Why Solar Energy is Best</div>
+            <p>Why Choose Us</p>
+            <div class="title">Why Moon Star Power & Technology</div>
             <div class="border-box"></div>
         </div>
         <div class="row">
             <div class="col-xl-12">
                 <div class="choose-carousel owl-carousel owl-theme">
-                    <!--Start Single Choose Box-->
+                    
+                    <!--Start Single Choose Box: Transformers-->
                     <div class="single-choose-box text-center">
-                        <h3><a href="#">Generate<br> Own Electricity</a></h3>
-                        <span class="icon-null-1"></span>
+                        <h3><a href="services.php">Quality Power<br> Transformers</a></h3>
+                        <span class="icon-power-1"></span>
                         <div class="button">
-                            <a href="#"><span class="icon-null"></span></a>
+                            <a href="services.php"><span class="icon-null"></span></a>
                         </div>
                         <div class="overlay-content">
-                            <h3><a href="#">Generate<br> Own Electricity</a></h3>
-                            <p>Actual teachings of the great explorer of the truth, the masters builder of human all
-                                happiness.</p>
+                            <h3><a href="services.php">Quality Power<br> Transformers</a></h3>
+                            <p>Durable HT & LT distribution transformers designed for uninterrupted industrial & commercial power grid operations.</p>
                             <div class="button">
-                                <a href="#"><span class="icon-null"></span></a>
+                                <a href="services.php"><span class="icon-null"></span></a>
                             </div>
                         </div>
                     </div>
                     <!--End Single Choose Box-->
-                    <!--Start Single Choose Box-->
+
+                    <!--Start Single Choose Box: Generators-->
                     <div class="single-choose-box text-center">
-                        <h3><a href="#">Improve<br> The Environment</a></h3>
-                        <span class="icon-ecology"></span>
+                        <h3><a href="services.php">Reliable Diesel<br> Generators</a></h3>
+                        <span class="icon-gear"></span>
                         <div class="button">
-                            <a href="#"><span class="icon-null"></span></a>
+                            <a href="services.php"><span class="icon-null"></span></a>
                         </div>
                         <div class="overlay-content">
-                            <h3><a href="#">Improve<br> The Environment</a></h3>
-                            <p>Actual teachings of the great explorer of the truth, the masters builder of human all
-                                happiness.</p>
+                            <h3><a href="services.php">Reliable Diesel<br> Generators</a></h3>
+                            <p>Heavy-duty generators with automatic transfer switches (ATS) ensuring 24/7 backup power during outages.</p>
                             <div class="button">
-                                <a href="#"><span class="icon-null"></span></a>
+                                <a href="services.php"><span class="icon-null"></span></a>
                             </div>
                         </div>
                     </div>
                     <!--End Single Choose Box-->
-                    <!--Start Single Choose Box-->
+
+                    <!--Start Single Choose Box: PFI Panels-->
                     <div class="single-choose-box text-center">
-                        <h3><a href="#">Lower<br> Power Cost</a></h3>
-                        <span class="icon-solar-panel"></span>
-                        <div class="button">
-                            <a href="#"><span class="icon-null"></span></a>
-                        </div>
-                        <div class="overlay-content">
-                            <h3><a href="#">Lower<br> Power Cost</a></h3>
-                            <p>Actual teachings of the great explorer of the truth, the masters builder of human all
-                                happiness.</p>
-                            <div class="button">
-                                <a href="#"><span class="icon-null"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Choose Box-->
-                    <!--Start Single Choose Box-->
-                    <div class="single-choose-box text-center">
-                        <h3><a href="#">Reduce<br> Electricity bills</a></h3>
+                        <h3><a href="services.php">Efficient PFI<br> Panel Systems</a></h3>
                         <span class="icon-money"></span>
                         <div class="button">
-                            <a href="#"><span class="icon-null"></span></a>
+                            <a href="services.php"><span class="icon-null"></span></a>
                         </div>
                         <div class="overlay-content">
-                            <h3><a href="#">Reduce<br> Electricity bills</a></h3>
-                            <p>Actual teachings of the great explorer of the truth, the masters builder of human all
-                                happiness.</p>
+                            <h3><a href="services.php">Efficient PFI<br> Panel Systems</a></h3>
+                            <p>Advanced Power Factor Improvement (PFI) panels to eliminate power penalties and lower your electricity bills.</p>
                             <div class="button">
-                                <a href="#"><span class="icon-null"></span></a>
+                                <a href="services.php"><span class="icon-null"></span></a>
                             </div>
                         </div>
                     </div>
                     <!--End Single Choose Box-->
+
+                    <!--Start Single Choose Box: Solar Energy-->
+                    <div class="single-choose-box text-center">
+                        <h3><a href="services.php">Sustainable<br> Solar Energy</a></h3>
+                        <span class="icon-solar-panel"></span>
+                        <div class="button">
+                            <a href="services.php"><span class="icon-null"></span></a>
+                        </div>
+                        <div class="overlay-content">
+                            <h3><a href="services.php">Sustainable<br> Solar Energy</a></h3>
+                            <p>Customized On-Grid & Off-Grid solar solutions to cut operational expenses and generate clean electricity.</p>
+                            <div class="button">
+                                <a href="services.php"><span class="icon-null"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Choose Box-->
+
                 </div>
             </div>
         </div>
@@ -594,488 +589,156 @@
 <section class="working-process-area" style="background-image:url(images/parallax-background/working-process-bg.jpg);">
     <div class="image-box wow fadeInRight" data-wow-duration="3000ms">
         <div class="image paroller">
-            <img class="zoom-fade" src="images/resources/working-process.png" alt="">
+            <img class="zoom-fade" src="images/resources/working-process.png" alt="Moon Star Power Working Process">
         </div>
     </div>
     <div class="container">
         <div class="sec-title with-text clrwhite text-center">
             <p>Working Process</p>
-            <div class="title">How to Get Better Results</div>
+            <div class="title">How We Deliver Excellence</div>
             <div class="border-box center bgblue"></div>
-            <span>Solartech redefines your relationship with energy. Save money. Minimize your carbon footprint. Take
-                control of your power costs today!</span>
+            <span>From initial technical evaluation to installation and lifetime maintenance, we ensure seamless power solutions tailored to your operational needs.</span>
         </div>
         <div class="row">
             <div class="col-xl-12">
                 <div class="working-process-carousel owl-carousel owl-theme">
-                    <!--Start Single Working Process-->
+                    
                     <div class="single-working-process text-center">
                         <div class="top-box">
                             <h6>Step<br> 01</h6>
                         </div>
-                        <h3>Consult<br> Our Expert Team</h3>
-                        <p>Frequently occur that pleasures have to be repudiated & annoyan accepted. </p>
+                        <h3>Consultation &<br> Site Audit</h3>
+                        <p>We analyze your power load, grid specifications, and equipment requirements to design an optimal power setup.</p>
                         <div class="button">
-                            <a class="btn-two" href="#">Appointment<span class="icon-null"></span></a>
+                            <a class="btn-two" href="contact.php">Appointment<span class="icon-null"></span></a>
                         </div>
                     </div>
-                    <!--End Single Working Process-->
-                    <!--Start Single Working Process-->
                     <div class="single-working-process text-center">
                         <div class="top-box">
                             <h6>Step<br> 02</h6>
                         </div>
-                        <h3>Ordering<br> Your Equipments</h3>
-                        <p> Pleasures to secure other greater or else worse endures pains avoid. </p>
+                        <h3>Equipment<br> Supply & Selection</h3>
+                        <p>Sourcing high-grade Transformers, Diesel Generators, PFI Panels, and Solar systems directly tailored for your project.</p>
                         <div class="button">
-                            <a class="btn-two" href="#">Our Products<span class="icon-null"></span></a>
+                            <a class="btn-two" href="services.php">Our Products<span class="icon-null"></span></a>
                         </div>
                     </div>
-                    <!--End Single Working Process-->
-                    <!--Start Single Working Process-->
                     <div class="single-working-process text-center">
                         <div class="top-box">
                             <h6>Step<br> 03</h6>
                         </div>
-                        <h3>Solar<br> Panel Installation</h3>
-                        <p>Indignations and dislikes men who are so demoralized by the charms.</p>
+                        <h3>Installation &<br> Integration</h3>
+                        <p>Our expert engineering team executes safe, industry-standard wiring, panel setup, and grid synchronization.</p>
                         <div class="button">
-                            <a class="btn-two" href="#">Appointment<span class="icon-null"></span></a>
+                            <a class="btn-two" href="contact.php">Get Started<span class="icon-null"></span></a>
                         </div>
                     </div>
-                    <!--End Single Working Process-->
-
-                    <!--Start Single Working Process-->
                     <div class="single-working-process text-center">
                         <div class="top-box">
-                            <h6>Step<br> 01</h6>
+                            <h6>Step<br> 04</h6>
                         </div>
-                        <h3>Consult<br> Our Expert Team</h3>
-                        <p>Frequently occur that pleasures have to be repudiated & annoyan accepted. </p>
+                        <h3>Testing &<br> 24/7 Maintenance</h3>
+                        <p>Comprehensive commissioning, load testing, and round-the-clock maintenance to guarantee uninterrupted power.</p>
                         <div class="button">
-                            <a class="btn-two" href="#">Appointment<span class="icon-null"></span></a>
+                            <a class="btn-two" href="contact.php">Contact Us<span class="icon-null"></span></a>
                         </div>
                     </div>
-                    <!--End Single Working Process-->
-                    <!--Start Single Working Process-->
-                    <div class="single-working-process text-center">
-                        <div class="top-box">
-                            <h6>Step<br> 02</h6>
-                        </div>
-                        <h3>Ordering<br> Your Equipments</h3>
-                        <p> Pleasures to secure other greater or else worse endures pains avoid. </p>
-                        <div class="button">
-                            <a class="btn-two" href="#">Our Products<span class="icon-null"></span></a>
-                        </div>
                     </div>
-                    <!--End Single Working Process-->
-                    <!--Start Single Working Process-->
-                    <div class="single-working-process text-center">
-                        <div class="top-box">
-                            <h6>Step<br> 03</h6>
-                        </div>
-                        <h3>Solar<br> Panel Installation</h3>
-                        <p>Indignations and dislikes men who are so demoralized by the charms.</p>
-                        <div class="button">
-                            <a class="btn-two" href="#">Appointment<span class="icon-null"></span></a>
-                        </div>
-                    </div>
-                    <!--End Single Working Process-->
-
-
-                </div>
             </div>
         </div>
     </div>
 </section>
 <!--End Working Process Area-->
 
-<!--Start Fact Projects area-->
-<section class="fact-projects-area">
-    <div class="pattern paroller">
-        <img src="images/pattern/fact-project-bg.jpg" alt="Pattern">
-    </div>
-    <div class="container">
-        <div class="row">
-            <!--Start Single fact counter-->
-            <div class="col-xl-4 col-lg-5 col-md-12 col-sm-12">
-                <div class="project-content">
-                    <div class="sec-title">
-                        <p>our achivements</p>
-                        <div class="title">Facts & Projects</div>
-                        <div class="border-box"></div>
-                    </div>
-                    <div class="inner-content">
-                        <p>Indignation and dislike men who are so beguiled<br> and demoralized by the charms.</p>
-                        <div class="button">
-                            <a class="btn-two" href="#">View All Projects<span class="icon-null"></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Single fact counter-->
-            <!--Start Single fact counter-->
-            <div class="col-xl-8 col-lg-7 col-md-12 col-sm-12">
-                <ul class="fact-counter">
-                    <li class="single-fact-counter wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
-                        <div class="count-box">
-                            <h1>
-                                <i class="flaticon-add"></i>
-                                <span class="timer" data-from="1" data-href="5258" data-speed="5000"
-                                    data-refresh-interval="50">5258</span>
-                            </h1>
-                            <div class="title">
-                                <h3>5.258 Projects Completed<br> Successfully</h3>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="single-fact-counter wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-                        <div class="count-box">
-                            <h1>
-                                <i class="flaticon-percentage"></i>
-                                <span class="timer" data-from="1" data-href="97" data-speed="5000"
-                                    data-refresh-interval="50">97</span>
-                            </h1>
-                            <div class="title">
-                                <h3>Positive Feedback<br> By 97.41% of Customers</h3>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <!--End Single fact counter-->
-        </div>
-    </div>
-    <div class="container latest-project">
-        <div class="row">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                <div class="project-carousel owl-carousel owl-theme">
-                    <!--Start single project style1-->
-                    <div class="single-project-style1">
-                        <div class="img-holder">
-                            <img src="images/projects/lat-pro-1.jpg" alt="Awesome Image">
-                            <div class="overlay-content">
-                                <div class="inner-content">
-                                    <div class="link-box">
-                                        <a href="#"><span class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="categories">
-                                <h5>Residential</h5>
-                            </div>
-                            <div class="title-box">
-                                <h3>Carlson Residence</h3>
-                                <span>9.87 kW System</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End single project style1-->
-                    <!--Start single project style1-->
-                    <div class="single-project-style1">
-                        <div class="img-holder">
-                            <img src="images/projects/lat-pro-2.jpg" alt="Awesome Image">
-                            <div class="overlay-content">
-                                <div class="inner-content">
-                                    <div class="link-box">
-                                        <a href="#"><span class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="categories">
-                                <h5>Residential</h5>
-                            </div>
-                            <div class="title-box">
-                                <h3>Carlson Residence</h3>
-                                <span>9.87 kW System</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End single project style1-->
-                    <!--Start single project style1-->
-                    <div class="single-project-style1">
-                        <div class="img-holder">
-                            <img src="images/projects/lat-pro-3.jpg" alt="Awesome Image">
-                            <div class="overlay-content">
-                                <div class="inner-content">
-                                    <div class="link-box">
-                                        <a href="#"><span class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="categories">
-                                <h5>Residential</h5>
-                            </div>
-                            <div class="title-box">
-                                <h3>Carlson Residence</h3>
-                                <span>9.87 kW System</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End single project style1-->
-
-                    <!--Start single project style1-->
-                    <div class="single-project-style1">
-                        <div class="img-holder">
-                            <img src="images/projects/lat-pro-1.jpg" alt="Awesome Image">
-                            <div class="overlay-content">
-                                <div class="inner-content">
-                                    <div class="link-box">
-                                        <a href="#"><span class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="categories">
-                                <h5>Residential</h5>
-                            </div>
-                            <div class="title-box">
-                                <h3>Carlson Residence</h3>
-                                <span>9.87 kW System</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End single project style1-->
-                    <!--Start single project style1-->
-                    <div class="single-project-style1">
-                        <div class="img-holder">
-                            <img src="images/projects/lat-pro-2.jpg" alt="Awesome Image">
-                            <div class="overlay-content">
-                                <div class="inner-content">
-                                    <div class="link-box">
-                                        <a href="#"><span class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="categories">
-                                <h5>Residential</h5>
-                            </div>
-                            <div class="title-box">
-                                <h3>Carlson Residence</h3>
-                                <span>9.87 kW System</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End single project style1-->
-                    <!--Start single project style1-->
-                    <div class="single-project-style1">
-                        <div class="img-holder">
-                            <img src="images/projects/lat-pro-3.jpg" alt="Awesome Image">
-                            <div class="overlay-content">
-                                <div class="inner-content">
-                                    <div class="link-box">
-                                        <a href="#"><span class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="categories">
-                                <h5>Residential</h5>
-                            </div>
-                            <div class="title-box">
-                                <h3>Carlson Residence</h3>
-                                <span>9.87 kW System</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End single project style1-->
-
-                    <!--Start single project style1-->
-                    <div class="single-project-style1">
-                        <div class="img-holder">
-                            <img src="images/projects/lat-pro-1.jpg" alt="Awesome Image">
-                            <div class="overlay-content">
-                                <div class="inner-content">
-                                    <div class="link-box">
-                                        <a href="#"><span class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="categories">
-                                <h5>Residential</h5>
-                            </div>
-                            <div class="title-box">
-                                <h3>Carlson Residence</h3>
-                                <span>9.87 kW System</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End single project style1-->
-                    <!--Start single project style1-->
-                    <div class="single-project-style1">
-                        <div class="img-holder">
-                            <img src="images/projects/lat-pro-2.jpg" alt="Awesome Image">
-                            <div class="overlay-content">
-                                <div class="inner-content">
-                                    <div class="link-box">
-                                        <a href="#"><span class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="categories">
-                                <h5>Residential</h5>
-                            </div>
-                            <div class="title-box">
-                                <h3>Carlson Residence</h3>
-                                <span>9.87 kW System</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End single project style1-->
-                    <!--Start single project style1-->
-                    <div class="single-project-style1">
-                        <div class="img-holder">
-                            <img src="images/projects/lat-pro-3.jpg" alt="Awesome Image">
-                            <div class="overlay-content">
-                                <div class="inner-content">
-                                    <div class="link-box">
-                                        <a href="#"><span class="icon-plus"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="categories">
-                                <h5>Residential</h5>
-                            </div>
-                            <div class="title-box">
-                                <h3>Carlson Residence</h3>
-                                <span>9.87 kW System</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End single project style1-->
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--End Fact Projects area-->
-
 <!--Start latest blog area-->
 <section class="latest-blog-area">
     <div class="container inner-content">
         <div class="sec-title">
             <p>News & Updates</p>
-            <div class="title">Story From Our Blog</div>
+            <div class="title">Insights From Our Power Experts</div>
             <div class="border-box"></div>
         </div>
         <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                 <div class="blog-carousel owl-carousel owl-theme">
-                    <!--Start single blog post-->
+                    
                     <div class="single-blog-post">
                         <div class="img-holder">
-                            <img src="images/blog/v1-1.jpg" alt="Awesome Image">
+                            <img src="images/blog/v1-1.jpg" alt="PFI Panel & Transformer Maintenance">
                             <div class="overlay-style-two"></div>
                             <div class="post-date">
-                                <h3><span>Jan</span><br> 31</h3>
+                                <h3><span>Aug</span><br> 28</h3>
                             </div>
                         </div>
                         <div class="text-holder">
-                            <h3 class="blog-title"><a href="blog-single.html">Rising Oil Price Should Re-Focus US On
-                                    Solar Energy Growth</a></h3>
+                            <h3 class="blog-title"><a href="blog-single.php">How PFI Panels Save Money & Reduce Electricity Penalties</a></h3>
                             <div class="meta-box">
                                 <ul class="meta-info">
-                                    <li><a href="#"><b>Rubin Santro</b></a></li>
-                                    <li><a href="#">Environment</a></li>
+                                    <li><a href="#"><b>Md. Abdul Mannan</b></a></li>
+                                    <li><a href="#">Power Engineering</a></li>
                                 </ul>
                                 <div class="author-icon">
                                     <span class="icon-user"></span>
                                 </div>
                             </div>
                             <div class="text">
-                                <p>Same as saying through shrinking from toil & pain these cases perfectly simple...</p>
-                                <a class="btn-two" href="#">Read More<span class="icon-null"></span></a>
+                                <p>Learn how installing a Power Factor Improvement (PFI) panel prevents voltage drops and utility penalties...</p>
+                                <a class="btn-two" href="blog-single.php">Read More<span class="icon-null"></span></a>
                             </div>
                         </div>
                     </div>
-                    <!--End single blog post-->
-                    <!--Start single blog post-->
                     <div class="single-blog-post">
                         <div class="img-holder">
-                            <img src="images/blog/v1-2.jpg" alt="Awesome Image">
+                            <img src="images/blog/v1-2.jpg" alt="Industrial Generator Service">
                             <div class="overlay-style-two"></div>
                             <div class="post-date">
-                                <h3><span>Jan</span><br> 06</h3>
+                                <h3><span>Aug</span><br> 15</h3>
                             </div>
                         </div>
                         <div class="text-holder">
-                            <h3 class="blog-title"><a href="blog-single.html">Tax and Duties Are Acting As Road Block
-                                    for Power for All!</a></h3>
+                            <h3 class="blog-title"><a href="blog-single.php">Essential Maintenance Tips for Industrial Diesel Generators</a></h3>
                             <div class="meta-box">
                                 <ul class="meta-info">
-                                    <li><a href="#"><b>Richard Antony</b></a></li>
-                                    <li><a href="#">Solar System</a></li>
+                                    <li><a href="#"><b>Technical Team</b></a></li>
+                                    <li><a href="#">Generators</a></li>
                                 </ul>
                                 <div class="author-icon">
                                     <span class="icon-user"></span>
                                 </div>
                             </div>
                             <div class="text">
-                                <p>Our power of choice is untrammelled and do when nothing prevents all our being...</p>
-                                <a class="btn-two" href="#">Read More<span class="icon-null"></span></a>
+                                <p>Key checklist items to ensure your backup diesel generator operates seamlessly during peak power outages...</p>
+                                <a class="btn-two" href="blog-single.php">Read More<span class="icon-null"></span></a>
                             </div>
                         </div>
                     </div>
-                    <!--End single blog post-->
-                    <!--Start single blog post-->
                     <div class="single-blog-post">
                         <div class="img-holder">
-                            <img src="images/blog/v1-3.jpg" alt="Awesome Image">
+                            <img src="images/blog/v1-3.jpg" alt="On-Grid Solar System Installation">
                             <div class="overlay-style-two"></div>
                             <div class="post-date">
-                                <h3><span>Dec</span><br> 29</h3>
+                                <h3><span>Jul</span><br> 30</h3>
                             </div>
                         </div>
                         <div class="text-holder">
-                            <h3 class="blog-title"><a href="blog-single.html">A Decline in Solar Growth: Root Cause
-                                    Analysis</a></h3>
+                            <h3 class="blog-title"><a href="blog-single.php">Transitioning to Commercial Solar Energy in Bangladesh</a></h3>
                             <div class="meta-box">
                                 <ul class="meta-info">
-                                    <li><a href="#"><b>Rubin Santro</b></a></li>
-                                    <li><a href="#">Environment</a></li>
+                                    <li><a href="#"><b>Solar Expert</b></a></li>
+                                    <li><a href="#">Green Energy</a></li>
                                 </ul>
                                 <div class="author-icon">
                                     <span class="icon-user"></span>
                                 </div>
                             </div>
                             <div class="text">
-                                <p>Frequently occur that pleasures have to be all repudiated & annoyances accepted...
-                                </p>
-                                <a class="btn-two" href="#">Read More<span class="icon-null"></span></a>
+                                <p>Discover how modern rooftop solar systems reduce long-term operational costs for factories and commercial spaces...</p>
+                                <a class="btn-two" href="blog-single.php">Read More<span class="icon-null"></span></a>
                             </div>
                         </div>
                     </div>
-                    <!--End single blog post-->
-                    <!--Start single blog post-->
-                    <div class="single-blog-post">
-                        <div class="img-holder">
-                            <img src="images/blog/v1-2.jpg" alt="Awesome Image">
-                            <div class="overlay-style-two"></div>
-                            <div class="post-date">
-                                <h3><span>Jan</span><br> 06</h3>
-                            </div>
-                        </div>
-                        <div class="text-holder">
-                            <h3 class="blog-title"><a href="blog-single.html">Tax and Duties Are Acting As Road Block
-                                    for Power for All!</a></h3>
-                            <div class="meta-box">
-                                <ul class="meta-info">
-                                    <li><a href="#"><b>Richard Antony</b></a></li>
-                                    <li><a href="#">Solar System</a></li>
-                                </ul>
-                                <div class="author-icon">
-                                    <span class="icon-user"></span>
-                                </div>
-                            </div>
-                            <div class="text">
-                                <p>Our power of choice is untrammelled and do when nothing prevents all our being...</p>
-                                <a class="btn-two" href="#">Read More<span class="icon-null"></span></a>
-                            </div>
-                        </div>
                     </div>
-                    <!--End single blog post-->
-                </div>
             </div>
-
-
         </div>
     </div>
 </section>
@@ -1086,112 +749,76 @@
     <div class="container">
         <div class="sec-title clrwhite text-center">
             <p>Testimonials</p>
-            <div class="title">Words From Customers</div>
+            <div class="title">Words From Our Valued Clients</div>
             <div class="border-box center"></div>
         </div>
         <div class="row">
             <div class="col-xl-12">
                 <div class="testimonial-carousel owl-carousel owl-theme">
-                    <!--Start Single Testimonial Item-->
+                    
+                    <!--Testimonial 1: Transformer & PFI Panel-->
                     <div class="single-testimonial-item text-center">
                         <div class="img-box">
-                            <img src="images/testimonial/1.png" alt="Awesome Image">
+                            <img src="images/testimonial/1.png" alt="Engr. Md. Rafiqul Islam">
                         </div>
                         <div class="inner-content">
                             <div class="text-box">
-                                <p>Your guys were knowledgeable, experienced, efficient and neat. A true to work with
-                                    solartech.</p>
+                                <p>Moon Star Power installed a 500 KVA Distribution Transformer and PFI Panel for our textile unit in Gazipur. Excellent engineering and timely execution!</p>
                             </div>
                             <div class="client-info">
-                                <h3>Shelly Johnson</h3>
-                                <p><span class="icon-point"></span>California</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Testimonial Item-->
-                    <!--Start Single Testimonial Item-->
-                    <div class="single-testimonial-item text-center">
-                        <div class="img-box">
-                            <img src="images/testimonial/2.png" alt="Awesome Image">
-                        </div>
-                        <div class="inner-content">
-                            <div class="text-box">
-                                <p>Your guys were knowledgeable, experienced, efficient and neat. A true to work with
-                                    solartech.</p>
-                            </div>
-                            <div class="client-info">
-                                <h3>Cathrine Wagner</h3>
-                                <p><span class="icon-point"></span>Los Angeles</p>
+                                <h3>Engr. Md. Rafiqul Islam</h3>
+                                <p><span class="icon-point"></span>Gazipur, Dhaka</p>
                             </div>
                         </div>
                     </div>
                     <!--End Single Testimonial Item-->
 
-                    <!--Start Single Testimonial Item-->
+                    <!--Testimonial 2: Diesel Generator-->
                     <div class="single-testimonial-item text-center">
                         <div class="img-box">
-                            <img src="images/testimonial/1.png" alt="Awesome Image">
+                            <img src="images/testimonial/2.png" alt="Tanvir Ahmed">
                         </div>
                         <div class="inner-content">
                             <div class="text-box">
-                                <p>Your guys were knowledgeable, experienced, efficient and neat. A true to work with
-                                    solartech.</p>
+                                <p>We sourced a 200 KVA Diesel Generator with ATS panel from Moon Star Power. Their 24/7 technical support team is highly dependable during outages.</p>
                             </div>
                             <div class="client-info">
-                                <h3>Shelly Johnson</h3>
-                                <p><span class="icon-point"></span>California</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Testimonial Item-->
-                    <!--Start Single Testimonial Item-->
-                    <div class="single-testimonial-item text-center">
-                        <div class="img-box">
-                            <img src="images/testimonial/2.png" alt="Awesome Image">
-                        </div>
-                        <div class="inner-content">
-                            <div class="text-box">
-                                <p>Your guys were knowledgeable, experienced, efficient and neat. A true to work with
-                                    solartech.</p>
-                            </div>
-                            <div class="client-info">
-                                <h3>Cathrine Wagner</h3>
-                                <p><span class="icon-point"></span>Los Angeles</p>
+                                <h3>Tanvir Ahmed</h3>
+                                <p><span class="icon-point"></span>Tejgaon, Dhaka</p>
                             </div>
                         </div>
                     </div>
                     <!--End Single Testimonial Item-->
 
-                    <!--Start Single Testimonial Item-->
+                    <!--Testimonial 3: PFI Panel & Bill Reduction-->
                     <div class="single-testimonial-item text-center">
                         <div class="img-box">
-                            <img src="images/testimonial/1.png" alt="Awesome Image">
+                            <img src="images/testimonial/1.png" alt="Hajji Md. Selim Hossain">
                         </div>
                         <div class="inner-content">
                             <div class="text-box">
-                                <p>Your guys were knowledgeable, experienced, efficient and neat. A true to work with
-                                    solartech.</p>
+                                <p>Outstanding PFI Panel design and setup by Md. Abdul Mannan and his team. Our electricity bill penalties stopped immediately after installation.</p>
                             </div>
                             <div class="client-info">
-                                <h3>Shelly Johnson</h3>
-                                <p><span class="icon-point"></span>California</p>
+                                <h3>Hajji Md. Selim Hossain</h3>
+                                <p><span class="icon-point"></span>Narayanganj</p>
                             </div>
                         </div>
                     </div>
                     <!--End Single Testimonial Item-->
-                    <!--Start Single Testimonial Item-->
+
+                    <!--Testimonial 4: Solar Energy Project-->
                     <div class="single-testimonial-item text-center">
                         <div class="img-box">
-                            <img src="images/testimonial/2.png" alt="Awesome Image">
+                            <img src="images/testimonial/2.png" alt="Mahmudul Hasan">
                         </div>
                         <div class="inner-content">
                             <div class="text-box">
-                                <p>Your guys were knowledgeable, experienced, efficient and neat. A true to work with
-                                    solartech.</p>
+                                <p>Installed a Commercial Rooftop Solar System with Moon Star Power. Quality components, skilled engineers, and great after-sales service!</p>
                             </div>
                             <div class="client-info">
-                                <h3>Cathrine Wagner</h3>
-                                <p><span class="icon-point"></span>Los Angeles</p>
+                                <h3>Mahmudul Hasan</h3>
+                                <p><span class="icon-point"></span>Chattogram</p>
                             </div>
                         </div>
                     </div>
@@ -1201,7 +828,7 @@
             </div>
         </div>
         <div class="button text-center wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-            <a class="btn-three" href="#">Read More Words<span class="icon-null"></span></a>
+            <a class="btn-three" href="contact.php">Get In Touch<span class="icon-null"></span></a>
         </div>
     </div>
 </section>
@@ -1219,12 +846,12 @@
                             hesitate.</span>
                     </div>
                     <div class="consultation">
-                        <form class="consultation-form">
+                        <form class="consultation-form" action="sendmail.php" method="POST">
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="single-box">
                                         <input type="text" name="form_name" value="" placeholder="Your Name"
-                                            required="">
+                                            required>
                                     </div>
                                 </div>
                             </div>
@@ -1232,12 +859,12 @@
                                 <div class="col-xl-6">
                                     <div class="single-box">
                                         <input type="email" name="form_email" value="" placeholder="Email Address"
-                                            required="">
+                                            required>
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="single-box">
-                                        <select class="selectpicker" data-width="100%">
+                                        <select class="selectpicker" name="form_subject" data-width="100%">
                                             <option selected="selected">Discuss About</option>
                                             <option>Installation</option>
                                             <option>Maintenance</option>
@@ -1282,18 +909,8 @@
         <div class="row">
             <div class="col-xl-12">
                 <div class="download-material">
-                    <div class="title-box float-left">
+                    <div class="title-box text-center">
                         <h3>Power Your Home with Innovative Energy Technologies.</h3>
-                    </div>
-                    <div class="button float-right">
-                        <a href="#">
-                            <div class="icon">
-                                <span class="icon-download"></span>
-                            </div>
-                            <div class="title">
-                                <h4>Download Material</h4>
-                            </div>
-                        </a>
                     </div>
                 </div>
             </div>
