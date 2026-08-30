@@ -1530,15 +1530,15 @@ hr.style-one {
 /* scroll to top styles */
 .scroll-to-top {
     position: absolute;
-    top: 0;
-    right: 0;
-    width: 80px;
-    height: 60px;
-    background: #2a3e72;
+    bottom: 0px;
+    left: 0;
+    width: 36px;
+    height: 36px;
+    background: #3aa40c;
     border-radius: 0%;
     color: #ffffff;
     font-size: 25px;
-    line-height: 56px;
+    line-height: 36px;
     font-weight: 400;
     cursor: pointer;
     display: none;
@@ -8021,7 +8021,7 @@ select:focus {
     position: relative;
     display: block;
     background: #203260;
-    padding-top: 160px;
+    padding-top: 90px;
     padding-bottom: 62px;
 }
 
@@ -19265,7 +19265,7 @@ select:focus {
     font-weight: 700;
     white-space: nowrap;
     text-align: center;
-    color: lightgreen;
+    color: #3aa40c;
 }
 
 
@@ -19284,6 +19284,10 @@ select:focus {
 }
 
 @media (max-width: 480px) {
+
+    .footer-area {
+        padding-top: 80px;
+    }
 
     .video-material {
         height: 300px;

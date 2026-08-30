@@ -1,5 +1,5 @@
 <?php
-    $pageTitle = "Home - Moon Star Power & Technology";
+    $pageTitle = "About - Moon Star Power & Technology";
     require_once 'includes/header.php';
 ?> 
         <!--Start breadcrumb area-->     

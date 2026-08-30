@@ -55,7 +55,7 @@
                 <!--End single solution style1-->
                 <!--Start single solution style1--> 
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12"> 
-                    <div class="single-service-style1 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                    <div class="single-service-style1 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1200ms">
                         <div class="img-holder">
                             <img src="images/services/2.jpg" alt="Generator Service">
                             <div class="overlay-style-two"></div>
@@ -79,7 +79,7 @@
                 <!--End single solution style1-->
                 <!--Start single solution style1--> 
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12"> 
-                    <div class="single-service-style1 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1200ms">
+                    <div class="single-service-style1 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1200ms">
                         <div class="img-holder">
                             <img src="/images/services/3.jpg" alt="Solar System">
                             <div class="overlay-style-two"></div>
@@ -128,7 +128,7 @@
                 <!--End single solution style1-->
                 <!--Start single solution style1--> 
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12"> 
-                    <div class="single-service-style1 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                    <div class="single-service-style1 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1200ms">
                         <div class="img-holder">
                             <img src="images/services/5.jpg" alt="HT Switch Gear service">
                             <div class="overlay-style-two"></div>
@@ -152,7 +152,7 @@
                 <!--End single solution style1-->
                 <!--Start single solution style1--> 
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12"> 
-                    <div class="single-service-style1 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1200ms">
+                    <div class="single-service-style1 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1200ms">
                         <div class="img-holder">
                             <img src="/images/services/6.jpg" alt="LT Switch Gear service">
                             <div class="overlay-style-two"></div>
