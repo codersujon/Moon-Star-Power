@@ -26,7 +26,119 @@
                         </div>
                     </div>
                     <!--End single footer widget-->
-                    <!-- અન્ય ফুটার উইজেটগুলো এখানে থাকবে... -->
+                     <!--Start single footer widget-->
+                <div class="col-xl-4 col-lg-3 col-md-6 col-sm-12">
+                    <div class="single-footer-widget marbtm50">
+                        <div class="title">
+                            <h3>Usefull Links</h3>
+                        </div>
+                        <div class="usefull-links">
+                            <div class="row">
+                                <div class="col-xl-6">
+                                    <ul>
+                                        <li><a href="about.php">About Company</a></li>
+                                        <li><a href="services.php">Our Services</a></li>  
+                                        <li><a href="team.php">Meet Experts</a></li> 
+                                        
+                                    </ul>    
+                                </div>
+                                <div class="col-xl-6">
+                                    <ul>
+                                        <li><a href="products.php">Products</a></li>
+                                        <li><a href="privacy-policy.php">Privacy Policy</a></li>    
+                                        <li><a href="contact.php">Contact Us</a></li>      
+                                    </ul>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <!--End single footer widget-->
+                <!--Start single footer widget-->
+                <div class="col-xl-4 col-lg-5 col-md-12 col-sm-12">
+                    <div class="single-footer-widget">
+                        <div class="title">
+                            <h3>Case Studies</h3>
+                        </div>
+                        <ul class="case-studies">
+                            <li>
+                                <div class="img-holder">
+                                    <img src="images/footer/case-studie-1.jpg" alt="Awesome Image">
+                                    <div class="overlay-style-one">
+                                        <div class="box">
+                                            <div class="content">
+                                                <a href="project-single.html"><span class="icon-plus"></span></a>    
+                                            </div>
+                                        </div>
+                                    </div>    
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img-holder">
+                                    <img src="images/footer/case-studie-2.jpg" alt="Awesome Image">
+                                    <div class="overlay-style-one">
+                                        <div class="box">
+                                            <div class="content">
+                                                <a href="project-single.html"><span class="icon-plus"></span></a>    
+                                            </div>
+                                        </div>
+                                    </div>    
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img-holder">
+                                    <img src="images/footer/case-studie-3.jpg" alt="Awesome Image">
+                                    <div class="overlay-style-one">
+                                        <div class="box">
+                                            <div class="content">
+                                                <a href="project-single.html"><span class="icon-plus"></span></a>    
+                                            </div>
+                                        </div>
+                                    </div>    
+                                </div>
+                            </li>
+                            
+                            <li>
+                                <div class="img-holder">
+                                    <img src="images/footer/case-studie-4.jpg" alt="Awesome Image">
+                                    <div class="overlay-style-one">
+                                        <div class="box">
+                                            <div class="content">
+                                                <a href="project-single.html"><span class="icon-plus"></span></a>    
+                                            </div>
+                                        </div>
+                                    </div>    
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img-holder">
+                                    <img src="images/footer/case-studie-5.jpg" alt="Awesome Image">
+                                    <div class="overlay-style-one">
+                                        <div class="box">
+                                            <div class="content">
+                                                <a href="project-single.html"><span class="icon-plus"></span></a>    
+                                            </div>
+                                        </div>
+                                    </div>    
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img-holder">
+                                    <img src="images/footer/case-studie-6.jpg" alt="Awesome Image">
+                                    <div class="overlay-style-one">
+                                        <div class="box">
+                                            <div class="content">
+                                                <a href="project-single.html"><span class="icon-plus"></span></a>    
+                                            </div>
+                                        </div>
+                                    </div>    
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--End single footer widget-->
+                    
                 </div>
             </div>
         </footer>  

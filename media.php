@@ -237,16 +237,16 @@
                     </div>   
                 </div>
                 <!--End single project item-->
-                <!--Start single project item-->
+                 <!--Start single project item-->
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item trans">
                     <div class="single-project-style4 marbtm30">
                         <div class="img-holder">
-                            <img src="images/projects/transformer/trans-4.png" alt="Transformer">
+                            <img src="images/projects/transformer/trans-4.jpg" alt="Transformer">
                             <div class="overlay-content">
                                 <div class="inner-content">
                                     <ul class="links-icons">
                                         <li>
-                                            <a class="lightbox-image" data-fancybox="gallery" href="images/projects/transformer/trans-4.png">
+                                            <a class="lightbox-image" data-fancybox="gallery" href="images/projects/transformer/trans-4.jpg">
                                                 <span class="icon-magnifying-glass"></span>
                                             </a>
                                         </li>

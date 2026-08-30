@@ -84,7 +84,6 @@
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
                                         <?php 
-                                            // ডাইনামিক অ্যাক্টিভ ক্লাস যুক্ত করার সহজ লজিক
                                             $currentPage = basename($_SERVER['PHP_SELF']); 
                                         ?>
                                         <li class="<?php echo ($currentPage == 'index.php') ? 'current' : ''; ?>"><a href="index.php">Home</a></li>
