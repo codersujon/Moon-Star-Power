@@ -3,12 +3,12 @@
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove MORALspace.
-        $name = strip_tags(trim($_POST["name"]));
+        $name = strip_tags(trim($_POST["form_name"]));
 				$name = str_replace(array("\r","\n"),array(" "," "),$name);
-        $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
-        $subject = trim($_POST["subject"]);
-        $phone = trim($_POST["phone"]);
-        $message = trim($_POST["message"]);
+        $email = filter_var(trim($_POST["form_email"]), FILTER_SANITIZE_EMAIL);
+        $subject = trim($_POST["form_subject"]);
+        $phone = trim($_POST["form_phone"]);
+        $message = trim($_POST["form_message"]);
 
         // Check that data was sent to the mailer.
         if ( empty($name) OR empty($subject) OR empty($message) OR empty($phone) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -20,7 +20,8 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "msptl.amr@gmail.com";
+        $recipient = "csesujon155@gmail.com"; 
+        // msptl.amr@gmail.com
 
         // Set the email subject.
         $subject = "$subject";

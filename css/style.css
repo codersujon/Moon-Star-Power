@@ -5077,8 +5077,6 @@ select:focus {
     background: #192951;
 }
 
-
-
 /*** 
 =============================================
     Services Style1 Area Style      
@@ -5087,7 +5085,7 @@ select:focus {
 .services-style1-area {
     position: relative;
     display: block;
-    padding: 70px 0 93px;
+    /* padding: 40px 0 50px; */
 }
 
 .single-service-style1 {
@@ -9649,18 +9647,6 @@ select:focus {
     background: #f3f7fa;
     padding: 55px 0 25px;
 }
-
-
-
-/*** 
-=============================================
-    Services Style1 Area Service Page Style      
-=============================================
-***/
-.services-style1-area.service-page {
-    padding-bottom: 50px;
-}
-
 
 
 /*** 
@@ -19230,7 +19216,7 @@ select:focus {
 ================================ */
 
 .video-material-area {
-    padding: 60px 0;
+    padding: 50px 0;
 }
 
 .video-material {

@@ -52,39 +52,39 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="input-box">
-                                                <select class="selectmenu">
-                                                    <option selected="selected">Discuss About</option>
-                                                    <option>Installation</option>
-                                                    <option>Maintenance</option>
-                                                    <option>Monitoring</option>
-                                                    <option>Consultation</option>
-                                                    <option>Roof Solution</option>
-                                                    <option>Inverter Repair</option>
+                                                <select class="selectmenu" name="form_subject" required>
+                                                    <option value="" selected>Discuss About</option>
+                                                    <option value="Installation">Installation</option>
+                                                    <option value="Maintenance">Maintenance</option>
+                                                    <option value="Monitoring">Monitoring</option>
+                                                    <option value="Consultation">Consultation</option>
+                                                    <option value="Roof Solution">Roof Solution</option>
+                                                    <option value="Inverter Repair">Inverter Repair</option>
                                                 </select>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="input-box"> 
-                                                <input type="text" name="form_phone" value="" placeholder="Phone">
+                                                <input type="text" name="form_phone" value="" placeholder="Phone" required>
                                             </div>    
                                         </div>  
                                     </div>
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="input-box">   
-                                                <input type="text" name="form_name" value="" placeholder="Your Name" required="">
+                                                <input type="text" name="form_name" value="" placeholder="Your Name" required>
                                             </div>    
                                         </div>
                                         <div class="col-md-6">
                                             <div class="input-box"> 
-                                                <input type="email" name="form_email" value="" placeholder="Email Address" required="">
+                                                <input type="email" name="form_email" value="" placeholder="Email Address" required>
                                             </div>    
                                         </div>    
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="input-box">    
-                                                <textarea name="form_message" placeholder="Your Message..." required=""></textarea>
+                                                <textarea name="form_message" placeholder="Your Message..." required></textarea>
                                             </div>   
                                         </div>
                                     </div>
