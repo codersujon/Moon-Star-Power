@@ -1,5 +1,7 @@
 <?php
-    $pageTitle = "404-Page - Moon Star Power & Technology";
+    $pageTitle = "LT Switchgear Panel | Moon Star Power & Technology";
+    $pageDescription = "Explore reliable LT switchgear panel solutions from Moon Star Power & Technology for safe, efficient and reliable low-voltage electrical power distribution in Bangladesh.";
+
     require_once 'includes/header.php';
 ?>    
 

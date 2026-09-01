@@ -1,7 +1,9 @@
 <?php
-    $pageTitle = "404-Page - Moon Star Power & Technology";
+    $pageTitle = "PFI Panel Board | Moon Star Power & Technology";
+    $pageDescription = "Explore reliable PFI panel board solutions from Moon Star Power & Technology for power factor improvement, energy efficiency and electrical power management in Bangladesh.";
+
     require_once 'includes/header.php';
-?>    
+?>     
 
 <!--Start breadcrumb area-->     
 <section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.jpg);">

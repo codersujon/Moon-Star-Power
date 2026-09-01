@@ -1,7 +1,8 @@
-<?php
-    $pageTitle = "Media - Moon Star Power & Technology";
-    require_once 'includes/header.php';
-?>    
+<?php 
+    $pageTitle = "Gallery | Moon Star Power & Technology"; 
+    $pageDescription = "Explore the gallery of Moon Star Power & Technology featuring our projects, products, installations and activities related to lifts, generators, substations, solar systems and electrical solutions in Bangladesh."; 
+    require_once 'includes/header.php'; 
+?>   
     <!--Start breadcrumb area-->     
     <section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.jpg);">
         <div class="container">
@@ -379,5 +380,4 @@
         </div>
     </section>
     <!-- End Video Material area -->
-        
 <?php  require_once 'includes/footer.php';  ?>

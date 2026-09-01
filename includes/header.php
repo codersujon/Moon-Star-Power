@@ -1,22 +1,81 @@
 <?php
-    $pageTitle = isset($pageTitle) ? $pageTitle : "Moon Star Power & Technology";
+    //** Page Title */
+    $pageTitle = isset($pageTitle) ? $pageTitle : "Moon Star Power & Technology | Lift, Generator, Substation & Solar";
+
+    //** Page Description */
+    $pageDescription = isset($pageDescription) ? $pageDescription : "Moon Star Power & Technology provides complete solutions for lifts, generators, substations and solar systems, including transformers, LT & HT switchgear, PFI panels and solar power solutions in Bangladesh."; 
+
+    //** Current page URL */
+    $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https://' : 'http://';
+
+    $host = $_SERVER['HTTP_HOST'];
+
+    $path = strtok($_SERVER['REQUEST_URI'], '?');
+
+    $canonicalUrl = $protocol . $host . $path;
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Basic Meta -->
     <meta charset="UTF-8">
-    <title><?php echo $pageTitle; ?></title>
+
+    <title><?php echo htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8'); ?></title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="description" content="<?php echo htmlspecialchars($pageDescription, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="author" content="Moon Star Power & Technology">
+
+    <meta name="robots" content="index, follow">
+
+    <meta name="theme-color" content="#3aa40c">
+
+     <!-- Canonical URL --> 
+     <link rel="canonical" href="<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8'); ?>">
+    
+    <!-- Favicon --> 
+    <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg"> 
+    <link rel="apple-touch-icon" href="images/favicon/favicon.svg">
+
+    <!-- SEO Share Links -->
+    <!-- Open Graph / Facebook --> 
+    <meta property="og:type" content="website"> 
+    <meta property="og:title" content="<?php echo htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8'); ?>"> 
+    <meta property="og:description" content="<?php echo htmlspecialchars($pageDescription, ENT_QUOTES, 'UTF-8'); ?>"> 
+    <meta property="og:url" content="<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8'); ?>"> 
+    <meta property="og:site_name" content="Moon Star Power & Technology"> 
+    <meta property="og:image" content="https://www.moonstarpower.com/images/og-image.jpg"> 
+    <meta property="og:image:width" content="1200"> <meta property="og:image:height" content="630"> 
+    <meta property="og:image:alt" content="Moon Star Power & Technology"> 
+    
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image"> 
+    <meta name="twitter:title" content="<?php echo htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8'); ?>"> 
+    <meta name="twitter:description" content="<?php echo htmlspecialchars($pageDescription, ENT_QUOTES, 'UTF-8'); ?>"> 
+    <meta name="twitter:image" content="https://www.moonstarpower.com/images/og-image.jpg"> 
+    <meta name="twitter:image:alt" content="Moon Star Power & Technology">
     
     <!-- master stylesheet -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon.svg">
 </head>
 <body>
     <div class="boxed_wrapper">
-        <div class="preloader"></div> 
+
+        <!-- preloader start -->
+        <div class="preloader">
+            <div class="loader">
+                <div class="loader-ring ring-1"></div>
+                <div class="loader-ring ring-2"></div>
+                <div class="loader-ring ring-3"></div>
+
+                <div class="loader-core"></div>
+            </div>
+        </div>
+        <!-- preloader end -->
 
         <!--Start header style1 area-->
         <header class="header-style1-area">

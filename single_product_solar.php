@@ -1,7 +1,9 @@
 <?php
-    $pageTitle = "404-Page - Moon Star Power & Technology";
+    $pageTitle = "Solar Power System | Moon Star Power & Technology";
+    $pageDescription = "Explore complete solar power system solutions from Moon Star Power & Technology for residential, commercial and industrial applications in Bangladesh.";
+
     require_once 'includes/header.php';
-?>    
+?>       
 
 <!--Start breadcrumb area-->     
 <section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.jpg);">

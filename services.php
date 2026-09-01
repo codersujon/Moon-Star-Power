@@ -1,7 +1,9 @@
 <?php
-    $pageTitle = "Services - Moon Star Power & Technology";
+    $pageTitle = "Services | Moon Star Power & Technology";
+    $pageDescription = "Explore complete lift, generator, substation, solar and electrical power solutions from Moon Star Power & Technology in Bangladesh.";
+
     require_once 'includes/header.php';
-?>    
+?> 
         
     <!--Start breadcrumb area-->     
     <section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.jpg);">

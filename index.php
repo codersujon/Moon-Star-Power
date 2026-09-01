@@ -1,5 +1,6 @@
 <?php
-    $pageTitle = "Home - Moon Star Power & Technology";
+    $pageTitle = "Moon Star Power & Technology | Lift, Generator, Substation & Solar";
+    $pageDescription = "Moon Star Power & Technology provides complete solutions for lifts, generators, substations and solar systems, including transformers, LT & HT switchgear, PFI panels and solar power solutions in Bangladesh.";
     require_once 'includes/header.php';
 ?>
 <!--Main Slider-->

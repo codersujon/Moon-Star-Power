@@ -1,7 +1,8 @@
 <?php
-    $pageTitle = "About - Moon Star Power & Technology";
+    $pageTitle = "About Us | Moon Star Power & Technology";
+    $pageDescription = "Learn about Moon Star Power & Technology, providing complete solutions for lifts, generators, substations and solar systems in Bangladesh.";
     require_once 'includes/header.php';
-?> 
+?>
         <!--Start breadcrumb area-->     
         <section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.jpg);">
             <div class="container">
@@ -31,15 +32,6 @@
                     <p>Who We Are</p>
                     <div class="title">Reliable Power, Smarter Solutions</div>
                     <div class="border-box center"></div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="company-info-box">
-                            <p>Moon Star Power & Technology provides reliable electrical and power solutions for commercial, industrial, and residential projects across Bangladesh. We specialize in the supply, installation, testing, commissioning, and maintenance of: <strong>Distribution Transformers, HT & LT Panels, Diesel Generators, ATS & PFI Panels, Solar Power Systems</strong>. With a commitment to quality, technical expertise, timely delivery, and dependable support, we deliver practical power solutions designed for long-term performance and customer satisfaction.</p>
-                            <h3>Md. Abdul Mannan</h3>
-                            <span>Managing Director & Chairman</span>
-                        </div>
-                    </div>
                 </div>
                 <div class="row">
                     <div class="col-xl-6 col-lg-6">

@@ -120,11 +120,20 @@ function scrollToTop() {
 
 
 // ===Prealoder===
-function prealoader() {
-    if($('.preloader').length){
-        $('.preloader').delay(200).fadeOut(500);
+window.addEventListener("load", function () {
+
+    const preloader = document.querySelector(".preloader");
+
+    if (preloader) {
+        preloader.style.transition = "opacity 0.5s ease";
+        preloader.style.opacity = "0";
+
+        setTimeout(() => {
+            preloader.remove();
+        }, 500);
     }
-}
+
+});
 
 
 //  Fact counter

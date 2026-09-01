@@ -1,7 +1,9 @@
 <?php
-    $pageTitle = "404-Page - Moon Star Power & Technology";
+    $pageTitle = "Industrial Generator | Moon Star Power & Technology";
+    $pageDescription = "Explore reliable industrial generator solutions from Moon Star Power & Technology for commercial, industrial and backup power requirements in Bangladesh.";
+
     require_once 'includes/header.php';
-?>    
+?>      
 
 <!--Start breadcrumb area-->     
 <section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.jpg);">

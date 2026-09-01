@@ -1,7 +1,9 @@
 <?php
-    $pageTitle = "Products - Moon Star Power & Technology";
+    $pageTitle = "Products | Moon Star Power & Technology";
+    $pageDescription = "Explore our range of transformers, generators, solar systems, LT switchgear, PFI panels and HT switchgear from Moon Star Power & Technology in Bangladesh.";
+
     require_once 'includes/header.php';
-?> 
+?>
 
 <!--Start breadcrumb area-->     
 <section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.jpg);">
