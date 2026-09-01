@@ -1,6 +1,7 @@
 <?php 
     $pageTitle = "Gallery | Moon Star Power & Technology"; 
     $pageDescription = "Explore the gallery of Moon Star Power & Technology featuring our projects, products, installations and activities related to lifts, generators, substations, solar systems and electrical solutions in Bangladesh."; 
+    
     require_once 'includes/header.php'; 
 ?>   
     <!--Start breadcrumb area-->     

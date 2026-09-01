@@ -1,9 +1,13 @@
 RewriteEngine On
 
-# Existing files/directories -> Directly Serve
+# 1. If the requested file or directory actually exists, serve it directly
 RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^ - [L]
 
-# Other request → 404.php
-RewriteRule ^ 404.php [L]
+# 2. Allow Extensionless URLs (e.g., loading /about will serve /about.php)
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^/]+)$ $1.php [L]
+
+# 3. Direct all non-existent pages/URLs to the custom 404 page
+ErrorDocument 404 /404.php

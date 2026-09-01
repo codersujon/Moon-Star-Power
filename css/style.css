@@ -2138,8 +2138,6 @@ select:focus {
     color: #3398fd;
 }
 
-
-
 /*==============================================
     Header Style1 Area Css        
 ===============================================*/
@@ -2147,7 +2145,7 @@ select:focus {
     position: relative;
     display: block;
     background: #ffffff;
-    padding: 20px 0 30px;
+    padding: 20px 0 20px;
 }
 
 .header-style1 {
@@ -2260,7 +2258,6 @@ select:focus {
     float: right;
     margin: 2px 0 3px;
 }
-
 
 
 /*==============================================

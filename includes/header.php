@@ -125,7 +125,7 @@
             </div>        
         </header>
         <!--End header style1 area-->
-          
+        
         <!--Start mainmenu area-->
         <section class="mainmenu-area stricky">
             <div class="container">
@@ -133,13 +133,24 @@
                     <div class="col-xl-12">
                         <div class="inner-content clearfix d-flex justify-content-center">
                             <nav class="main-menu clearfix">
-                                <div class="navbar-header clearfix">       
+                                
+                                <!-- Mobile Flex Container -->
+                                <div class="mobile-nav-header">
+                                    <!-- Mobile Logo -->
+                                    <div class="mobile-logo">
+                                        <a href="index.php">
+                                            <img src="images/resources/logo.png" alt="Moon Star Power & Technology">
+                                        </a>
+                                    </div>
+
+                                    <!-- Hamburger Button -->
                                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                     </button>
                                 </div>
+
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
                                         <?php 

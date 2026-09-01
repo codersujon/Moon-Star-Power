@@ -1,7 +1,7 @@
-
 <?php
     $pageTitle = "404 - Page Not Found | Moon Star Power & Technology";
     $pageDescription = "The page you are looking for could not be found. Return to Moon Star Power & Technology homepage to explore our lift, generator, substation and solar solutions.";
+
     require_once 'includes/header.php';
 ?>
 

@@ -1,6 +1,7 @@
 <?php
     $pageTitle = "About Us | Moon Star Power & Technology";
     $pageDescription = "Learn about Moon Star Power & Technology, providing complete solutions for lifts, generators, substations and solar systems in Bangladesh.";
+    
     require_once 'includes/header.php';
 ?>
         <!--Start breadcrumb area-->     
