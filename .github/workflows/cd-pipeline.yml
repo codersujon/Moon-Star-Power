@@ -28,7 +28,12 @@ jobs:
                 port: ${{ secrets.SSH_PORT }}
 
                 script: |
+                  set -e
+
                   cd ~/public_html
+                  pwd
+                  ls -la
+                  git status
                   git pull origin main
                   echo "✅ Deployment Completed Successfully"
 ...
