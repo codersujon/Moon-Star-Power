@@ -6,7 +6,7 @@
             <div class="container">
                 <div class="row">
                     <!--Start single footer widget-->
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-4">
                         <div class="single-footer-widget marbtm50">
                             <div class="contact-info-box">
                                 <div class="footer-logo">
@@ -27,7 +27,7 @@
                     </div>
                     <!--End single footer widget-->
                      <!--Start single footer widget-->
-                <div class="col-xl-4 col-lg-3 col-md-6 col-sm-12">
+                <div class="col-xl-4 col-lg-3 col-md-6 col-sm-4">
                     <div class="single-footer-widget marbtm50">
                         <div class="title">
                             <h3>Usefull Links</h3>
@@ -36,16 +36,14 @@
                             <div class="row">
                                 <div class="col-xl-6">
                                     <ul>
-                                        <li><a href="about.php">About Company</a></li>
+                                        <li><a href="about.php">About Us</a></li>
                                         <li><a href="services.php">Our Services</a></li>  
-                                        <li><a href="team.php">Meet Experts</a></li> 
-                                        
+                                        <li><a href="media.php">Our Gallery</a></li>
                                     </ul>    
                                 </div>
                                 <div class="col-xl-6">
                                     <ul>
                                         <li><a href="products.php">Products</a></li>
-                                        <li><a href="privacy-policy.php">Privacy Policy</a></li>    
                                         <li><a href="contact.php">Contact Us</a></li>      
                                     </ul>
                                 </div>
@@ -55,7 +53,7 @@
                 </div>
                 <!--End single footer widget-->
                 <!--Start single footer widget-->
-                <div class="col-xl-4 col-lg-5 col-md-12 col-sm-12">
+                <div class="col-xl-4 col-lg-5 col-md-12 col-sm-4">
                     <div class="single-footer-widget">
                         <div class="title">
                             <h3>Case Studies</h3>
@@ -67,7 +65,7 @@
                                     <div class="overlay-style-one">
                                         <div class="box">
                                             <div class="content">
-                                                <a href="project-single.html"><span class="icon-plus"></span></a>    
+                                                <a href="#"><span class="icon-plus"></span></a>    
                                             </div>
                                         </div>
                                     </div>    
@@ -79,7 +77,7 @@
                                     <div class="overlay-style-one">
                                         <div class="box">
                                             <div class="content">
-                                                <a href="project-single.html"><span class="icon-plus"></span></a>    
+                                                <a href="#"><span class="icon-plus"></span></a>    
                                             </div>
                                         </div>
                                     </div>    
@@ -91,7 +89,7 @@
                                     <div class="overlay-style-one">
                                         <div class="box">
                                             <div class="content">
-                                                <a href="project-single.html"><span class="icon-plus"></span></a>    
+                                                <a href="#"><span class="icon-plus"></span></a>    
                                             </div>
                                         </div>
                                     </div>    
@@ -104,7 +102,7 @@
                                     <div class="overlay-style-one">
                                         <div class="box">
                                             <div class="content">
-                                                <a href="project-single.html"><span class="icon-plus"></span></a>    
+                                                <a href="#"><span class="icon-plus"></span></a>    
                                             </div>
                                         </div>
                                     </div>    
@@ -116,7 +114,7 @@
                                     <div class="overlay-style-one">
                                         <div class="box">
                                             <div class="content">
-                                                <a href="project-single.html"><span class="icon-plus"></span></a>    
+                                                <a href="#"><span class="icon-plus"></span></a>    
                                             </div>
                                         </div>
                                     </div>    
@@ -128,7 +126,7 @@
                                     <div class="overlay-style-one">
                                         <div class="box">
                                             <div class="content">
-                                                <a href="project-single.html"><span class="icon-plus"></span></a>    
+                                                <a href="#"><span class="icon-plus"></span></a>    
                                             </div>
                                         </div>
                                     </div>    
@@ -138,7 +136,6 @@
                     </div>
                 </div>
                 <!--End single footer widget-->
-                    
                 </div>
             </div>
         </footer>  

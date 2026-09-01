@@ -401,7 +401,8 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-6">
-                <div class="about-image-box">
+                <!-- Smooth Zoom In with slight delay for image composition -->
+                <div class="about-image-box wow zoomIn" data-wow-delay="100ms" data-wow-duration="1200ms">
                     <div class="icon-box">
                         <span class="icon-solar-energy"></span>
                     </div>
@@ -420,7 +421,8 @@
                 </div>
             </div>
             <div class="col-xl-6">
-                <div class="about-text">
+                <!-- Slide in from Right for About Text -->
+                <div class="about-text wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1200ms">
                     <div class="sec-title">
                         <p>About Our Company</p>
                         <div class="title">Reliable Power, Smarter Solutions</div>
@@ -432,7 +434,7 @@
                             <p>Founded by <strong>Md. Abdul Mannan</strong>, Moon Star Power & Technology is a leading provider of electrical and power solutions in Bangladesh. We supply, install, and maintain Transformers, HT & LT Panels, Diesel Generators, PFI Panels, and Solar Power Systems.</p>
                         </div>
                         <ul class="solar-services">
-                            <li class="single-solar-box">
+                            <li class="single-solar-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
                                 <div class="icon">
                                     <span class="icon-farm"></span>
                                 </div>
@@ -440,7 +442,7 @@
                                     <h3>Transformers &<br> PFI Panels</h3>
                                 </div>
                             </li>
-                            <li class="single-solar-box">
+                            <li class="single-solar-box wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1000ms">
                                 <div class="icon">
                                     <span class="icon-farming-and-gardening"></span>
                                 </div>
@@ -465,7 +467,8 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
-                <div class="inner-content fix">
+                <!-- Flip Effect for Slogan Banner -->
+                <div class="inner-content fix wow flipInX" data-wow-delay="100ms" data-wow-duration="1200ms">
                     <div class="title float-left">
                         <h2>Reliable power solutions engineered<br> for industrial & residential needs.</h2>
                     </div>
@@ -482,7 +485,8 @@
 <!--Start services style1 area-->
 <section class="services-style1-area">
     <div class="container">
-        <div class="sec-title with-text text-center">
+        <!-- Title Fade In Down -->
+        <div class="sec-title with-text text-center wow fadeInDown" data-wow-delay="100ms" data-wow-duration="1000ms">
             <p>Our Services</p>
             <div class="title">Quality With Dedication</div>
             <div class="border-box center"></div>
@@ -491,7 +495,7 @@
         <div class="row">
             <!--Start single solution style1: Transformer Service-->
             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                <div class="single-service-style1">
+                <div class="single-service-style1 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1200ms">
                     <div class="img-holder">
                         <img src="images/services/1.jpg" alt="Transformer Service">
                         <div class="overlay-style-two"></div>
@@ -516,7 +520,7 @@
 
             <!--Start single solution style1: Generator Service-->
             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                <div class="single-service-style1">
+                <div class="single-service-style1 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1200ms">
                     <div class="img-holder">
                         <img src="images/services/2.jpg" alt="Generator Service">
                         <div class="overlay-style-two"></div>
@@ -541,7 +545,7 @@
 
             <!--Start single solution style1: Solar Service-->
             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                <div class="single-service-style1">
+                <div class="single-service-style1 wow fadeInRight" data-wow-delay="600ms" data-wow-duration="1200ms">
                     <div class="img-holder">
                         <img src="images/services/3.jpg" alt="Solar Service">
                         <div class="overlay-style-two"></div>
@@ -567,7 +571,8 @@
 
         <div class="row">
             <div class="col-xl-12">
-                <div class="emergency-call wow slideInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <!-- Bounce Effect for Emergency Support Banner -->
+                <div class="emergency-call wow bounceIn" data-wow-delay="300ms" data-wow-duration="1200ms">
                     <h6>Any Emergency? Call our 24/7 customer support team at <span>+880 1911-284405</span></h6>
                 </div>
             </div>
@@ -579,14 +584,15 @@
 <!--Start Why Choose Area-->
 <section class="why-choose-area secpd1">
     <div class="container">
-        <div class="sec-title">
+        <div class="sec-title wow fadeInDown" data-wow-delay="100ms" data-wow-duration="1000ms">
             <p>Why Choose Us</p>
             <div class="title">Why Moon Star Power & Technology</div>
             <div class="border-box"></div>
         </div>
         <div class="row">
             <div class="col-xl-12">
-                <div class="choose-carousel owl-carousel owl-theme">
+                <!-- Carousel Container Fade In Up -->
+                <div class="choose-carousel owl-carousel owl-theme wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                     
                     <!--Start Single Choose Box: Transformers-->
                     <div class="single-choose-box text-center">
@@ -665,13 +671,13 @@
 
 <!--Start Working Process Area-->
 <section class="working-process-area" style="background-image:url(images/parallax-background/working-process-bg.jpg);">
-    <div class="image-box wow fadeInRight" data-wow-duration="3000ms">
+    <div class="image-box wow fadeInRight" data-wow-duration="2000ms" data-wow-delay="200ms">
         <div class="image paroller">
             <img class="zoom-fade" src="images/resources/working-process.png" alt="Moon Star Power Working Process">
         </div>
     </div>
     <div class="container">
-        <div class="sec-title with-text clrwhite text-center">
+        <div class="sec-title with-text clrwhite text-center wow fadeInDown" data-wow-delay="100ms" data-wow-duration="1000ms">
             <p>Working Process</p>
             <div class="title">How We Deliver Excellence</div>
             <div class="border-box center bgblue"></div>
@@ -679,7 +685,8 @@
         </div>
         <div class="row">
             <div class="col-xl-12">
-                <div class="working-process-carousel owl-carousel owl-theme">
+                <!-- Carousel Slide In Left -->
+                <div class="working-process-carousel owl-carousel owl-theme wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1200ms">
                     
                     <div class="single-working-process text-center">
                         <div class="top-box">
@@ -698,7 +705,7 @@
                         <h3>Equipment<br> Supply & Selection</h3>
                         <p>Sourcing high-grade Transformers, Diesel Generators, PFI Panels, and Solar systems directly tailored for your project.</p>
                         <div class="button">
-                            <a class="btn-two" href="services.php">Our Products<span class="icon-null"></span></a>
+                            <a class="btn-two" href="products.php">Our Products<span class="icon-null"></span></a>
                         </div>
                     </div>
                     <div class="single-working-process text-center">
@@ -721,7 +728,7 @@
                             <a class="btn-two" href="contact.php">Contact Us<span class="icon-null"></span></a>
                         </div>
                     </div>
-                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -731,15 +738,15 @@
 <!--Start latest blog area-->
 <section class="latest-blog-area">
     <div class="container inner-content">
-        <div class="sec-title">
+        <div class="sec-title wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">
             <p>News & Updates</p>
             <div class="title">Insights From Our Power Experts</div>
             <div class="border-box"></div>
         </div>
         <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                <div class="blog-carousel owl-carousel owl-theme">
-                    
+                <!-- Blog Carousel Zoom In -->
+                <div class="blog-carousel owl-carousel owl-theme wow zoomIn" data-wow-delay="200ms" data-wow-duration="1200ms">
                     <div class="single-blog-post">
                         <div class="img-holder">
                             <img src="images/blog/v1-1.jpg" alt="PFI Panel & Transformer Maintenance">
@@ -761,7 +768,7 @@
                             </div>
                             <div class="text">
                                 <p>Learn how installing a Power Factor Improvement (PFI) panel prevents voltage drops and utility penalties...</p>
-                                <a class="btn-two" href="blog-single.php">Read More<span class="icon-null"></span></a>
+                                <!-- <a class="btn-two" href="blog-single.php">Read More<span class="icon-null"></span></a> -->
                             </div>
                         </div>
                     </div>
@@ -786,7 +793,7 @@
                             </div>
                             <div class="text">
                                 <p>Key checklist items to ensure your backup diesel generator operates seamlessly during peak power outages...</p>
-                                <a class="btn-two" href="blog-single.php">Read More<span class="icon-null"></span></a>
+                                <!-- <a class="btn-two" href="blog-single.php">Read More<span class="icon-null"></span></a> -->
                             </div>
                         </div>
                     </div>
@@ -811,11 +818,11 @@
                             </div>
                             <div class="text">
                                 <p>Discover how modern rooftop solar systems reduce long-term operational costs for factories and commercial spaces...</p>
-                                <a class="btn-two" href="blog-single.php">Read More<span class="icon-null"></span></a>
+                                <!-- <a class="btn-two" href="blog-single.php">Read More<span class="icon-null"></span></a> -->
                             </div>
                         </div>
                     </div>
-                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -825,14 +832,15 @@
 <!--Start Testimonial Area-->
 <section class="testimonial-area">
     <div class="container">
-        <div class="sec-title clrwhite text-center">
+        <div class="sec-title clrwhite text-center wow fadeInDown" data-wow-delay="100ms" data-wow-duration="1000ms">
             <p>Testimonials</p>
             <div class="title">Words From Our Valued Clients</div>
             <div class="border-box center"></div>
         </div>
         <div class="row">
             <div class="col-xl-12">
-                <div class="testimonial-carousel owl-carousel owl-theme">
+                <!-- Testimonial Carousel Fade In Up -->
+                <div class="testimonial-carousel owl-carousel owl-theme wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                     
                     <!--Testimonial 1: Transformer & PFI Panel-->
                     <div class="single-testimonial-item text-center">
@@ -905,7 +913,7 @@
                 </div>
             </div>
         </div>
-        <div class="button text-center wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+        <div class="button text-center wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1200ms">
             <a class="btn-three" href="contact.php">Get In Touch<span class="icon-null"></span></a>
         </div>
     </div>
@@ -917,27 +925,25 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
-                <div class="consultation-box">
+                <!-- Consultation Form Box Scale/Zoom In -->
+                <div class="consultation-box wow zoomIn" data-wow-delay="100ms" data-wow-duration="1200ms">
                     <div class="title-box">
                         <h2>Get Free Consultation</h2>
-                        <span>Get a free consultation from our experts, Our customer support team help you 24/7, Don’t
-                            hesitate.</span>
+                        <span>Get a free consultation from our experts, Our customer support team help you 24/7, Don’t hesitate.</span>
                     </div>
                     <div class="consultation">
                         <form class="consultation-form" action="sendmail.php" method="POST">
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="single-box">
-                                        <input type="text" name="form_name" value="" placeholder="Your Name"
-                                            required>
+                                        <input type="text" name="form_name" value="" placeholder="Your Name" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-xl-6">
                                     <div class="single-box">
-                                        <input type="email" name="form_email" value="" placeholder="Email Address"
-                                            required>
+                                        <input type="email" name="form_email" value="" placeholder="Email Address" required>
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
@@ -957,8 +963,7 @@
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="single-box">
-                                        <button class="btn-three" type="submit">get In Touch<span
-                                                class="icon-null"></span></button>
+                                        <button class="btn-three" type="submit">get In Touch<span class="icon-null"></span></button>
                                     </div>
                                 </div>
                             </div>
@@ -968,8 +973,7 @@
                         <div class="top"><span>Or</span></div>
                         <div class="inner">
                             <div class="text">
-                                <p>Confirm your 10 mins consultation call with our expert team, They will answer your
-                                    questions.</p>
+                                <p>Confirm your 10 mins consultation call with our expert team, They will answer your questions.</p>
                             </div>
                             <a class="btn-three" href="#">Schedule for Call<span class="icon-null"></span></a>
                         </div>
@@ -986,7 +990,8 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
-                <div class="download-material">
+                <!-- Fade In Up Animation -->
+                <div class="download-material wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms">
                     <div class="title-box text-center">
                         <h3>Power Your Home with Innovative Energy Technologies.</h3>
                     </div>

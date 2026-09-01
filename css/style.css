@@ -169,7 +169,7 @@ li {
 
 
 .secpd1 {
-    padding: 100px 0;
+    padding: 70px 0;
 }
 
 .secpd2 {
@@ -6218,7 +6218,7 @@ select:focus {
     position: relative;
     display: block;
     background: #203260;
-    padding: 100px 0 92px;
+    padding: 70px 0 70px;
     z-index: 2;
 }
 
@@ -6935,8 +6935,8 @@ select:focus {
     position: relative;
     display: block;
     background: #ffffff;
-    padding-top: 100px;
-    padding-bottom: 92px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .single-blog-post {
@@ -7191,7 +7191,7 @@ select:focus {
 .testimonial-area {
     position: relative;
     display: block;
-    padding: 100px 0 100px;
+    padding: 70px 0 70px;
     background: #203260;
 }
 
@@ -9270,7 +9270,7 @@ select:focus {
 .whowe-are-area {
     position: relative;
     display: block;
-    padding: 100px 0 52px;
+    padding: 70px 0 62px;
 }
 
 .whowe-are-area .sec-title {
@@ -19402,4 +19402,104 @@ select:focus {
         top: 20px;
         font-size: 18px;
     }
+}
+
+/* =========================================
+   Modern Header Social Icons
+========================================= */
+
+.headers1-button.social-icons {
+    width: auto;
+    float: right;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.headers1-button.social-icons .social-icon {
+    position: relative;
+    width: 46px;
+    height: 46px;
+
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+
+    float: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
+    background: #ffffff;
+    border: 1px solid #e5e9ef;
+    border-radius: 12px;
+
+    color: #203260 !important;
+    text-decoration: none;
+
+    overflow: hidden;
+    transition: all 0.35s ease;
+}
+
+.headers1-button.social-icons .social-icon i {
+    position: relative;
+    z-index: 2;
+    font-size: 18px;
+    transition: all 0.35s ease;
+}
+
+
+/* Hover background effect */
+
+.headers1-button.social-icons .social-icon::before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 50%;
+
+    width: 0;
+    height: 0;
+
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+
+    transition: all 0.4s ease;
+    z-index: 1;
+}
+
+
+/* Facebook */
+
+.headers1-button.social-icons .facebook:hover {
+    border-color: #1877f2;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(24, 119, 242, 0.18);
+}
+
+.headers1-button.social-icons .facebook:hover::before {
+    width: 100px;
+    height: 100px;
+    background: #1877f2;
+}
+
+.headers1-button.social-icons .facebook:hover i {
+    color: #ffffff;
+}
+
+
+/* YouTube */
+
+.headers1-button.social-icons .youtube:hover {
+    border-color: #ff0000;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(255, 0, 0, 0.18);
+}
+
+.headers1-button.social-icons .youtube:hover::before {
+    width: 100px;
+    height: 100px;
+    background: #ff0000;
+}
+
+.headers1-button.social-icons .youtube:hover i {
+    color: #ffffff;
 }

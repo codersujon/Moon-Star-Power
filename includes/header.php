@@ -97,7 +97,7 @@
                                             </div>
                                             <div class="text">
                                                 <h3>For Visitors</h3>
-                                                <p>Niketan, Gulshan-1, Dhaka-1212</p>    
+                                                <p style="font-size: 14px"><strong>Factory Address:</strong> Saban Factory Road, <br> Shuvadda Purbo Para, South Keranigonj, Dhaka-1310</p>    
                                             </div>
                                         </div>
                                     </li>
@@ -113,11 +113,15 @@
                                         </div>
                                     </li>
                                 </ul>
-                                <div class="headers1-button">
-                                    <a class="btn-one" href="contact.php">
-                                        <b>Consultation</b><span class="icon-null"></span>
-                                    </a>   
-                                </div>    
+                                <div class="headers1-button social-icons">
+                                    <a href="#" class="social-icon facebook" target="_blank" aria-label="Facebook">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+
+                                    <a href="#" class="social-icon youtube" target="_blank" aria-label="YouTube">
+                                        <i class="fa fa-youtube-play"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>

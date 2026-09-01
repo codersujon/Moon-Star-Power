@@ -28,7 +28,6 @@
 
 }
 
-
 @media only screen and (min-width: 1400px) and (max-width: 1679px) {
 
 
@@ -56,7 +55,6 @@
 
 
 }
-
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
 
@@ -93,9 +91,6 @@
 
 }
 
-
-
-
 @media only screen and (max-width: 500px) {
 
     .mission-vision-content .overlay-content {
@@ -126,13 +121,6 @@
 
 
 }
-
-
-
-
-
-
-
 
 /* Medium screen  */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1330,8 +1318,8 @@
 =============================================
 ***/
     .about-area {
-        padding-top: 100px;
-        padding-bottom: 92px;
+        padding-top: 60px;
+        padding-bottom: 70px;
     }
 
     .about-image-box {
@@ -1456,7 +1444,7 @@
 =============================================
 ***/
     .latest-blog-area .sec-title {
-        padding-bottom: 140px;
+        padding-bottom: 70px;
     }
 
     .blog-carousel.owl-carousel .owl-nav {
@@ -2401,24 +2389,6 @@
     #minimal-bootstrap-carousel [class*=carousel-control-one] {
         display: none;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
