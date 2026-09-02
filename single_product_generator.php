@@ -35,12 +35,12 @@
         <div class="row mb-5">
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-3">
                 <div class="single-project-image-box wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1200ms">
-                    <img src="images/projects/generator/g2.jpeg" alt="Moon Star Generator Project 1" class="img-fluid rounded shadow w-100" style="height: 350px; object-fit: cover;">
+                    <img src="images/projects/solar/" alt="Moon Star Generator Product 1" class="img-fluid rounded shadow w-100" style="height: 350px; object-fit: cover;">
                 </div>
-            </div>
+            </div>images/projects/
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-3">
                 <div class="single-project-image-box wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1200ms">
-                    <img src="images/projects/generator/g3.jpeg" alt="Moon Star Generator Project 2" class="img-fluid rounded shadow w-100" style="height: 350px; object-fit: cover;">
+                    <img src="images/projects/solar/3.jpg" alt="Moon Star Generator Product 2" class="img-fluid rounded shadow w-100" style="height: 350px; object-fit: cover;">
                 </div>
             </div>
         </div>

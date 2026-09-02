@@ -2968,7 +2968,7 @@
     }
 
     .mobile-logo img {
-        max-width: 230px !important; /* Logo size increased */
+        max-width: 200px !important; /* Logo size increased */
         height: auto !important;
         display: block !important;
     }
