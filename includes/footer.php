@@ -15,7 +15,12 @@
                                     </a>    
                                 </div>
                                 <div class="text">
-                                    <p>House: 86, Flat: B-1, Road: 10/1, Block: D, Niketan, Gulshan-1, Dhaka-1212, Bangladesh.</p>
+                                    <p class="mb-2"><strong>
+                                        <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                        Branch office:</strong> Jannat Monjil, House: 149, <br/> Road: 03, Block: A, Bashundhara River View, South Keranigonj, Dhaka-1311.</p>
+
+                                    <p><strong><i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                                    Khulna office:</strong>House: 38, Road: 05, <br/> Sonadanga R/A (1st Phase), Khulna.</p>
                                     <ul>
                                         <li>msptl.amr@gmail.com</li>
                                         <li>Mon - Fri: 10am to 7pm, <span>W.e/ Holiday</span></li>

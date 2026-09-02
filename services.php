@@ -49,7 +49,7 @@
                         <div class="text-holder">
                             <p>We perform advanced BDV & DGA testing to monitor transformer health, identify hidden faults and potential issues at an early stage, and ensure safe, efficient, and reliable transformer performance...</p>
                             <div class="button">
-                                <a class="btn-two" href="#">Read More<span class="icon-null"></span></a>
+                                <a class="btn-two" href="single_product_transformer.php">Read More<span class="icon-null"></span></a>
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                         <div class="text-holder">
                             <p>We provide professional cleaning of transformer cooling systems to improve heat dissipation, maintain optimal operating temperatures, and ensure safe, efficient, and reliable performance...</p>
                             <div class="button">
-                                <a class="btn-two" href="#">Read More<span class="icon-null"></span></a>
+                                <a class="btn-two" href="single_product_generator.php">Read More<span class="icon-null"></span></a>
                             </div>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
                         <div class="text-holder">
                             <p>We inspect and secure all electrical connections and earthing systems to prevent sparking, overheating, electrical faults, and potential safety hazards while ensuring reliable and safe operation...</p>
                             <div class="button">
-                                <a class="btn-two" href="#">Read More<span class="icon-null"></span></a>
+                                <a class="btn-two" href="single_product_solar.php">Read More<span class="icon-null"></span></a>
                             </div>
                         </div>
                     </div>
@@ -124,7 +124,7 @@
                         <div class="text-holder">
                             <p>We carefully inspect and replace the breather’s silica gel to prevent moisture from entering the transformer, protect insulation, and ensure safe, efficient, and reliable operation...</p>
                             <div class="button">
-                                <a class="btn-two" href="#">Read More<span class="icon-null"></span></a>
+                                <a class="btn-two" href="single_product_pfi.php">Read More<span class="icon-null"></span></a>
                             </div>
                         </div>
                     </div>
@@ -149,7 +149,7 @@
                         <div class="text-holder">
                             <p>We conduct a thorough inspection for oil leaks, bushing cracks, body corrosion, and other external signs of damage to ensure the transformer remains safe, reliable, and in optimal operating condition...</p>
                             <div class="button">
-                                <a class="btn-two" href="#">Read More<span class="icon-null"></span></a>
+                                <a class="btn-two" href="single_product_htsg.php">Read More<span class="icon-null"></span></a>
                             </div>
                         </div>
                     </div>
@@ -174,7 +174,7 @@
                         <div class="text-holder">
                             <p>Using state-of-the-art machinery, we remove moisture, contaminants, and impurities from transformer oil to restore its insulating properties and maintain the required and reliable operation...</p>
                             <div class="button">
-                                <a class="btn-two" href="#">Read More<span class="icon-null"></span></a>
+                                <a class="btn-two" href="single_product_ltsg.php">Read More<span class="icon-null"></span></a>
                             </div>
                         </div>
                     </div>

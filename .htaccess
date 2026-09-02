@@ -1,22 +1,86 @@
+# ============================================
+# 1. LiteSpeed Cache Lookup
+# ============================================
 <IfModule LiteSpeed>
     CacheLookup on
 </IfModule>
 
+
+# ============================================
+# 2. GZIP Compression
+# ============================================
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE text/javascript
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/x-javascript
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE application/json
+    AddOutputFilterByType DEFLATE image/svg+xml
+    AddOutputFilterByType DEFLATE font/ttf
+    AddOutputFilterByType DEFLATE font/otf
+    AddOutputFilterByType DEFLATE application/x-font-ttf
+</IfModule>
+
+# ============================================
+# 3. Expires Headers
+# ============================================
+<IfModule mod_expires.c>
+    ExpiresActive On
+
+    # HTML - always fresh
+    ExpiresByType text/html "access plus 0 seconds"
+
+    # CSS/JS - 10 minutes cache
+    ExpiresByType text/css "access plus 10 minutes"
+    ExpiresByType application/javascript "access plus 10 minutes"
+    ExpiresByType text/javascript "access plus 10 minutes"
+
+    # Images - 30 minutes cache
+    ExpiresByType image/jpeg "access plus 30 minutes"
+    ExpiresByType image/png "access plus 30 minutes"
+    ExpiresByType image/webp "access plus 30 minutes"
+    ExpiresByType image/svg+xml "access plus 30 minutes"
+    ExpiresByType image/x-icon "access plus 30 minutes"
+
+    # Fonts - 1 year cache
+    ExpiresByType font/woff "access plus 1 year"
+    ExpiresByType font/woff2 "access plus 1 year"
+    ExpiresByType font/ttf "access plus 1 year"
+    ExpiresByType application/font-woff "access plus 1 year"
+</IfModule>
+
+
+# ============================================
+# 4. URL Redirects (www + https single-hop)
+# ============================================
 RewriteEngine On
 
-# 1. If the requested file or directory actually exists, serve it directly
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^ https://www.moonstarpower.com%{REQUEST_URI} [L,R=301]
+
+# ============================================
+# 5. Routing Rules
+# ============================================
+
+# If the requested file or directory actually exists, serve it directly
 RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^ - [L]
 
-# 2. Allow Extensionless URLs (e.g., loading /about will serve /about.php)
+# Allow Extensionless URLs (e.g., loading /about will serve /about.php)
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^([^/]+)$ $1.php [L]
 
-# 3. Direct all non-existent pages/URLs to the custom 404 page
+# Direct all non-existent pages/URLs to the custom 404 page
 ErrorDocument 404 /404.php
 
+# ============================================
+# 6. LiteSpeed Server Cache TTL (HTML/PHP page cache)
+# ============================================
 <IfModule LiteSpeed>
-    # all HTML/PHP response 10 minutes cache 
     RewriteRule .* - [E=Cache-Control:max-age=600]
 </IfModule>

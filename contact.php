@@ -122,7 +122,7 @@
                         </div>
                         <div class="text">
                             <p>Ph: (+880) 1911-284405<br> Email: msptl.amr@gmail.com</p>
-                            <a class="btn-two" href="#">Schedule for Call<span class="icon-null"></span></a>    
+                            <span class="btn-two">Schedule for Call<span class="icon-null"></span></span>    
                         </div>
                     </div>
                 </div>
@@ -159,7 +159,7 @@
                         </div>
                         <div class="text">
                             <p>We’re here to help with any question<br> of our customers.</p>
-                            <a class="btn-two" href="#">Customers FAQ’s<span class="icon-null"></span></a>    
+                            <span class="btn-two">Customers FAQ’s<span class="icon-null"></span></span>    
                         </div>
                     </div>
                 </div>
@@ -176,5 +176,73 @@
         </div>
     </section>  
     <!--End Contact Details Area-->
+
+    <!--Start Branches section-->
+    <section class="branches-section">
+        <div class="container inner-content">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    <div class="branches-carousel owl-carousel owl-theme">
+                        <!--Start Single Branches Box-->
+                        <div class="single-branches-box text-center">
+                            <div class="title-box"><h3>KHULNA OFFICE:</h3></div>
+                            <ul>
+                                <li>(+880) 1911-284405</li>
+                                <li>msptl.amr@gmail.com</li>
+                            </ul> 
+                            <div class="text">
+                                <p>House: 38, Road: 05, Sonadanga R/A (1st Phase), Khulna.</p>
+                            </div>  
+                        </div>
+                        <!--End Single Branches Box-->
+                        <!--Start Single Branches Box-->
+                        <div class="single-branches-box text-center">
+                            <div class="title-box"><h3>BRANCH OFFICE:</h3></div>
+                            <ul>
+                                <li>(+880) 1911-284405</li>
+                                <li>msptl.amr@gmail.com</li>
+                            </ul> 
+                            <div class="text">
+                                <p>Jannat Monjil, House: 149, Road: 03, Block: A, Bashundhara River View, South Keranigonj, Dhaka-1311.</p>
+                            </div>  
+                        </div>
+                        <!--End Single Branches Box-->
+                        <!--Start Single Branches Box-->
+                        <div class="single-branches-box text-center">
+                            <div class="title-box"><h3>KHULNA OFFICE:</h3></div>
+                            <ul>
+                                <li>(+880) 1911-284405</li>
+                                <li>msptl.amr@gmail.com</li>
+                            </ul> 
+                            <div class="text">
+                                <p>House: 38, Road: 05, Sonadanga R/A (1st Phase), Khulna.</p>
+                            </div>  
+                        </div>
+                        <!--End Single Branches Box-->
+                        <!--Start Single Branches Box-->
+                        <div class="single-branches-box text-center">
+                            <div class="title-box"><h3>FACTORY ADDRESS:</h3></div>
+                            <ul>
+                                <li>(+880) 1911-284405</li>
+                                <li>msptl.amr@gmail.com</li>
+                            </ul> 
+                            <div class="text">
+                                <p>Saban Factory Road, Shuvadda Purbo Para, South Keranigonj, Dhaka-1310</p>
+                            </div>  
+                        </div>
+                        <!--End Single Branches Box-->
+                    </div> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="our-all-branches wow slideInUp" data-wow-delay="200ms" data-wow-duration="1500ms"> 
+                        <h6>We have successfully running <span>2 branches</span> in Bangladesh.</h6>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+    <!--End Branches section-->
         
 <?php  require_once 'includes/footer.php';  ?>

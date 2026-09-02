@@ -15743,7 +15743,7 @@ select:focus {
 .branches-section {
     position: relative;
     display: block;
-    padding: 100px 0 93px;
+    padding: 50px 0 50px;
 }
 
 .single-branches-box {
