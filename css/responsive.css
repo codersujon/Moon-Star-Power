@@ -2955,15 +2955,20 @@
     }
 
     /* Logo Styling - Bigger and clear */
-    .mobile-logo {
+    .mobile-logo,
+    .footer-logo {
         display: block !important;
         background: #ffffff !important; /* White box around logo for better visibility */
         padding: 6px 10px !important;
         border-radius: 4px !important;
     }
 
+    .footer-logo{
+        margin-bottom: 20px;
+    }
+
     .mobile-logo img {
-        max-width: 180px !important; /* Logo size increased */
+        max-width: 230px !important; /* Logo size increased */
         height: auto !important;
         display: block !important;
     }

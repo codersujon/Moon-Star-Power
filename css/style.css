@@ -2172,7 +2172,7 @@ select:focus {
     position: relative;
     display: block;
     float: left;
-    margin-right: 50px;
+    margin-right: 40px;
 }
 
 .header-contact-info li {
@@ -2193,7 +2193,7 @@ select:focus {
 }
 
 .header-contact-info li .single-item .icon {
-    width: 70px;
+    width: 60px;
 }
 
 .header-contact-info li .single-item .icon {
@@ -8152,6 +8152,14 @@ select:focus {
     line-height: 30px;
     font-weight: 500;
     text-transform: capitalize;
+}
+
+.footer-logo {
+    display: block !important;
+    background: #ffffff !important; 
+    padding: 6px 10px !important;
+    border-radius: 4px !important;
+    margin-bottom: 20px;
 }
 
 .single-footer-widget .contact-info-box {
@@ -19027,7 +19035,7 @@ select:focus {
 .footer-area.style2 {
     background: #0a0a0a;
     padding-top: 100px;
-    padding-bottom: 91px;
+    padding-bottom: 40px;
 }
 
 .single-footer-widget .masstech-info-box {

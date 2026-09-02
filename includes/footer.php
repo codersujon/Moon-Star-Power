@@ -11,7 +11,7 @@
                             <div class="contact-info-box">
                                 <div class="footer-logo">
                                     <a href="index.php">
-                                        <img src="images/resources/logo-white.png" alt="Moon Star Power & Technology" style="height: 60px;">
+                                        <img src="images/resources/logo.png" alt="Moon Star Power & Technology" style="height: 60px;">
                                     </a>    
                                 </div>
                                 <div class="text">
