@@ -5191,7 +5191,7 @@ select:focus {
 .services-style1-area {
     position: relative;
     display: block;
-    padding: 70px 0 93px;
+    padding: 60px 0 60px;
 }
 
 .single-service-style1 {
@@ -9762,7 +9762,7 @@ select:focus {
 =============================================
 ***/
 .services-style1-area.service-page {
-    padding-bottom: 50px;
+    padding-bottom: 0px;
 }
 
 
@@ -15489,7 +15489,7 @@ select:focus {
 .contact-details-area {
     position: relative;
     display: block;
-    padding: 100px 0 93px;
+    padding: 70px 0 70px;
 }
 
 .single-contact-details-box {
@@ -19334,7 +19334,7 @@ select:focus {
 ================================ */
 
 .video-material-area {
-    padding: 50px 0;
+    padding: 70px 0;
 }
 
 .video-material {

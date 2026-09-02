@@ -787,7 +787,7 @@
     .choose-area {
         position: relative;
         display: block;
-        padding: 100px 0 100px;
+        padding: 70px 0 70px;
         background: #ffffff;
     }
 
@@ -1657,7 +1657,7 @@
 =============================================
 ***/
     .fact-counter-area {
-        padding: 117px 0 64px;
+        padding: 80px 0 64px;
     }
 
     .single-fact-counter.style2 {
@@ -1735,7 +1735,7 @@
 =============================================
 ***/
     .main-project-area.style1 {
-        padding-top: 73px;
+        padding-top: 60px;
     }
 
     .project-filter.style1 {
@@ -2092,14 +2092,14 @@
     }
 
     .blog-prev-next-option .single.prev .title {
-        padding-left: 0;
+        pad7pding-left: 0;
         padding-top: 20px;
     }
 
     .blog-prev-next-option .single.prev:before {
         display: none;
     }
-
+7p
     .blog-prev-next-option .single.prev {
         float: none;
         padding-right: 20px;
@@ -2325,7 +2325,7 @@
 =============================================
 ***/
     .contact-info-area {
-        padding: 100px 0 100px;
+        padding: 70px 0 70px;
     }
 
     .contact-form {

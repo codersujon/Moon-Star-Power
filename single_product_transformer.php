@@ -10,9 +10,9 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
-                <div class="inner-content clearfix">
+                <div class="inner-content clearfix wow fadeInDown" data-wow-delay="100ms" data-wow-duration="1000ms">
                     <div class="title float-left">
-                    <h2>Electrical Transformer</h2>
+                        <h2>Electrical Transformer</h2>
                     </div>
                     <div class="breadcrumb-menu float-right">
                         <ul class="clearfix">
@@ -28,19 +28,19 @@
 <!--End breadcrumb area--> 
 
 <!--Start Project single area-->
-<section class="project-single-area" style="padding: 60px 0;">
+<section class="project-single-area py-5">
     <div class="container">
         
         <!-- Project Images Header -->
         <div class="row mb-5">
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-3">
-                <div class="single-project-image-box">
-                    <img src="images/projects/transformer/trans-3.png" alt="Moon Star Transformer Project 1" class="img-fluid rounded shadow" style="width: 100%; height: 350px; object-fit: cover;">
+                <div class="single-project-image-box wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1200ms">
+                    <img src="images/projects/transformer/trans-3.png" alt="Moon Star Transformer Project 1" class="img-fluid rounded shadow w-100" style="height: 350px; object-fit: cover;">
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-3">
-                <div class="single-project-image-box">
-                    <img src="images/projects/transformer/trans-2.png" alt="Moon Star Transformer Project 2" class="img-fluid rounded shadow" style="width: 100%; height: 350px; object-fit: cover;">
+                <div class="single-project-image-box wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1200ms">
+                    <img src="images/projects/transformer/trans-2.png" alt="Moon Star Transformer Project 2" class="img-fluid rounded shadow w-100" style="height: 350px; object-fit: cover;">
                 </div>
             </div>
         </div>
@@ -51,43 +51,43 @@
                 <div class="single-project-content-box">
                     
                     <!-- Title Section -->
-                    <div class="section-title text-center mb-5">
-                        <span class="text-primary font-weight-bold" style="letter-spacing: 1px; text-transform: uppercase;">Heavy Power & Distribution Solutions</span>
-                        <h2 class="mt-2 font-weight-bold" style="color: #1a1a1a;">Your Reliable 11 kV / .415 kV Electrical Transformer Manufacturer</h2>
+                    <div class="section-title text-center mb-5 wow fadeInDown" data-wow-delay="100ms">
+                        <span class="text-primary font-weight-bold text-uppercase" style="letter-spacing: 1px;">Heavy Power & Distribution Solutions</span>
+                        <h2 class="mt-2 font-weight-bold text-dark">Your Reliable 11 kV / .415 kV Electrical Transformer Manufacturer</h2>
                         <h4 class="text-muted mt-2">High-Efficiency & Low-Loss Power Distribution Transformers in Bangladesh</h4>
                     </div>
 
                     <!-- Introduction -->
-                    <div class="text lead-text mb-5" style="color: #444; font-size: 1.05rem; line-height: 1.8;">
+                    <div class="text lead-text mb-5 wow fadeInUp" data-wow-delay="200ms" style="color: #444; font-size: 1.05rem; line-height: 1.8;">
                         <p>Welcome to <strong>Moon Star Power & Technology</strong>! We are a leading manufacturer and supplier of world-class <strong>11 kV / .415 kV Distribution Transformers</strong> in Bangladesh. Adhering to strict international IEC standards and local utility regulations, our transformers deliver maximum efficiency, superior protection, and long-term durability for industrial complexes, commercial facilities, infrastructure projects, and residential utility grids nationwide.</p>
                     </div>
 
                     <!-- Key Highlights / Important Points (Card Grid) -->
-                    <h3 class="font-weight-bold mb-4" style="color: #1a1a1a;">Key Performance Highlights</h3>
+                    <h3 class="font-weight-bold mb-4 text-dark wow fadeInUp" data-wow-delay="100ms">Key Performance Highlights</h3>
                     <div class="row mb-5">
                         <div class="col-md-3 col-sm-6 mb-4">
-                            <div class="card border-0 shadow-sm p-3 text-center h-100" style="background: #f8f9fa;">
+                            <div class="card border-0 shadow-sm p-3 text-center h-100 bg-light wow fadeInUp" data-wow-delay="100ms">
                                 <div class="mb-3 text-primary"><i class="fa fa-bolt fa-2x"></i></div>
                                 <h5 class="font-weight-bold">Maximum Efficiency</h5>
                                 <p class="small text-muted mb-0">Engineered for minimal no-load and full-load losses, cutting operating costs.</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 mb-4">
-                            <div class="card border-0 shadow-sm p-3 text-center h-100" style="background: #f8f9fa;">
+                            <div class="card border-0 shadow-sm p-3 text-center h-100 bg-light wow fadeInUp" data-wow-delay="250ms">
                                 <div class="mb-3 text-success"><i class="fa fa-shield fa-2x"></i></div>
                                 <h5 class="font-weight-bold">Advanced Safety</h5>
                                 <p class="small text-muted mb-0">Equipped with Buchholz Relay, PRD, OTI, and WTI protective mechanisms.</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 mb-4">
-                            <div class="card border-0 shadow-sm p-3 text-center h-100" style="background: #f8f9fa;">
+                            <div class="card border-0 shadow-sm p-3 text-center h-100 bg-light wow fadeInUp" data-wow-delay="400ms">
                                 <div class="mb-3 text-warning"><i class="fa fa-cog fa-2x"></i></div>
                                 <h5 class="font-weight-bold">Voltage Regulation</h5>
                                 <p class="small text-muted mb-0">Off-Circuit (OCTC) & On-Load (OLTC) tap changers for steady voltage control.</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 mb-4">
-                            <div class="card border-0 shadow-sm p-3 text-center h-100" style="background: #f8f9fa;">
+                            <div class="card border-0 shadow-sm p-3 text-center h-100 bg-light wow fadeInUp" data-wow-delay="550ms">
                                 <div class="mb-3 text-info"><i class="fa fa-certificate fa-2x"></i></div>
                                 <h5 class="font-weight-bold">IEC Standard</h5>
                                 <p class="small text-muted mb-0">Full compliance with international IEC and Bangladesh Standards (BPS).</p>
@@ -96,54 +96,62 @@
                     </div>
 
                     <!-- Raw Materials & Global Sourcing -->
-                    <div class="content-block mb-5 p-4 rounded" style="background-color: #f1f4f8; border-left: 5px solid #0056b3;">
-                        <h3 class="font-weight-bold mb-3" style="color: #1a1a1a;">World-Class Sourced Raw Materials</h3>
-                        <p class="mb-4" style="color: #555;">At <strong>Moon Star Power & Technology</strong>, we never compromise on internal build quality. To guarantee maximum thermal stability and low iron/copper losses, we source components from industry-leading global suppliers:</p>
+                    <div class="content-block mb-5 p-4 rounded bg-light border-left-primary wow zoomIn" data-wow-delay="200ms" style="border-left: 5px solid #0056b3;">
+                        <h3 class="font-weight-bold mb-3 text-dark">World-Class Sourced Raw Materials</h3>
+                        <p class="mb-4 text-secondary">At <strong>Moon Star Power & Technology</strong>, we never compromise on internal build quality. To guarantee maximum thermal stability and low iron/copper losses, we source components from industry-leading global suppliers:</p>
                         
                         <div class="row">
                             <div class="col-md-6 mb-3">
-                                <h5 class="font-weight-bold text-dark"><i class="fa fa-cubes text-primary mr-2"></i> Silicon Steel Core</h5>
-                                <p class="small text-muted">High-grade CRGO silicon steel from <strong>JFE (Japan)</strong> and <strong>Nippon Steel</strong> for minimal core losses and high magnetic permeability.</p>
+                                <div class="bg-white p-3 rounded shadow-sm h-100 wow fadeInLeft" data-wow-delay="200ms">
+                                    <h5 class="font-weight-bold text-dark"><i class="fa fa-cubes text-primary mr-2"></i> Silicon Steel Core</h5>
+                                    <p class="small text-muted mb-0">High-grade CRGO silicon steel from <strong>JFE (Japan)</strong> and <strong>Nippon Steel</strong> for minimal core losses and high magnetic permeability.</p>
+                                </div>
                             </div>
                             <div class="col-md-6 mb-3">
-                                <h5 class="font-weight-bold text-dark"><i class="fa fa-leaf text-primary mr-2"></i> Insulation Materials</h5>
-                                <p class="small text-muted">Premium Ramon insulation boards from <strong>ABB (Italy)</strong> ensuring high dielectric strength and superior heat endurance.</p>
+                                <div class="bg-white p-3 rounded shadow-sm h-100 wow fadeInRight" data-wow-delay="200ms">
+                                    <h5 class="font-weight-bold text-dark"><i class="fa fa-leaf text-primary mr-2"></i> Insulation Materials</h5>
+                                    <p class="small text-muted mb-0">Premium Ramon insulation boards from <strong>ABB (Italy)</strong> ensuring high dielectric strength and superior heat endurance.</p>
+                                </div>
                             </div>
                             <div class="col-md-6 mb-3">
-                                <h5 class="font-weight-bold text-dark"><i class="fa fa-tint text-primary mr-2"></i> Dielectric Transformer Oil</h5>
-                                <p class="small text-muted">High-grade insulation and cooling oil sourced from <strong>Savita (India)</strong> and <strong>Hyrax (Malaysia)</strong>.</p>
+                                <div class="bg-white p-3 rounded shadow-sm h-100 wow fadeInLeft" data-wow-delay="350ms">
+                                    <h5 class="font-weight-bold text-dark"><i class="fa fa-tint text-primary mr-2"></i> Dielectric Transformer Oil</h5>
+                                    <p class="small text-muted mb-0">High-grade insulation and cooling oil sourced from <strong>Savita (India)</strong> and <strong>Hyrax (Malaysia)</strong>.</p>
+                                </div>
                             </div>
                             <div class="col-md-6 mb-3">
-                                <h5 class="font-weight-bold text-dark"><i class="fa fa-compress text-primary mr-2"></i> Copper Windings</h5>
-                                <p class="small text-muted">Super-enamelled 99.9% pure electrolytic copper wire from leading manufacturers <strong>Gazi</strong> and <strong>BRB</strong>.</p>
+                                <div class="bg-white p-3 rounded shadow-sm h-100 wow fadeInRight" data-wow-delay="350ms">
+                                    <h5 class="font-weight-bold text-dark"><i class="fa fa-compress text-primary mr-2"></i> Copper Windings</h5>
+                                    <p class="small text-muted mb-0">Super-enamelled 99.9% pure electrolytic copper wire from leading manufacturers <strong>Gazi</strong> and <strong>BRB</strong>.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Safety and Control Features -->
                     <div class="content-block mb-5">
-                        <h3 class="font-weight-bold mb-4" style="color: #1a1a1a;">Key Safety & Protection Systems</h3>
+                        <h3 class="font-weight-bold mb-4 text-dark wow fadeInUp" data-wow-delay="100ms">Key Safety & Protection Systems</h3>
                         <div class="row">
                             <div class="col-md-6 mb-3">
-                                <ul class="list-unstyled" style="line-height: 2; color: #444;">
-                                    <li><i class="fa fa-check-circle text-success mr-2"></i> <strong>Buchholz Relay:</strong> Early gas detection and tripping mechanism for internal faults & short circuits.</li>
-                                    <li><i class="fa fa-check-circle text-success mr-2"></i> <strong>Pressure Relief Device (PRD):</strong> Instantly releases excessive internal pressure to prevent explosion risks.</li>
-                                    <li><i class="fa fa-check-circle text-success mr-2"></i> <strong>OTI & WTI Monitoring:</strong> Continuous Oil & Winding Temperature Indicators with automatic alarm triggers.</li>
+                                <ul class="list-unstyled text-secondary" style="line-height: 2;">
+                                    <li class="wow fadeInLeft" data-wow-delay="200ms"><i class="fa fa-check-circle text-success mr-2"></i> <strong>Buchholz Relay:</strong> Early gas detection and tripping mechanism for internal faults & short circuits.</li>
+                                    <li class="wow fadeInLeft" data-wow-delay="350ms"><i class="fa fa-check-circle text-success mr-2"></i> <strong>Pressure Relief Device (PRD):</strong> Instantly releases excessive internal pressure to prevent explosion risks.</li>
+                                    <li class="wow fadeInLeft" data-wow-delay="500ms"><i class="fa fa-check-circle text-success mr-2"></i> <strong>OTI & WTI Monitoring:</strong> Continuous Oil & Winding Temperature Indicators with automatic alarm triggers.</li>
                                 </ul>
                             </div>
                             <div class="col-md-6 mb-3">
-                                <ul class="list-unstyled" style="line-height: 2; color: #444;">
-                                    <li><i class="fa fa-check-circle text-success mr-2"></i> <strong>On-Load Tap Changer (OLTC):</strong> Automatic voltage ratio regulation under active electrical load.</li>
-                                    <li><i class="fa fa-check-circle text-success mr-2"></i> <strong>Off-Circuit Tap Changer (OCTC):</strong> Precise manual voltage adjustment during de-energized states.</li>
-                                    <li><i class="fa fa-check-circle text-success mr-2"></i> <strong>Expansion Valve & Conservator:</strong> Safe expansion management during peak thermal operational cycles.</li>
+                                <ul class="list-unstyled text-secondary" style="line-height: 2;">
+                                    <li class="wow fadeInRight" data-wow-delay="200ms"><i class="fa fa-check-circle text-success mr-2"></i> <strong>On-Load Tap Changer (OLTC):</strong> Automatic voltage ratio regulation under active electrical load.</li>
+                                    <li class="wow fadeInRight" data-wow-delay="350ms"><i class="fa fa-check-circle text-success mr-2"></i> <strong>Off-Circuit Tap Changer (OCTC):</strong> Precise manual voltage adjustment during de-energized states.</li>
+                                    <li class="wow fadeInRight" data-wow-delay="500ms"><i class="fa fa-check-circle text-success mr-2"></i> <strong>Expansion Valve & Conservator:</strong> Safe expansion management during peak thermal operational cycles.</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
 
                     <!-- Transformer Performance Data Table -->
-                    <div class="content-block mb-5">
-                        <h3 class="font-weight-bold mb-4" style="color: #1a1a1a;">11 kV / .415 kV Technical Specifications & Performance Data</h3>
+                    <div class="content-block mb-5 wow fadeInUp" data-wow-delay="200ms">
+                        <h3 class="font-weight-bold mb-4 text-dark">11 kV / .415 kV Technical Specifications & Performance Data</h3>
                         <div class="table-responsive">
                             <table class="table table-bordered table-striped text-center">
                                 <thead class="thead-dark">
@@ -326,25 +334,25 @@
 
                     <!-- Why Choose Us -->
                     <div class="content-block mb-5">
-                        <h3 class="font-weight-bold mb-3" style="color: #1a1a1a;">Why Choose Moon Star Power & Technology?</h3>
+                        <h3 class="font-weight-bold mb-3 text-dark wow fadeInUp" data-wow-delay="100ms">Why Choose Moon Star Power & Technology?</h3>
                         <div class="row">
                             <div class="col-md-6 mb-2">
-                                <p style="color: #555;"><i class="fa fa-check text-primary mr-2"></i> <strong>Complete Substation EPC:</strong> End-to-end design, manufacturing, testing, and commissioning service.</p>
+                                <p class="wow fadeInUp text-secondary" data-wow-delay="200ms"><i class="fa fa-check text-primary mr-2"></i> <strong>Complete Substation EPC:</strong> End-to-end design, manufacturing, testing, and commissioning service.</p>
                             </div>
                             <div class="col-md-6 mb-2">
-                                <p style="color: #555;"><i class="fa fa-check text-primary mr-2"></i> <strong>Certified Testing:</strong> Every transformer undergoes routine, type, and loss tests prior to dispatch.</p>
+                                <p class="wow fadeInUp text-secondary" data-wow-delay="300ms"><i class="fa fa-check text-primary mr-2"></i> <strong>Certified Testing:</strong> Every transformer undergoes routine, type, and loss tests prior to dispatch.</p>
                             </div>
                             <div class="col-md-6 mb-2">
-                                <p style="color: #555;"><i class="fa fa-check text-primary mr-2"></i> <strong>Proven Industrial Trust:</strong> Proven installation track record across industrial zones and substations in BD.</p>
+                                <p class="wow fadeInUp text-secondary" data-wow-delay="400ms"><i class="fa fa-check text-primary mr-2"></i> <strong>Proven Industrial Trust:</strong> Proven installation track record across industrial zones and substations in BD.</p>
                             </div>
                             <div class="col-md-6 mb-2">
-                                <p style="color: #555;"><i class="fa fa-check text-primary mr-2"></i> <strong>24/7 Technical Support:</strong> Rapid maintenance and field engineering assistance nationwide.</p>
+                                <p class="wow fadeInUp text-secondary" data-wow-delay="500ms"><i class="fa fa-check text-primary mr-2"></i> <strong>24/7 Technical Support:</strong> Rapid maintenance and field engineering assistance nationwide.</p>
                             </div>
                         </div>
                     </div>
 
                     <!-- Call To Action -->
-                    <div class="cta-box text-center p-5 rounded text-white" style="background: linear-gradient(135deg, #0056b3, #0088cc);">
+                    <div class="cta-box text-center p-5 rounded text-white wow zoomIn" data-wow-delay="200ms" style="background: linear-gradient(135deg, #0056b3, #0088cc);">
                         <h3 class="text-white font-weight-bold mb-3">Ensure Reliable Power Distribution Today</h3>
                         <p class="mb-4" style="font-size: 1.1rem;">Contact Moon Star Power & Technology to request a technical proposal or price quote for your transformer requirements.</p>
                         <a href="contact.php" class="btn btn-warning btn-lg font-weight-bold px-4 py-2 text-uppercase">Request Transformer Quote</a>
@@ -355,5 +363,14 @@
     </div>
 </section>
 <!--End Project single area-->
+
+<!-- Force Trigger JS Animation script -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        if (typeof WOW === 'function') {
+            new WOW().init();
+        }
+    });
+</script>
 
 <?php  require_once 'includes/footer.php';  ?>

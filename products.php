@@ -10,9 +10,9 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
-                <div class="inner-content clearfix">
+                <div class="inner-content clearfix wow fadeInDown" data-wow-delay="100ms" data-wow-duration="1000ms">
                     <div class="title float-left">
-                    <h1>Products</h1>
+                        <h1>Products</h1>
                     </div>
                     <div class="breadcrumb-menu float-right">
                         <ul class="clearfix">
@@ -30,7 +30,8 @@
 <!--Start Main project area--> 
 <section class="main-project-area style1">
     <div class="container">
-        <ul class="project-filter style1 post-filter has-dynamic-filters-counter">
+        <!-- Filter Tabs Fade In Down -->
+        <ul class="project-filter style1 post-filter has-dynamic-filters-counter wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1000ms">
             <li data-filter=".filter-item" class="active"><span class="filter-text">View All</span></li>
             <li data-filter=".trans"><span class="filter-text">Transformer</span></li>
             <li data-filter=".gentr"><span class="filter-text">Generator</span></li>
@@ -39,9 +40,10 @@
             <li data-filter=".pfi"><span class="filter-text">PFI Panel</span></li>
             <li data-filter=".htsg"><span class="filter-text">HT Switchgear</span></li>
         </ul>
+
         <div class="row filter-layout masonary-layout">
-            <!--Start single project item-->
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 filter-item trans">
+            <!--Start single project item: Transformer-->
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 filter-item trans wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                 <div class="single-project-style2">
                     <div class="img-holder">
                         <div class="inner">
@@ -60,8 +62,9 @@
                 </div>   
             </div>
             <!--End single project item-->
-            <!--Start single project item-->
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 filter-item gentr">
+
+            <!--Start single project item: Generator-->
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 filter-item gentr wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1200ms">
                 <div class="single-project-style2">
                     <div class="img-holder">
                         <div class="inner">
@@ -80,8 +83,9 @@
                 </div>   
             </div>
             <!--End single project item-->
-            <!--Start single project item-->
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 filter-item solar">
+
+            <!--Start single project item: Solar-->
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 filter-item solar wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                 <div class="single-project-style2">
                     <div class="img-holder">
                         <div class="inner">
@@ -101,8 +105,8 @@
             </div>
             <!--End single project item-->
             
-            <!--Start single project item-->
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 filter-item ltsg">
+            <!--Start single project item: LT Switchgear-->
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 filter-item ltsg wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1200ms">
                 <div class="single-project-style2">
                     <div class="img-holder">
                         <div class="inner">
@@ -121,8 +125,9 @@
                 </div>   
             </div>
             <!--End single project item-->
-            <!--Start single project item-->
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 filter-item pfi">
+
+            <!--Start single project item: PFI Panel-->
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 filter-item pfi wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                 <div class="single-project-style2">
                     <div class="img-holder">
                         <div class="inner">
@@ -141,8 +146,9 @@
                 </div>   
             </div>
             <!--End single project item-->
-            <!--Start single project item-->
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 filter-item htsg">
+
+            <!--Start single project item: HT Switchgear-->
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 filter-item htsg wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1200ms">
                 <div class="single-project-style2">
                     <div class="img-holder">
                         <div class="inner">
@@ -162,9 +168,11 @@
             </div>
             <!--End single project item-->
         </div>
+
+        <!-- Pagination Animation -->
         <div class="row">
             <div class="col-md-12">
-                <ul class="post-pagination text-center">
+                <ul class="post-pagination text-center wow zoomIn" data-wow-delay="200ms" data-wow-duration="1000ms">
                     <li><a href="#"><i class="fa fa-caret-left" aria-hidden="true"></i></a></li>
                     <li class="active"><a href="#">1</a></li>
                     <li><a href="#">2</a></li>
@@ -176,6 +184,5 @@
     </div>
 </section>                            
 <!--End Main project area-->
-  
 
 <?php  require_once 'includes/footer.php';  ?>

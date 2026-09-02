@@ -9,9 +9,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="inner-content clearfix">
+                    <div class="inner-content clearfix wow fadeInDown" data-wow-delay="100ms" data-wow-duration="1000ms">
                         <div class="title float-left">
-                        <h1>Get Touch With Us</h1>
+                            <h1>Get Touch With Us</h1>
                         </div>
                         <div class="breadcrumb-menu float-right">
                             <ul class="clearfix">
@@ -30,10 +30,11 @@
     <section class="contact-info-area">
         <div class="container">
             <div class="row">
+                <!-- Left Text Box Slide In From Left -->
                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                    <div class="contact-form-text-box">
+                    <div class="contact-form-text-box wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner">
-                            <div class="icon-holder wow slideInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="icon-holder wow zoomIn" data-wow-delay="400ms" data-wow-duration="1000ms">
                                 <span class="flaticon-envelope"></span>
                             </div>
                             <div class="sec-title">
@@ -47,8 +48,10 @@
                         </div>
                     </div>      
                 </div>
+
+                <!-- Right Form Slide In From Right -->
                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                    <div class="contact-form">
+                    <div class="contact-form wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1200ms">
                         <div class="inner">
                             <form id="contact-form" name="contact_form" class="default-form" action="sendmail.php" method="POST">
                                 <div class="row">
@@ -111,10 +114,11 @@
     <section class="contact-details-area">
         <div class="container">
             <div class="row">
+                <!-- Box 1: Phone & Email -->
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                    <div class="single-contact-details-box text-center">
+                    <div class="single-contact-details-box text-center wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1200ms">
                         <div class="image-box">
-                            <img src="/images/resources/contact-details-1.jpg" alt="Awesome Image">
+                            <img src="images/resources/contact-details-1.jpg" alt="Contact Phone">
                         </div>
                         <div class="text">
                             <p>Ph: (+880) 1911-284405<br> Email: msptl.amr@gmail.com</p>
@@ -122,15 +126,17 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Box 2: Google Map & Address -->
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                    <div class="single-contact-details-box text-center">
+                    <div class="single-contact-details-box text-center wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1200ms">
                         <div class="google-map-box">
                             <div 
                                 class="google-map" 
                                 id="contact-google-map" 
                                 data-map-lat="23.708536" 
                                 data-map-lng="90.380998" 
-                                data-icon-path="/images/resources/map-marker.png" 
+                                data-icon-path="images/resources/map-marker.png" 
                                 data-map-title="Moon Star Power & Technology" 
                                 data-map-zoom="12" 
                                 data-markers='{
@@ -144,10 +150,12 @@
                         </div>     
                     </div>
                 </div>
+
+                <!-- Box 3: Support & FAQ -->
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                    <div class="single-contact-details-box text-center">
+                    <div class="single-contact-details-box text-center wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1200ms">
                         <div class="image-box">
-                            <img src="/images/resources/contact-details-2.jpg" alt="Awesome Image">
+                            <img src="images/resources/contact-details-2.jpg" alt="Customer Support">
                         </div>
                         <div class="text">
                             <p>We’re here to help with any question<br> of our customers.</p>
@@ -157,9 +165,10 @@
                 </div>
             </div>
             
+            <!-- Emergency Call Bounce Effect -->
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="emergency-call wow slideInUp" data-wow-delay="200ms" data-wow-duration="1500ms"> 
+                    <div class="emergency-call wow bounceIn" data-wow-delay="200ms" data-wow-duration="1200ms"> 
                         <h6>Any Emergency? Call our 24/7 customer support team at <span>+880 1911-284405</span></h6>
                     </div>
                 </div>

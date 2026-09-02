@@ -10,9 +10,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="inner-content clearfix">
+                    <div class="inner-content clearfix wow fadeInDown" data-wow-delay="100ms" data-wow-duration="1000ms">
                         <div class="title float-left">
-                        <h1>Services</h1>
+                            <h1>Services</h1>
                         </div>
                         <div class="breadcrumb-menu float-right">
                             <ul class="clearfix">
@@ -31,9 +31,9 @@
     <section class="services-style1-area service-page">
         <div class="container">
             <div class="row">
-                <!--Start single solution style1--> 
+                <!--Start single solution: Transformer (Fade In Left)--> 
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12"> 
-                    <div class="single-service-style1 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1200ms">
+                    <div class="single-service-style1 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="img-holder">
                             <img src="images/services/1.jpg" alt="Transformer">
                             <div class="overlay-style-two"></div>
@@ -54,8 +54,9 @@
                         </div>
                     </div>
                 </div>
-                <!--End single solution style1-->
-                <!--Start single solution style1--> 
+                <!--End single solution-->
+
+                <!--Start single solution: Generator (Fade In Up)--> 
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12"> 
                     <div class="single-service-style1 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1200ms">
                         <div class="img-holder">
@@ -66,7 +67,7 @@
                                     <span class="icon-gear"></span>    
                                 </div>
                                 <div class="title">
-                                    <h3>Genarator Service</h3>
+                                    <h3>Generator Service</h3>
                                 </div>
                             </div>   
                         </div>
@@ -78,19 +79,20 @@
                         </div>
                     </div>
                 </div>
-                <!--End single solution style1-->
-                <!--Start single solution style1--> 
+                <!--End single solution-->
+
+                <!--Start single solution: Solar (Fade In Right)--> 
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12"> 
-                    <div class="single-service-style1 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1200ms">
+                    <div class="single-service-style1 wow fadeInRight" data-wow-delay="600ms" data-wow-duration="1200ms">
                         <div class="img-holder">
-                            <img src="/images/services/3.jpg" alt="Solar System">
+                            <img src="images/services/3.jpg" alt="Solar System">
                             <div class="overlay-style-two"></div>
                             <div class="overlay-content-box">
                                 <div class="icon">
                                     <span class="icon-cctv"></span>    
                                 </div>
                                 <div class="title">
-                                    <h3>Sollar Service</h3>
+                                    <h3>Solar Service</h3>
                                 </div>
                             </div>   
                         </div>
@@ -102,13 +104,13 @@
                         </div>
                     </div>
                 </div>
-                <!--End single solution style1-->
+                <!--End single solution-->
                 
-                <!--Start single solution style1--> 
+                <!--Start single solution: PFI Service (Fade In Left)--> 
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12"> 
-                    <div class="single-service-style1 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1200ms">
+                    <div class="single-service-style1 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="img-holder">
-                            <img src="/images/services/4.jpg" alt="PFI Service">
+                            <img src="images/services/4.jpg" alt="PFI Service">
                             <div class="overlay-style-two"></div>
                             <div class="overlay-content-box">
                                 <div class="icon">
@@ -127,8 +129,9 @@
                         </div>
                     </div>
                 </div>
-                <!--End single solution style1-->
-                <!--Start single solution style1--> 
+                <!--End single solution-->
+
+                <!--Start single solution: HT Switchgear (Fade In Up)--> 
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12"> 
                     <div class="single-service-style1 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1200ms">
                         <div class="img-holder">
@@ -139,7 +142,7 @@
                                     <span class="icon-roof"></span>    
                                 </div>
                                 <div class="title">
-                                    <h3>HT Switch Gear service</h3>
+                                    <h3>HT Switchgear Service</h3>
                                 </div>
                             </div>   
                         </div>
@@ -151,19 +154,20 @@
                         </div>
                     </div>
                 </div>
-                <!--End single solution style1-->
-                <!--Start single solution style1--> 
+                <!--End single solution-->
+
+                <!--Start single solution: LT Switchgear (Fade In Right)--> 
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12"> 
-                    <div class="single-service-style1 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1200ms">
+                    <div class="single-service-style1 wow fadeInRight" data-wow-delay="600ms" data-wow-duration="1200ms">
                         <div class="img-holder">
-                            <img src="/images/services/6.jpg" alt="LT Switch Gear service">
+                            <img src="images/services/6.jpg" alt="LT Switch Gear service">
                             <div class="overlay-style-two"></div>
                             <div class="overlay-content-box">
                                 <div class="icon">
                                     <span class="icon-triangular"></span>    
                                 </div>
                                 <div class="title">
-                                    <h3>LT Switch Gear service</h3>
+                                    <h3>LT Switchgear Service</h3>
                                 </div>
                             </div>   
                         </div>
@@ -175,7 +179,7 @@
                         </div>
                     </div>
                 </div>
-                <!--End single solution style1-->
+                <!--End single solution-->
             </div>
         </div>
     </section>
@@ -184,7 +188,8 @@
     <!-- Start Video Material area -->
     <section class="video-material-area">
         <div class="container">
-            <div class="video-material">
+            <!-- Video Box Zoom In Animation -->
+            <div class="video-material wow zoomIn" data-wow-delay="200ms" data-wow-duration="1200ms">
 
                 <!-- Background Video -->
                 <video
@@ -195,7 +200,7 @@
                     playsinline
                     preload="auto"
                 >
-                    <source src="/videos/power.mp4" type="video/mp4">
+                    <source src="videos/power.mp4" type="video/mp4">
                 </video>
 
                 <!-- Brand Name -->
