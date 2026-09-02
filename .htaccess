@@ -1,3 +1,7 @@
+<IfModule LiteSpeed>
+    CacheLookup on
+</IfModule>
+
 RewriteEngine On
 
 # 1. If the requested file or directory actually exists, serve it directly
@@ -11,3 +15,8 @@ RewriteRule ^([^/]+)$ $1.php [L]
 
 # 3. Direct all non-existent pages/URLs to the custom 404 page
 ErrorDocument 404 /404.php
+
+<IfModule LiteSpeed>
+    # all HTML/PHP response 10 minutes cache 
+    RewriteRule .* - [E=Cache-Control:max-age=600]
+</IfModule>

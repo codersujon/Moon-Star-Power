@@ -212,7 +212,7 @@
     <script src="plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
     <script src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
     <script src="plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js3"></script> <!-- check path -->
+    <script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script> <!-- check path -->
     <script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
     <script src="js/main-slider-script.js"></script>
 
