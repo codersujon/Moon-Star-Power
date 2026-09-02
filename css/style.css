@@ -47,7 +47,7 @@
 @import url('custom-animate.css');
 @import url('magnific-popup.css');
 @import url('imp.css');
-@import url(../fonts/flaticon/flaticon.css);
+@import url('../fonts/flaticon/flaticon.css');
 
 /*** Price filter***/
 @import url(../assets/price-filter/nouislider.css);

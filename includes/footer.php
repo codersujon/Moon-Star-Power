@@ -165,7 +165,7 @@
                         <div class="footer-social-links float-right">
                             <ul class="sociallinks-style-two fix">
                                 <li><a href="https://www.facebook.com/moonstarpower/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.youtube.com/@moonstarpowertechnology" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                             </ul>
@@ -180,6 +180,7 @@
 
     <!-- JS Files -->
     <script src="js/jquery.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
     <script src="js/wow.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.fancybox.js"></script>

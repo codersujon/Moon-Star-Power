@@ -37,8 +37,8 @@
      <link rel="canonical" href="<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8'); ?>">
     
     <!-- Favicon --> 
-    <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg"> 
-    <link rel="apple-touch-icon" href="images/favicon/favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="../images/favicon/favicon.svg"> 
+    <link rel="apple-touch-icon" href="../images/favicon/favicon.svg">
 
     <!-- SEO Share Links -->
     <!-- Open Graph / Facebook --> 
@@ -114,11 +114,11 @@
                                     </li>
                                 </ul>
                                 <div class="headers1-button social-icons">
-                                    <a href="#" class="social-icon facebook" target="_blank" aria-label="Facebook">
+                                    <a href="https://www.facebook.com/moonstarpower/" class="social-icon facebook" target="_blank" aria-label="Facebook">
                                         <i class="fa fa-facebook"></i>
                                     </a>
 
-                                    <a href="#" class="social-icon youtube" target="_blank" aria-label="YouTube">
+                                    <a href="https://www.youtube.com/@moonstarpowertechnology" class="social-icon youtube" target="_blank" aria-label="YouTube">
                                         <i class="fa fa-youtube-play"></i>
                                     </a>
                                 </div>
