@@ -452,7 +452,7 @@
                             </li>
                         </ul>
                         <div class="button">
-                            <a class="btn-two" href="#">Learn More<span class="icon-null"></span></a>
+                            <a class="btn-two" href="about.php">Learn More<span class="icon-null"></span></a>
                         </div>
                     </div>
                 </div>
@@ -759,8 +759,8 @@
                             <h3 class="blog-title"><a href="blog-single.php">How PFI Panels Save Money & Reduce Electricity Penalties</a></h3>
                             <div class="meta-box">
                                 <ul class="meta-info">
-                                    <li><a href="#"><b>Md. Abdul Mannan</b></a></li>
-                                    <li><a href="#">Power Engineering</a></li>
+                                    <li><span><b>Md. Abdul Mannan</b></span></li>
+                                    <li><span>Power Engineering</span></li>
                                 </ul>
                                 <div class="author-icon">
                                     <span class="icon-user"></span>
@@ -784,8 +784,8 @@
                             <h3 class="blog-title"><a href="blog-single.php">Essential Maintenance Tips for Industrial Diesel Generators</a></h3>
                             <div class="meta-box">
                                 <ul class="meta-info">
-                                    <li><a href="#"><b>Technical Team</b></a></li>
-                                    <li><a href="#">Generators</a></li>
+                                    <li><span><b>Technical Team</b></span></li>
+                                    <li><span>Generators</span></li>
                                 </ul>
                                 <div class="author-icon">
                                     <span class="icon-user"></span>
@@ -793,7 +793,6 @@
                             </div>
                             <div class="text">
                                 <p>Key checklist items to ensure your backup diesel generator operates seamlessly during peak power outages...</p>
-                                <!-- <a class="btn-two" href="blog-single.php">Read More<span class="icon-null"></span></a> -->
                             </div>
                         </div>
                     </div>
@@ -809,8 +808,8 @@
                             <h3 class="blog-title"><a href="blog-single.php">Transitioning to Commercial Solar Energy in Bangladesh</a></h3>
                             <div class="meta-box">
                                 <ul class="meta-info">
-                                    <li><a href="#"><b>Solar Expert</b></a></li>
-                                    <li><a href="#">Green Energy</a></li>
+                                    <li><span><b>Solar Expert</b></span></li>
+                                    <li><span>Green Energy</span></li>
                                 </ul>
                                 <div class="author-icon">
                                     <span class="icon-user"></span>
@@ -818,7 +817,6 @@
                             </div>
                             <div class="text">
                                 <p>Discover how modern rooftop solar systems reduce long-term operational costs for factories and commercial spaces...</p>
-                                <!-- <a class="btn-two" href="blog-single.php">Read More<span class="icon-null"></span></a> -->
                             </div>
                         </div>
                     </div>

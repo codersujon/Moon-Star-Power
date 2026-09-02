@@ -11539,7 +11539,7 @@ select:focus {
     display: none;
 }
 
-.single-post-info .meta-box .meta-info li a {
+.single-post-info .meta-box .meta-info li span {
     color: #ffffff;
     font-size: 16px;
     font-weight: 400;
@@ -11548,12 +11548,12 @@ select:focus {
     transition: all 500ms ease;
 }
 
-.single-post-info .meta-box .meta-info li a b {
+.single-post-info .meta-box .meta-info li span b {
     color: #3398fd;
     font-weight: 700;
 }
 
-.single-post-info .meta-box .meta-info li a:hover {
+.single-post-info .meta-box .meta-info li span:hover {
     color: #3aa40c;
 }
 

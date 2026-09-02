@@ -31,8 +31,6 @@
 
     <meta name="robots" content="index, follow">
 
-    <meta name="theme-color" content="#3aa40c">
-
      <!-- Canonical URL --> 
      <link rel="canonical" href="<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8'); ?>">
     
