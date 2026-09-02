@@ -30,9 +30,9 @@
 <!--Start Main project area--> 
 <section class="main-project-area style1">
     <div class="container">
-        <!-- Filter Tabs Fade In Down -->
-        <ul class="project-filter style1 post-filter has-dynamic-filters-counter wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1000ms">
-            <li data-filter=".filter-item" class="active"><span class="filter-text">View All</span></li>
+        <!-- Filter Tabs -->
+        <ul class="project-filter style1 post-filter has-dynamic-filters-counter">
+            <li data-filter="*" class="active"><span class="filter-text">View All</span></li>
             <li data-filter=".trans"><span class="filter-text">Transformer</span></li>
             <li data-filter=".gentr"><span class="filter-text">Generator</span></li>
             <li data-filter=".solar"><span class="filter-text">Solar System</span></li>
@@ -43,7 +43,7 @@
 
         <div class="row filter-layout masonary-layout">
             <!--Start single project item: Transformer-->
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 filter-item trans wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 filter-item trans">
                 <div class="single-project-style2">
                     <div class="img-holder">
                         <div class="inner">
@@ -64,7 +64,7 @@
             <!--End single project item-->
 
             <!--Start single project item: Generator-->
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 filter-item gentr wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1200ms">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 filter-item gentr">
                 <div class="single-project-style2">
                     <div class="img-holder">
                         <div class="inner">
@@ -85,7 +85,7 @@
             <!--End single project item-->
 
             <!--Start single project item: Solar-->
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 filter-item solar wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 filter-item solar">
                 <div class="single-project-style2">
                     <div class="img-holder">
                         <div class="inner">
@@ -106,7 +106,7 @@
             <!--End single project item-->
             
             <!--Start single project item: LT Switchgear-->
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 filter-item ltsg wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1200ms">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 filter-item ltsg">
                 <div class="single-project-style2">
                     <div class="img-holder">
                         <div class="inner">
@@ -127,7 +127,7 @@
             <!--End single project item-->
 
             <!--Start single project item: PFI Panel-->
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 filter-item pfi wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 filter-item pfi">
                 <div class="single-project-style2">
                     <div class="img-holder">
                         <div class="inner">
@@ -148,7 +148,7 @@
             <!--End single project item-->
 
             <!--Start single project item: HT Switchgear-->
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 filter-item htsg wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1200ms">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 filter-item htsg">
                 <div class="single-project-style2">
                     <div class="img-holder">
                         <div class="inner">
@@ -169,10 +169,10 @@
             <!--End single project item-->
         </div>
 
-        <!-- Pagination Animation -->
+        <!-- Pagination -->
         <div class="row">
             <div class="col-md-12">
-                <ul class="post-pagination text-center wow zoomIn" data-wow-delay="200ms" data-wow-duration="1000ms">
+                <ul class="post-pagination text-center">
                     <li><a href="#"><i class="fa fa-caret-left" aria-hidden="true"></i></a></li>
                     <li class="active"><a href="#">1</a></li>
                     <li><a href="#">2</a></li>

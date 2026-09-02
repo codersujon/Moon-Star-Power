@@ -283,40 +283,57 @@ function tooltip () {
 
 // ===Project===
 function projectMasonaryLayout() {
-    if ($('.masonary-layout').length) {
-        $('.masonary-layout').isotope({
+
+    // Initialize isotope
+    if ($('.filter-layout').length) {
+        $('.filter-layout').isotope({
+            itemSelector: '.filter-item',
             layoutMode: 'masonry'
         });
     }
+
+    // Filter click
     if ($('.post-filter').length) {
-        $('.post-filter li').children('.filter-text').on('click', function() {
-            var Self = $(this);
-            var selector = Self.parent().attr('data-filter');
+
+        $('.post-filter li').on('click', function(e) {
+
+            e.preventDefault();
+
+            var $this = $(this);
+            var selector = $this.attr('data-filter');
+
+            // Active menu
             $('.post-filter li').removeClass('active');
-            Self.parent().addClass('active');
+            $this.addClass('active');
+
+            // Apply filter
             $('.filter-layout').isotope({
-                filter: selector,
-                animationOptions: {
-                    duration: 500,
-                    easing: 'linear',
-                    queue: false
-                }
+                filter: selector
             });
-            return false;
+
         });
     }
 
+    // Dynamic filter counter
     if ($('.post-filter.has-dynamic-filters-counter').length) {
-        // var allItem = $('.single-filter-item').length;
-        var activeFilterItem = $('.post-filter.has-dynamic-filters-counter').find('li');
-        activeFilterItem.each(function() {
-            var filterElement = $(this).data('filter');
-            var count = $('.filter-layout').find(filterElement).length;
-            $(this).children('.filter-text').append('<span class="count">' + count + '</span>');
-        });
-    };
-}
 
+        $('.post-filter.has-dynamic-filters-counter li').each(function() {
+
+            var $this = $(this);
+            var filterElement = $this.attr('data-filter');
+
+            var count = $('.filter-layout').find(filterElement).length;
+
+            $this.find('.count').remove();
+
+            $this.find('.filter-text').append(
+                '<span class="count">' + count + '</span>'
+            );
+
+        });
+
+    }
+}
 
 
 
@@ -972,12 +989,9 @@ jQuery(window).on('scroll', function(){
 // Instance Of Fuction while Window Load event
 jQuery(window).on('load', function() {
     (function($) {
-        prealoader ();
-        projectMasonaryLayout ();
-        
+        projectMasonaryLayout();
     })(jQuery);
 });
-
 
 
 $(window).enllax();

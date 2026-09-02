@@ -30,9 +30,9 @@
 <!--Start Main project area--> 
 <section class="main-project-area v5">
     <div class="container">
-        <!-- Filter Tabs Fade In Down -->
-        <ul class="project-filter style1 post-filter has-dynamic-filters-counter wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1000ms">
-            <li data-filter=".filter-item" class="active"><span class="filter-text">View All</span></li>
+        <!-- Filter Tabs -->
+        <ul class="project-filter style1 post-filter has-dynamic-filters-counter">
+            <li data-filter="*" class="active"><span class="filter-text">View All</span></li>
             <li data-filter=".trans"><span class="filter-text">Transformer</span></li>
             <li data-filter=".gentr"><span class="filter-text">Generator</span></li>
             <li data-filter=".solar"><span class="filter-text">Solar System</span></li>
@@ -43,7 +43,7 @@
 
         <div class="row filter-layout masonary-layout">
             <!--Start single project item 1-->
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item trans wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1200ms">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item trans">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
                         <img src="images/projects/transformer/trans-1.png" alt="Transformer">
@@ -64,7 +64,7 @@
             <!--End single project item-->
 
             <!--Start single project item 2-->
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item gentr wow fadeInUp" data-wow-delay="250ms" data-wow-duration="1200ms">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item gentr">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
                         <img src="images/projects/generator/g1.jpeg" alt="Generator">
@@ -85,7 +85,7 @@
             <!--End single project item-->
 
             <!--Start single project item 3-->
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item solar wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1200ms">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item solar">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
                         <img src="images/projects/solar/s1.jpg" alt="Solar System">
@@ -106,7 +106,7 @@
             <!--End single project item-->
 
             <!--Start single project item 4-->
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item trans wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1200ms">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item trans">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
                         <img src="images/projects/transformer/trans-2.png" alt="Transformer">
@@ -127,7 +127,7 @@
             <!--End single project item-->
 
             <!--Start single project item 5-->
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item gentr wow fadeInUp" data-wow-delay="250ms" data-wow-duration="1200ms">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item gentr">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
                         <img src="images/projects/generator/g2.jpeg" alt="Generator">
@@ -148,7 +148,7 @@
             <!--End single project item-->
 
             <!--Start single project item 6-->
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item solar wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1200ms">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item solar">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
                         <img src="images/projects/solar/s2.jpg" alt="Solar System">
@@ -169,7 +169,7 @@
             <!--End single project item-->
 
             <!--Start single project item 7-->
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item pfi wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1200ms">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item pfi">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
                         <img src="images/projects/PFI/PFI-1.jpeg" alt="PFI Panel">
@@ -190,7 +190,7 @@
             <!--End single project item-->
 
             <!--Start single project item 8-->
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item ltsg wow fadeInUp" data-wow-delay="250ms" data-wow-duration="1200ms">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item ltsg">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
                         <img src="images/projects/LTSG/LTSG-1.jpg" alt="LT Switchgear">
@@ -211,7 +211,7 @@
             <!--End single project item-->
 
             <!--Start single project item 9-->
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item htsg wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1200ms">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item htsg">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
                         <img src="images/projects/HTSG/HTSG-1.png" alt="HT Switchgear">
@@ -232,7 +232,7 @@
             <!--End single project item-->
 
             <!--Start single project item 10-->
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item trans wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1200ms">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item trans">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
                         <img src="images/projects/transformer/trans-3.png" alt="Transformer">
@@ -253,7 +253,7 @@
             <!--End single project item-->
 
             <!--Start single project item 11-->
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item trans wow fadeInUp" data-wow-delay="250ms" data-wow-duration="1200ms">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item trans">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
                         <img src="images/projects/transformer/trans-4.jpg" alt="Transformer">
@@ -274,7 +274,7 @@
             <!--End single project item-->
 
             <!--Start single project item 12-->
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item ltsg wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1200ms">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item ltsg">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
                         <img src="images/projects/LTSG/LTSG-3.jpg" alt="LT Switchgear">
@@ -295,7 +295,7 @@
             <!--End single project item-->
 
             <!--Start single project item 13-->
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item gentr wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1200ms">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item gentr">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
                         <img src="images/projects/generator/g3.jpeg" alt="Generator">
@@ -316,7 +316,7 @@
             <!--End single project item-->
 
             <!--Start single project item 14-->
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item solar wow fadeInUp" data-wow-delay="250ms" data-wow-duration="1200ms">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item solar">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
                         <img src="images/projects/solar/s3.jpg" alt="Solar System">
@@ -337,7 +337,7 @@
             <!--End single project item-->
 
             <!--Start single project item 15-->
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item ltsg wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1200ms">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item ltsg">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
                         <img src="images/projects/LTSG/LTSG-2.jpg" alt="LT Switchgear">
@@ -361,7 +361,7 @@
         <!-- Pagination Section -->
         <div class="row">
             <div class="col-md-12">
-                <ul class="post-pagination text-center wow zoomIn" data-wow-delay="200ms" data-wow-duration="1000ms">
+                <ul class="post-pagination text-center">
                     <li><a href="#"><i class="fa fa-caret-left" aria-hidden="true"></i></a></li>
                     <li class="active"><a href="#">1</a></li>
                     <li><a href="#">2</a></li>
@@ -372,7 +372,7 @@
         </div>
     </div>
 </section>                            
-<!--End Main project area--> 
+<!--End Main project area-->
 
 <!-- Start Video Material area -->
 <section class="video-material-area">
