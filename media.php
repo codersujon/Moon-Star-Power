@@ -172,12 +172,12 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item pfi">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
-                        <img src="images/projects/PFI/PFI-1.jpeg" alt="PFI Panel">
+                        <img src="images/projects/PFI/PFI-1.jpg" alt="PFI Panel">
                         <div class="overlay-content">
                             <div class="inner-content">
                                 <ul class="links-icons">
                                     <li>
-                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/PFI/PFI-1.jpeg">
+                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/PFI/PFI-1.jpg">
                                             <span class="icon-magnifying-glass"></span>
                                         </a>
                                     </li>
@@ -193,12 +193,12 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item ltsg">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
-                        <img src="images/projects/LTSG/LTSG-1.jpg" alt="LT Switchgear">
+                        <img src="images/projects/LTSG/LTSG-1.png" alt="LT Switchgear">
                         <div class="overlay-content">
                             <div class="inner-content">
                                 <ul class="links-icons">
                                     <li>
-                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/LTSG/LTSG-1.jpg">
+                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/LTSG/LTSG-1.png">
                                             <span class="icon-magnifying-glass"></span>
                                         </a>
                                     </li>

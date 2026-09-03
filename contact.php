@@ -53,18 +53,18 @@
                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
                     <div class="contact-form wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1200ms">
                         <div class="inner">
-                            <form id="contact-form" name="contact_form" class="default-form" action="sendmail.php" method="POST">
+                            <form id="contact-form" name="contact_form" class="default-form consultation-form" action="sendmail.php" method="POST">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <div class="input-box">
-                                            <select class="selectmenu" name="form_subject" required>
-                                                <option value="" selected>Discuss About</option>
-                                                <option value="Installation">Installation</option>
-                                                <option value="Maintenance">Maintenance</option>
-                                                <option value="Monitoring">Monitoring</option>
-                                                <option value="Consultation">Consultation</option>
-                                                <option value="Roof Solution">Roof Solution</option>
-                                                <option value="Inverter Repair">Inverter Repair</option>
+                                        <div class="single-box">
+                                            <select class="selectpicker" name="form_subject" data-width="100%" required>
+                                                <option selected="selected">Discuss About</option>
+                                                <option>Installation</option>
+                                                <option>Maintenance</option>
+                                                <option>Monitoring</option>
+                                                <option>Consultation</option>
+                                                <option>Roof Solution</option>
+                                                <option>Inverter Repair</option>
                                             </select>
                                         </div>
                                     </div>

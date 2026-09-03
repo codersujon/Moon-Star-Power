@@ -89,7 +89,7 @@
                 <div class="single-project-style2">
                     <div class="img-holder">
                         <div class="inner">
-                            <img src="images/projects/6.jpg" alt="Solar">
+                            <img src="images/projects/solar/3.jpg" alt="Solar">
                         </div>
                         <div class="overlay-content">
                             <div class="title float-left">
@@ -110,7 +110,7 @@
                 <div class="single-project-style2">
                     <div class="img-holder">
                         <div class="inner">
-                            <img src="images/projects/LTSG/LTSG-1.jpg" alt="LT Switchgear">
+                            <img src="images/projects/LTSG/LTSG-1.png" alt="LT Switchgear">
                         </div>
                         <div class="overlay-content">
                             <div class="title float-left">
@@ -131,7 +131,7 @@
                 <div class="single-project-style2">
                     <div class="img-holder">
                         <div class="inner">
-                            <img src="images/projects/PFI/PFI-1.jpeg" alt="PFI Panel">
+                            <img src="images/projects/PFI/PFI-1.jpg" alt="PFI Panel">
                         </div>
                         <div class="overlay-content">
                             <div class="title float-left">

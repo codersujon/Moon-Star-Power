@@ -966,16 +966,6 @@
                                 </div>
                             </div>
                         </form>
-                    </div>
-                    <div class="consultation-bottom-text text-center">
-                        <div class="top"><span>Or</span></div>
-                        <div class="inner">
-                            <div class="text">
-                                <p>Confirm your 10 mins consultation call with our expert team, They will answer your questions.</p>
-                            </div>
-                            <a class="btn-three" href="#">Schedule for Call<span class="icon-null"></span></a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

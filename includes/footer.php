@@ -15,18 +15,48 @@
                                     </a>    
                                 </div>
                                 <div class="text">
-                                    <p class="mb-2"><strong>
-                                        <i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                                        Branch office:</strong> Jannat Monjil, House: 149, <br/> Road: 03, Block: A, Bashundhara River View, South Keranigonj, Dhaka-1311.</p>
+                                    <p class="mb-2">
+                                        <strong>
+                                            <i class="fa fa-building-o" aria-hidden="true"></i>
+                                            Branch Office:
+                                        </strong>
+                                        Jannat Monjil, House: 149,<br>
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        Road: 03, Block: A, Bashundhara River View, South Keranigonj, Dhaka-1311.
+                                    </p>
 
-                                    <p><strong><i class="fa fa-hand-o-right" aria-hidden="true"></i>
-                                    Khulna office:</strong>House: 38, Road: 05, <br/> Sonadanga R/A (1st Phase), Khulna.</p>
+                                    <p class="mb-2">
+                                        <strong>
+                                            <i class="fa fa-building" aria-hidden="true"></i>
+                                            Khulna Office:
+                                        </strong>
+                                        House: 38, Road: 05,<br>
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        Sonadanga R/A (1st Phase), Khulna.
+                                    </p>
+
                                     <ul>
-                                        <li>msptl.amr@gmail.com</li>
-                                        <li>Mon - Fri: 10am to 7pm, <span>W.e/ Holiday</span></li>
+                                        <li>
+                                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                                            msptl.amr@gmail.com
+                                        </li>
+
+                                        <li>
+                                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                            Mon - Fri: 10am to 7pm
+                                            <span>W.e/ Holiday</span>
+                                        </li>
                                     </ul>
-                                    <a class="btn-two" href="https://maps.app.goo.gl/CJ1gadZBftEDggBr6" target="_blank" rel="noopener noreferrer">go to Map<span class="icon-null"></span></a>
-                                </div>    
+
+                                    <a class="btn-two"
+                                    href="https://maps.app.goo.gl/CJ1gadZBftEDggBr6"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        Go to Map
+                                        <span class="icon-null"></span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
