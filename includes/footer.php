@@ -229,9 +229,12 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.enllax.min.js"></script>
     
-    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2uu6KHbLc_y7fyAVA4dpqSVM4w9ZnnUw&libraries=places,geometry&loading=async">
-    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2uu6KHbLc_y7fyAVA4dpqSVM4w9ZnnUw&libraries=places,geometry"></script>
+    
+    <!-- gmaps.js -->
     <script src="js/gmaps.js"></script>
+
+    <!-- map-helper.js -->
     <script src="js/map-helper.js"></script>
 
     <script src="assets/language-switcher/jquery.polyglot.language.switcher.js"></script>
