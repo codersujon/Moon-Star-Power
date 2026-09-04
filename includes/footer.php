@@ -228,7 +228,8 @@
     <script src="js/jquery.paroller.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.enllax.min.js"></script>
-    <script src="https://maps.google.com/maps/api/js?key=AIzaSyB2uu6KHbLc_y7fyAVA4dpqSVM4w9ZnnUw"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places,geometry&loading=async">
+    </script>
     <script src="js/gmaps.js"></script>
     <script src="js/map-helper.js"></script>
 

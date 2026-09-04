@@ -114,7 +114,7 @@
                             <div class="icon-holder">
                                 <div class="icon">
                                     <div class="inner text-center">
-                                        <a class="html5lightbox wow zoomIn" data-wow-delay="400ms" data-wow-duration="1200ms" title="Moon Star Power Gallery" href="https://www.youtube.com/watch?v=PLAi9Mn_Bb8">
+                                        <a class="html5lightbox wow zoomIn" data-wow-delay="400ms" data-wow-duration="1200ms" title="Moon Star Power Gallery" href="https://www.youtube-nocookie.com/embed/PLAi9Mn_Bb8">
                                             <span class="icon-null-4"></span>
                                         </a>
                                     </div>   
