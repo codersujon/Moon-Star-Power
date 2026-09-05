@@ -58,7 +58,7 @@
                                     <div class="col-md-6">
                                         <div class="single-box">
                                             <select class="selectpicker" name="form_subject" data-width="100%" required>
-                                                <option selected="selected">Discuss About</option>
+                                                <option value="" disabled selected>Discuss About</option>
                                                 <option>Installation</option>
                                                 <option>Maintenance</option>
                                                 <option>Monitoring</option>
