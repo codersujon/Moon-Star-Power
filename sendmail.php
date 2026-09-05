@@ -1,88 +1,153 @@
 <?php
 
-    if ($_SERVER["REQUEST_METHOD"] !== "POST") {
-        http_response_code(403);
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-        echo json_encode([
-            "status" => false,
-            "message" => "There was a problem with your submission, please try again."
-        ]);
+require __DIR__ . '/vendor/autoload.php';
 
-        exit;
-    }
+if ($_SERVER["REQUEST_METHOD"] !== "POST") {
 
-    // Get form data
-    $name    = trim($_POST["form_name"] ?? '');
-    $email   = trim($_POST["form_email"] ?? '');
-    $subject = trim($_POST["form_subject"] ?? '');
-    $phone   = trim($_POST["form_phone"] ?? '');
-    $message = trim($_POST["form_message"] ?? '');
+    http_response_code(403);
 
-    // Clean data
-    $name = strip_tags($name);
-    $name = str_replace(["\r", "\n"], " ", $name);
+    echo json_encode([
+        "status" => false,
+        "message" => "There was a problem with your submission, please try again."
+    ]);
 
-    $phone = strip_tags($phone);
-    $phone = str_replace(["\r", "\n"], " ", $phone);
+    exit;
+}
 
-    $subject = strip_tags($subject);
-    $subject = str_replace(["\r", "\n"], " ", $subject);
 
-    // Validate
-    if (empty($name) || empty($email) || empty($subject) || empty($phone) || empty($message) || !filter_var($email, FILTER_VALIDATE_EMAIL)) 
-    {
+// Get form data
+$name    = trim($_POST["form_name"] ?? '');
+$email   = trim($_POST["form_email"] ?? '');
+$subject = trim($_POST["form_subject"] ?? '');
+$phone   = trim($_POST["form_phone"] ?? '');
+$message = trim($_POST["form_message"] ?? '');
 
-        http_response_code(400);
 
-        echo json_encode([
-            "status" => false,
-            "message" => "Please complete the form and try again."
-        ]);
+// Clean data
+$name = strip_tags($name);
+$name = str_replace(["\r", "\n"], " ", $name);
 
-        exit;
-    }
+$phone = strip_tags($phone);
+$phone = str_replace(["\r", "\n"], " ", $phone);
 
-    // Recipient
-    $recipient = "csesujon155@gmail.com";
+$subject = strip_tags($subject);
+$subject = str_replace(["\r", "\n"], " ", $subject);
 
-    // Email subject
-    $email_subject = "New Website Inquiry - " . $subject;
+$message = strip_tags($message);
 
-    // Email content
-    $email_content  = "You have received a new inquiry from your website.\n\n";
-    $email_content .= "----------------------------------------\n";
-    $email_content .= "Name: " . $name . "\n";
-    $email_content .= "Email: " . $email . "\n";
-    $email_content .= "Phone: " . $phone . "\n";
-    $email_content .= "Discuss About: " . $subject . "\n";
-    $email_content .= "----------------------------------------\n\n";
-    $email_content .= "Message:\n";
-    $email_content .= $message . "\n";
 
-    // Email headers
-    $email_headers  = "From: Moon Star Power <info@moonstarpower.com>\r\n";
-    $email_headers .= "Reply-To: " . $email . "\r\n";
-    $email_headers .= "MIME-Version: 1.0\r\n";
-    $email_headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+// Validate
+if (
+    empty($name) ||
+    empty($email) ||
+    empty($subject) ||
+    empty($phone) ||
+    empty($message) ||
+    !filter_var($email, FILTER_VALIDATE_EMAIL)
+) {
 
-    // Send email
-    if (mail($recipient, $email_subject, $email_content, $email_headers)) {
+    http_response_code(400);
 
-        http_response_code(200);
+    echo json_encode([
+        "status" => false,
+        "message" => "Please complete the form and try again."
+    ]);
 
-        echo json_encode([
-            "status" => true,
-            "message" => "Thank you! Your message has been sent successfully."
-        ]);
+    exit;
+}
 
-    } else {
 
-        http_response_code(500);
+// Recipient
+$recipient = "csesujon155@gmail.com";
 
-        echo json_encode([
-            "status" => false,
-            "message" => "Oops! Something went wrong and we couldn't send your message."
-        ]);
-    }
 
-?>
+// Email subject
+$email_subject = "Inquiry Regarding " . $subject . " - " . $name;
+
+
+// Email content
+$email_content  = "You have received a new inquiry from your website.\n\n";
+$email_content .= "----------------------------------------\n";
+$email_content .= "Name: " . $name . "\n";
+$email_content .= "Email: " . $email . "\n";
+$email_content .= "Phone: " . $phone . "\n";
+$email_content .= "Discuss About: " . $subject . "\n";
+$email_content .= "----------------------------------------\n\n";
+$email_content .= "Message:\n";
+$email_content .= $message . "\n";
+
+
+// PHPMailer
+$mail = new PHPMailer(true);
+
+try {
+
+    // SMTP
+    $mail->isSMTP();
+    $mail->Host       = 'mail.moonstarpower.com';
+    $mail->SMTPAuth   = true;
+
+    // cPanel email
+    $mail->Username   = 'info@moonstarpower.com';
+    $mail->Password   = 'MoonSt@rPower';
+
+    // SSL
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+    $mail->Port       = 465;
+
+
+    // Sender
+    $mail->setFrom(
+        'info@moonstarpower.com',
+        'Moon Star Power & Technology'
+    );
+
+
+    // Receiver
+    $mail->addAddress(
+        $recipient
+    );
+
+
+    // Reply to visitor
+    $mail->addReplyTo(
+        $email,
+        $name
+    );
+
+
+    // Email format
+    $mail->isHTML(false);
+
+
+    // Subject
+    $mail->Subject = $email_subject;
+
+
+    // Body
+    $mail->Body = $email_content;
+
+
+    // Send
+    $mail->send();
+
+
+    http_response_code(200);
+
+    echo json_encode([
+        "status" => true,
+        "message" => "Thank you! Your message has been sent successfully."
+    ]);
+
+} catch (Exception $e) {
+
+    http_response_code(500);
+
+    echo json_encode([
+        "status" => false,
+        "message" => "Oops! Something went wrong and we couldn't send your message."
+    ]);
+}
