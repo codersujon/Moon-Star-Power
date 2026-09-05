@@ -56,7 +56,7 @@
                             <form id="contact-form" name="contact_form" class="default-form consultation-form" action="sendmail.php" method="POST">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <div class="single-box">
+                                        <div class="input-box single-box">
                                             <select class="selectpicker" name="form_subject" data-width="100%" required>
                                                 <option value="" disabled selected>Discuss About</option>
                                                 <option>Installation</option>

@@ -930,9 +930,22 @@
                         <span>Get a free consultation from our experts, Our customer support team help you 24/7, Don’t hesitate.</span>
                     </div>
                     <div class="consultation">
-                        <form class="consultation-form" action="sendmail.php" method="POST">
+                        <form id="consultation-form-second" class="consultation-form" action="sendmail.php" method="POST">
                             <div class="row">
-                                <div class="col-xl-12">
+                                <div class="col-xl-6">
+                                    <div class="single-box">
+                                        <select class="selectpicker" name="form_subject" data-width="100%" required>
+                                            <option selected="selected">Discuss About</option>
+                                            <option>Installation</option>
+                                            <option>Maintenance</option>
+                                            <option>Monitoring</option>
+                                            <option>Consultation</option>
+                                            <option>Roof Solution</option>
+                                            <option>Inverter Repair</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
                                     <div class="single-box">
                                         <input type="text" name="form_name" value="" placeholder="Your Name" required>
                                     </div>
@@ -945,27 +958,20 @@
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
-                                    <div class="single-box">
-                                        <select class="selectpicker" name="form_subject" data-width="100%">
-                                            <option selected="selected">Discuss About</option>
-                                            <option>Installation</option>
-                                            <option>Maintenance</option>
-                                            <option>Monitoring</option>
-                                            <option>Consultation</option>
-                                            <option>Roof Solution</option>
-                                            <option>Inverter Repair</option>
-                                        </select>
-                                    </div>
+                                    <div class="single-box"> 
+                                        <input type="text" name="form_phone" value="" placeholder="Phone" required>
+                                    </div>    
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="single-box">
-                                        <button class="btn-three" type="submit">get In Touch<span class="icon-null"></span></button>
+                                        <button class="btn-three" type="submit" data-loading-text="Please wait...">get In Touch<span class="icon-null"></span></button>
                                     </div>
                                 </div>
                             </div>
                         </form>
+                    </div>
                 </div>
             </div>
         </div>

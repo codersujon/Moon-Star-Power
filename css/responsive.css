@@ -3026,4 +3026,8 @@
     .main-menu .navigation li.current a {
         background: rgba(255, 255, 255, 0.15) !important;
     }
+
+    .contact-form .input-box{
+        margin-bottom: 30px;
+    }
 }

@@ -27,8 +27,6 @@
 
 "use strict";
 
-
-
 //====Main menu===
 function mainmenu() {
 	//Submenu Dropdown Toggle
@@ -41,7 +39,6 @@ function mainmenu() {
 		});
 	}
 }
-
 
 //===Language switcher===
 function languageSwitcher() {
@@ -57,7 +54,6 @@ function languageSwitcher() {
         });
     };
 }
-
 
 //===Header Sticky===
 function stickyHeader() {
@@ -118,7 +114,6 @@ function scrollToTop() {
     }
 }
 
-
 // ===Prealoder===
 window.addEventListener("load", function () {
 
@@ -134,7 +129,6 @@ window.addEventListener("load", function () {
     }
 
 });
-
 
 //  Fact counter
 function CounterNumberChanger () {
@@ -207,7 +201,6 @@ function accordion() {
     }
 }
 
-
 //Progress Bar / Levels
 if($('.progress-levels .progress-box .bar-fill').length){
     $(".progress-box .bar-fill").each(function() {
@@ -218,7 +211,6 @@ if($('.progress-levels .progress-box .bar-fill').length){
 
     },{accY: 0});
 }
-
 
 //Fact Counter + Text Count
 if($('.count-box').length){
@@ -248,7 +240,6 @@ if($('.count-box').length){
 
     },{accY: 0});
 }
-
 
 // Cart Touch Spin
 function cartTouchSpin() {
@@ -335,8 +326,6 @@ function projectMasonaryLayout() {
     }
 }
 
-
-
 function countryInfo() {
     if ($('.area_select').length) {
         $('.area_select').change(function() {
@@ -362,10 +351,6 @@ function selectDropdown() {
         $(".selectmenu").selectmenu({ change: changeSelectMenu });
     };
 }
-
-
-
-
 
 //=== Choose Carousel ===
 function chooseCarousel () {
@@ -601,7 +586,6 @@ function teamCarousel () {
     }
 }
 
-
 //=== Branches Carousel ===
 function branchesCarousel () {
     if ($('.branches-carousel').length) {
@@ -640,8 +624,6 @@ function branchesCarousel () {
         });    		
     }
 }
-
-
 
 //=== Service Offer Carousel ===
 function serviceOfferCarousel () {
@@ -682,7 +664,6 @@ function serviceOfferCarousel () {
     }
 }
 
-
 //=== Excellent Project Carousel ===
 function excellentProjectCarousel () {
     if ($('.excellent-project-carousel').length) {
@@ -721,7 +702,6 @@ function excellentProjectCarousel () {
         });    		
     }
 }
-
 
 //=== Testimonial Style2 Carousel ===
 function testimonialStyle2Carousel () {
@@ -762,31 +742,6 @@ function testimonialStyle2Carousel () {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //Hidden Sidebar
 if ($('.hidden-bar').length) {
     var hiddenBar = $('.hidden-bar');
@@ -808,10 +763,6 @@ if ($('.hidden-bar').length) {
     });
 }
     
-    
-
-
-
 //LightBox / Fancybox
 if($('.lightbox-image').length) {
     $('.lightbox-image').fancybox({
@@ -829,13 +780,6 @@ if($('.lightbox-image').length) {
     });
 }
 
-
-
-
-
-
-
-
 if($('.paroller').length){
     $('.paroller').paroller({
           factor: 0.05,            // multiplier for scrolling speed and offset, +- values for direction control  
@@ -844,7 +788,6 @@ if($('.paroller').length){
           direction: 'horizontal' // vertical, horizontal  
     });
 }
-
 
 // Elements Animation
 if($('.wow').length){
@@ -860,83 +803,78 @@ if($('.wow').length){
     wow.init();
 }
 
-//** Contact Form Validation */
-if ($("#contact-form").length) {
+//** Contact & Consultation Form Validation */
+if ($(".consultation-form").length) {
+    $(".consultation-form").each(function() {
+        $(this).validate({
+            submitHandler: function(form) {
 
-    $("#contact-form").validate({
+                var $form = $(form);
+                var form_btn = $form.find('button[type="submit"]');
 
-        submitHandler: function(form) {
-
-            var form_btn = $(form).find('button[type="submit"]');
-            var form_result_div = '#form-result';
-
-            $(form_result_div).remove();
-
-            form_btn.before(
-                '<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>'
-            );
-
-            var form_btn_old_msg = form_btn.html();
-
-            form_btn
-                .prop('disabled', true)
-                .html(form_btn.data("loading-text"));
-
-            $(form).ajaxSubmit({
-
-                dataType: 'json',
-
-                success: function(data) {
-
-                    if (data.status === true) {
-
-                        // Reset Form
-                        form.reset();
-
-                        // Reset select
-                        $(form).find('select').val('').trigger('change');
-                    }
-
-                    form_btn
-                        .prop('disabled', false)
-                        .html(form_btn_old_msg);
-
-                    $(form_result_div)
-                        .removeClass('alert-danger')
-                        .addClass(data.status === true ? 'alert-success' : 'alert-danger')
-                        .html(data.message)
-                        .fadeIn('slow');
-
-                    setTimeout(function() {
-                        $(form_result_div).fadeOut('slow');
-                    }, 6000);
-                },
-
-                error: function(xhr) {
-
-                    form_btn
-                        .prop('disabled', false)
-                        .html(form_btn_old_msg);
-
-                    var message = "Something went wrong. Please try again.";
-
-                    // Try to read JSON error response
-                    if (xhr.responseJSON && xhr.responseJSON.message) {
-                        message = xhr.responseJSON.message;
-                    }
-
-                    $(form_result_div)
-                        .removeClass('alert-success')
-                        .addClass('alert-danger')
-                        .html(message)
-                        .fadeIn('slow');
-
-                    setTimeout(function() {
-                        $(form_result_div).fadeOut('slow');
-                    }, 6000);
+                // Form Result Div Create
+                var form_result_div = $form.find('.form-result-msg');
+                if (!form_result_div.length) {
+                    form_btn.before('<div class="form-result-msg alert alert-success" role="alert" style="display: none; margin-bottom: 15px;"></div>');
+                    form_result_div = $form.find('.form-result-msg');
                 }
-            });
-        }
+
+                var form_btn_old_msg = form_btn.html();
+                var loading_text = form_btn.data("loading-text") || "Please wait...";
+
+                form_btn
+                    .prop('disabled', true)
+                    .html(loading_text);
+
+                $form.ajaxSubmit({
+                    dataType: 'json',
+                    success: function(data) {
+
+                        if (data.status === true) {
+                            form.reset();
+                            $form.find('select').val('').trigger('change');
+                        }
+
+                        form_btn
+                            .prop('disabled', false)
+                            .html(form_btn_old_msg);
+
+                        form_result_div
+                            .removeClass('alert-danger alert-success')
+                            .addClass(data.status === true ? 'alert-success' : 'alert-danger')
+                            .html(data.message)
+                            .fadeIn('slow');
+
+                        setTimeout(function() {
+                            form_result_div.fadeOut('slow');
+                        }, 6000);
+                    },
+
+                    error: function(xhr) {
+
+                        form_btn
+                            .prop('disabled', false)
+                            .html(form_btn_old_msg);
+
+                        var message = "Something went wrong. Please try again.";
+
+                        if (xhr.responseJSON && xhr.responseJSON.message) {
+                            message = xhr.responseJSON.message;
+                        }
+
+                        form_result_div
+                            .removeClass('alert-success')
+                            .addClass('alert-danger')
+                            .html(message)
+                            .fadeIn('slow');
+
+                        setTimeout(function() {
+                            form_result_div.fadeOut('slow');
+                        }, 6000);
+                    }
+                });
+            }
+        });
     });
 }
 
@@ -990,9 +928,6 @@ if($("#appoinment-form").length){
     });
 }
 
-
-
-
 // Dom Ready Function
 jQuery(document).on('ready', function () {
 	(function ($) {
@@ -1029,8 +964,6 @@ jQuery(document).on('ready', function () {
 	})(jQuery);
 });
 
-
-
 jQuery(window).on('scroll', function(){
 	(function ($) {
 	stickyHeader ();
@@ -1039,14 +972,11 @@ jQuery(window).on('scroll', function(){
 	})(jQuery);
 });
 
-
-
 // Instance Of Fuction while Window Load event
 jQuery(window).on('load', function() {
     (function($) {
         projectMasonaryLayout();
     })(jQuery);
 });
-
 
 $(window).enllax();

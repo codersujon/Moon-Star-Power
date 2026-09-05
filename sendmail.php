@@ -45,7 +45,6 @@ if (
     empty($email) ||
     empty($subject) ||
     empty($phone) ||
-    empty($message) ||
     !filter_var($email, FILTER_VALIDATE_EMAIL)
 ) {
 
@@ -59,10 +58,8 @@ if (
     exit;
 }
 
-
 // Recipient
 $recipient = "msptl.amr@gmail.com";
-
 
 // Email subject
 $email_subject = "Inquiry Regarding " . $subject . " - " . $name;

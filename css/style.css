@@ -7210,7 +7210,7 @@ select:focus {
     background-size: cover;
     background-attachment: fixed;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 130px;
     z-index: 1;
 }
 
@@ -7225,11 +7225,11 @@ select:focus {
     z-index: -1;
 }
 
-.consultation-box {
+.consultation-box { 
     position: relative;
     display: block;
-    padding-top: 64px;
-    padding-bottom: 70px;
+    padding-top: 40px;
+    padding-bottom: 50px;
     max-width: 770px;
     width: 100%;
     margin: 0 auto;
@@ -7366,7 +7366,7 @@ select:focus {
 .consultation-form .single-box .dropdown-item {
     display: block;
     width: 100%;
-    padding: 9px 20px 9px;
+    padding: 6px 15px 6px;
     font-weight: 400;
     color: #222222;
     text-align: inherit;
@@ -19009,4 +19009,9 @@ select:focus {
     width: 100px !important;
     height: 100px !important;
     object-fit: contain !important;
+}
+
+.bootstrap-select .dropdown-menu li {
+  display: inline-block;
+  width: 100%;
 }
