@@ -860,8 +860,7 @@ if($('.wow').length){
     wow.init();
 }
 
-//Contact Form Validation
-// Contact Form Validation
+//** Contact Form Validation */
 if ($("#contact-form").length) {
 
     $("#contact-form").validate({
@@ -891,7 +890,8 @@ if ($("#contact-form").length) {
 
                     if (data.status === true) {
 
-                        $(form).find('.form-control').val('');
+                        // Reset Form
+                        form.reset();
 
                         // Reset select
                         $(form).find('select').val('').trigger('change');
@@ -940,7 +940,7 @@ if ($("#contact-form").length) {
     });
 }
 
-// Add Comment Form Validation
+//** Add Comment Form Validation */
 if($("#add-comment-form").length){
     $("#add-comment-form").validate({
         submitHandler: function(form) {
@@ -965,7 +965,7 @@ if($("#add-comment-form").length){
     });
 }
 
-// Appoinment Form Validation
+//** Appoinment Form Validation */
 if($("#appoinment-form").length){
     $("#appoinment-form").validate({
         submitHandler: function(form) {
