@@ -50,7 +50,7 @@
     $email_content .= $message . "\n";
 
     //** Email headers */
-    $email_headers  = "From: Website Contact Form <noreply@moonstarpower.com>\r\n";
+    $email_headers  = "From: Moon Star Power <info@moonstarpower.com>\r\n";
     $email_headers .= "Reply-To: " . $email . "\r\n";
     $email_headers .= "MIME-Version: 1.0\r\n";
     $email_headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
