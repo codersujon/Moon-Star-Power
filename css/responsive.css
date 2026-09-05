@@ -2092,14 +2092,13 @@
     }
 
     .blog-prev-next-option .single.prev .title {
-        pad7pding-left: 0;
+        padding-left: 0;
         padding-top: 20px;
     }
 
     .blog-prev-next-option .single.prev:before {
         display: none;
     }
-7p
     .blog-prev-next-option .single.prev {
         float: none;
         padding-right: 20px;
