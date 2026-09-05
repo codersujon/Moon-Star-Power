@@ -92,7 +92,7 @@ try {
 
     // cPanel email
     $mail->Username   = 'info@moonstarpower.com';
-    $mail->Password   = 'MoonSt@rPower';
+    $mail->Password   = 'MoonSt@r2026';
 
     // SSL
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
