@@ -61,7 +61,7 @@ if (
 
 
 // Recipient
-$recipient = "csesujon155@gmail.com";
+$recipient = "msptl.amr@gmail.com";
 
 
 // Email subject
