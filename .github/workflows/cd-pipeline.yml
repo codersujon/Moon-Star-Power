@@ -28,14 +28,15 @@ jobs:
                 port: ${{ secrets.SSH_PORT }}
 
                 script: |
+                  script: |
                   set -e
-
                   cd ~/public_html
-                  pwd
-                  ls -la
-                  git status
-                  git pull origin main
+
+                  git fetch origin main
+                  git reset --hard origin/main
+
                   echo "✅ Deployment Completed Successfully"
+                  git log -1 --oneline
 ...
             
            
