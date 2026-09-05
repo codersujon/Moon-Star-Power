@@ -861,26 +861,81 @@ if($('.wow').length){
 }
 
 //Contact Form Validation
-if($("#contact-form").length){
+// Contact Form Validation
+if ($("#contact-form").length) {
+
     $("#contact-form").validate({
+
         submitHandler: function(form) {
-          var form_btn = $(form).find('button[type="submit"]');
-          var form_result_div = '#form-result';
-          $(form_result_div).remove();
-          form_btn.before('<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>');
-          var form_btn_old_msg = form_btn.html();
-          form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
-          $(form).ajaxSubmit({
-            dataType:  'json',
-            success: function(data) {
-              if( data.status = 'true' ) {
-                $(form).find('.form-control').val('');
-              }
-              form_btn.prop('disabled', false).html(form_btn_old_msg);
-              $(form_result_div).html(data.message).fadeIn('slow');
-              setTimeout(function(){ $(form_result_div).fadeOut('slow') }, 6000);
-            }
-          });
+
+            var form_btn = $(form).find('button[type="submit"]');
+            var form_result_div = '#form-result';
+
+            $(form_result_div).remove();
+
+            form_btn.before(
+                '<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>'
+            );
+
+            var form_btn_old_msg = form_btn.html();
+
+            form_btn
+                .prop('disabled', true)
+                .html(form_btn.data("loading-text"));
+
+            $(form).ajaxSubmit({
+
+                dataType: 'json',
+
+                success: function(data) {
+
+                    if (data.status === true) {
+
+                        $(form).find('.form-control').val('');
+
+                        // Reset select
+                        $(form).find('select').val('').trigger('change');
+                    }
+
+                    form_btn
+                        .prop('disabled', false)
+                        .html(form_btn_old_msg);
+
+                    $(form_result_div)
+                        .removeClass('alert-danger')
+                        .addClass(data.status === true ? 'alert-success' : 'alert-danger')
+                        .html(data.message)
+                        .fadeIn('slow');
+
+                    setTimeout(function() {
+                        $(form_result_div).fadeOut('slow');
+                    }, 6000);
+                },
+
+                error: function(xhr) {
+
+                    form_btn
+                        .prop('disabled', false)
+                        .html(form_btn_old_msg);
+
+                    var message = "Something went wrong. Please try again.";
+
+                    // Try to read JSON error response
+                    if (xhr.responseJSON && xhr.responseJSON.message) {
+                        message = xhr.responseJSON.message;
+                    }
+
+                    $(form_result_div)
+                        .removeClass('alert-success')
+                        .addClass('alert-danger')
+                        .html(message)
+                        .fadeIn('slow');
+
+                    setTimeout(function() {
+                        $(form_result_div).fadeOut('slow');
+                    }, 6000);
+                }
+            });
         }
     });
 }
