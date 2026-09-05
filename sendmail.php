@@ -148,6 +148,6 @@ try {
 
     echo json_encode([
         "status" => false,
-        "message" => "Oops! Something went wrong and we couldn't send your message."
+        "message" => $mail->ErrorInfo
     ]);
 }
