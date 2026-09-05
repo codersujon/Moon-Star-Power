@@ -357,19 +357,6 @@
             </div>
             <!--End single project item-->
         </div>
-
-        <!-- Pagination Section -->
-        <div class="row">
-            <div class="col-md-12">
-                <ul class="post-pagination text-center">
-                    <li><a href="javascript:void(0);"><i class="fa fa-caret-left" aria-hidden="true"></i></a></li>
-                    <li class="active"><a href="javascript:void(0);">1</a></li>
-                    <li><a href="javascript:void(0);">2</a></li>
-                    <li><a href="javascript:void(0);">3</a></li>
-                    <li><a href="javascript:void(0);"><i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
-        </div>
     </div>
 </section>                            
 <!--End Main project area-->
@@ -394,7 +381,7 @@
 
             <!-- Brand Name -->
             <div class="video-material-brand">
-                Moon Star Power &amp; Technology
+                Moon Star Power &amp; <span>Technology</span>
             </div>
 
         </div>

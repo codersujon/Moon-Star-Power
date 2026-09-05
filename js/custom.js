@@ -305,15 +305,21 @@ function projectMasonaryLayout() {
         });
     }
 
-    // Dynamic filter counter
+    // Dynamic filter counter (Fixed logic)
     if ($('.post-filter.has-dynamic-filters-counter').length) {
 
         $('.post-filter.has-dynamic-filters-counter li').each(function() {
 
             var $this = $(this);
             var filterElement = $this.attr('data-filter');
+            var count = 0;
 
-            var count = $('.filter-layout').find(filterElement).length;
+            // যদি filter '*' হয় অথবা ফাঁকা থাকে, তবে শুধু .filter-item গণনা করবে
+            if (filterElement === '*' || filterElement === '' || filterElement === undefined) {
+                count = $('.filter-layout').find('.filter-item').length;
+            } else {
+                count = $('.filter-layout').find(filterElement).length;
+            }
 
             $this.find('.count').remove();
 

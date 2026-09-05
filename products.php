@@ -168,21 +168,36 @@
             </div>
             <!--End single project item-->
         </div>
-
-        <!-- Pagination -->
-        <div class="row">
-            <div class="col-md-12">
-                <ul class="post-pagination text-center">
-                    <li><a href="javascript:void(0);"><i class="fa fa-caret-left" aria-hidden="true"></i></a></li>
-                    <li class="active"><a href="javascript:void(0);">1</a></li>
-                    <li><a href="javascript:void(0);">2</a></li>
-                    <li><a href="javascript:void(0);">3</a></li>
-                    <li><a href="javascript:void(0);"><i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
-        </div>
     </div>
 </section>                            
 <!--End Main project area-->
+
+ <!-- Start Video Material area -->
+<section class="video-material-area">
+    <div class="container">
+        <!-- Video Box Zoom In Animation -->
+        <div class="video-material wow zoomIn" data-wow-delay="200ms" data-wow-duration="1200ms">
+
+            <!-- Background Video -->
+            <video
+                class="video-material-bg"
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="auto"
+            >
+                <source src="videos/power.mp4" type="video/mp4">
+            </video>
+
+            <!-- Brand Name -->
+            <div class="video-material-brand">
+                Moon Star Power &amp; <span>Technology</span>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- End Video Material area -->
 
 <?php  require_once 'includes/footer.php';  ?>

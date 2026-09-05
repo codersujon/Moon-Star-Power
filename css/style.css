@@ -152,7 +152,7 @@ li {
 }
 
 .bgclr1 {
-    background: #f36727;
+    background: #f33127;
 }
 
 .secpd1 {
@@ -18864,10 +18864,15 @@ select:focus {
     transform: translateX(-50%);
     z-index: 2;
     color: #fff;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
     white-space: nowrap;
     text-align: center;
+    color: #f3261b;
+    text-transform: uppercase;
+}
+
+.video-material-brand > span{
     color: #3aa40c;
 }
 

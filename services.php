@@ -205,7 +205,7 @@
 
                 <!-- Brand Name -->
                 <div class="video-material-brand">
-                    Moon Star Power &amp; Technology
+                   Moon Star Power &amp; <span>Technology</span>
                 </div>
 
             </div>
