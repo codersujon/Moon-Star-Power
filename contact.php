@@ -131,21 +131,12 @@
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                     <div class="single-contact-details-box text-center wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1200ms">
                         <div class="google-map-box">
-                            <div 
-                                class="google-map" 
-                                id="contact-google-map" 
-                                data-map-lat="23.708536" 
-                                data-map-lng="90.380998" 
-                                data-icon-path="images/resources/map-marker.png" 
-                                data-map-title="Moon Star Power & Technology" 
-                                data-map-zoom="12" 
-                                data-markers='{
-                                    "marker-1": [23.708536, 90.380998, "<h4>Moon Star Power & Technology</h4><p>Mahtab Saban Factory Rd, Keraniganj, Dhaka</p>"]
-                                }'>
-                            </div>   
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58449.41503528778!2d90.3809977!3d23.7085356!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b90027d2f445%3A0x5a5f61feb32877b3!2sMoon%20Star%20Power%20%26%20Technology!5e0!3m2!1sen!2sbd!4v1788678497904!5m2!1sen!2sbd" width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+
+                            </iframe>   
                         </div>
                         <div class="text">
-                            <p>H# 86, Fl: B-1, Rd: 10/1, Blk: D, Niketan, Gulshan-1, Dhaka-1212, Bangladesh.</p>
+                            <p>Saban Factory Road, Shuvadda Purbo Para, South Keranigonj, Dhaka-1310</p>
                             <a class="btn-two" target="_blank" href="https://maps.app.goo.gl/hqWia2mrtGz7JLJ1A">View Full Map<span class="icon-null"></span></a>  
                         </div>     
                     </div>
@@ -183,18 +174,6 @@
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                     <div class="branches-carousel owl-carousel owl-theme">
-                        <!--Start Single Branches Box-->
-                        <div class="single-branches-box text-center">
-                            <div class="title-box"><h3>KHULNA OFFICE:</h3></div>
-                            <ul>
-                                <li>(+880) 1911-284405</li>
-                                <li>msptl.amr@gmail.com</li>
-                            </ul> 
-                            <div class="text">
-                                <p>House: 38, Road: 05, Sonadanga R/A (1st Phase), Khulna.</p>
-                            </div>  
-                        </div>
-                        <!--End Single Branches Box-->
                         <!--Start Single Branches Box-->
                         <div class="single-branches-box text-center">
                             <div class="title-box"><h3>BRANCH OFFICE:</h3></div>
