@@ -192,7 +192,7 @@
 
             <!-- Brand Name -->
             <div class="video-material-brand">
-                Moon Star Power &amp; <span>Technology</span>
+                Moon Star <span>Power &amp; Technology</span>
             </div>
 
         </div>
