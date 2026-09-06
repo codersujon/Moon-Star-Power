@@ -1906,7 +1906,7 @@ select:focus {
     position: relative;
     display: block;
     background: #ffffff;
-    padding: 20px 0 20px;
+    padding: 20px 0 6px;
 }
 
 .header-style1 {
@@ -19019,4 +19019,66 @@ select:focus {
 .bootstrap-select .dropdown-menu li {
   display: inline-block;
   width: 100%;
+}
+
+.news-ticker-wrap {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+
+.ticker-label {
+    flex-shrink: 0;
+    background-color: #d4a017; /* আপনার theme color দিয়ে বদলাতে পারেন */
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 8px 18px;
+    letter-spacing: 0.5px;
+}
+
+.news-ticker {
+    flex: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.news-ticker-content {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 100%;
+    animation: ticker-scroll 18s linear infinite;
+}
+
+.news-ticker-content span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #3aa40c;
+}
+
+@keyframes ticker-scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Pause on hover (optional but nice UX) */
+.news-ticker-wrap:hover .news-ticker-content {
+    animation-play-state: paused;
+}
+
+@media (max-width: 767px) {
+    .ticker-label {
+        font-size: 11px;
+        padding: 6px 10px;
+    }
+    .news-ticker-content span {
+        font-size: 12px;
+    }
 }

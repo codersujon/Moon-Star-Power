@@ -124,6 +124,18 @@
                         </div>
                     </div>
                 </div>
+                <!-- Approved Notice Ticker -->
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12">
+                        <div class="news-ticker-wrap">
+                            <div class="news-ticker">
+                                <div class="news-ticker-content">
+                                    <span>An Approved Electrical Substation Manufacturer — sl. No. 94, from Ministry of Power, Energy & Mineral Resources.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>        
         </header>
         <!--End header style1 area-->

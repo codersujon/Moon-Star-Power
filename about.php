@@ -39,7 +39,7 @@
                 <div class="col-xl-12">
                     <!-- Main Info Box Zoom In -->
                     <div class="company-info-box wow zoomIn" data-wow-delay="200ms" data-wow-duration="1200ms">
-                        <p>Moon Star Power & Technology provides reliable electrical and power solutions for commercial, industrial, and residential projects across Bangladesh. We specialize in the supply, installation, testing, commissioning, and maintenance of: <strong>Distribution Transformers, HT & LT Panels, Diesel Generators, ATS & PFI Panels, Solar Power Systems</strong>. With a commitment to quality, technical expertise, timely delivery, and dependable support, we deliver practical power solutions designed for long-term performance and customer satisfaction.</p>
+                        <p>Moon Star Power & Technology provides reliable electrical and power solutions for commercial, industrial, and residential projects across Bangladesh. We specialize in the supply, installation, testing, commissioning, and maintenance of: <strong>Distribution Transformers, HT & LT‌ Switchgear, Diesel Generators, ATS & PFI Panels, Solar Power Systems</strong>. With a commitment to quality, technical expertise, timely delivery, and dependable support, we deliver practical power solutions designed for long-term performance and customer satisfaction.</p>
                     </div>
                 </div>
             </div>
