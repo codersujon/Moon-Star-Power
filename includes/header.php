@@ -55,8 +55,8 @@
     <meta name="twitter:image:alt" content="Moon Star Power & Technology">
     
     <!-- master stylesheet -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/responsive.min.css">
 </head>
 <body>
     <div class="boxed_wrapper">
