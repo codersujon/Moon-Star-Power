@@ -815,15 +815,6 @@ hr.style-one {
     font-weight: 400;
 }
 
-.sec-title-five h2 span.text-line {
-    background-color: transparent;
-    background-image: url(../images/home-pages/home-5-sec-title-shape.png);
-    background-repeat: no-repeat;
-    background-position: center left;
-    position: relative;
-    padding-left: 50px;
-}
-
 .sec-title-five h2 span.bold-text {
     font-weight: 700;
 }
@@ -2352,7 +2343,7 @@ select:focus {
     width: 34px;
     height: 30px;
     border: 1px solid #ffffff;
-    background: url(../images/icon/submenu-icon.png) center center no-repeat;
+    background: url(../images/icon/submenu-icon.webp) center center no-repeat;
     background-size: 20px;
     cursor: pointer;
     z-index: 5;
@@ -3563,12 +3554,6 @@ select:focus {
     width: 100%;
     height: 580px;
     z-index: -1;
-}
-
-.header-banner-outer.header-five:before {
-    background-image: url(../images/home-pages/header-5-bg-1-1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
 }
 
 .header-banner-outer.header-five::after {
@@ -5425,13 +5410,6 @@ select:focus {
     transform: translateY(0);
 }
 
-.services-style-three {
-    background-color: #FFFFFF;
-    background-image: url(../images/home-pages/service-5-bg-1-1.jpg);
-    background-position: left top;
-    background-repeat: no-repeat;
-}
-
 .services-style-three .single-service-style-three {
     padding-top: 47px;
     padding-bottom: 47px;
@@ -6864,14 +6842,6 @@ select:focus {
 }
 
 
-
-
-.testimonial-area.home-two {
-    position: relative;
-    background: #021f3d url(../images/home-pages/testi-bg-1-1.png) center right no-repeat fixed;
-    background-size: cover;
-}
-
 .testimonial-area.home-two:before {
     content: '';
     background: #021f3d;
@@ -7205,7 +7175,7 @@ select:focus {
 .consultation-area {
     position: relative;
     display: block;
-    background: url(../images/parallax-background/consultation-bg.jpg);
+    background: url(../images/parallax-background/consultation-bg.webp);
     background-position: center top;
     background-size: cover;
     background-attachment: fixed;
@@ -8729,7 +8699,7 @@ select:focus {
     right: -5px;
     width: 9px;
     height: 3px;
-    background: url(../images/icon/arrow.png);
+    background: url(../images/icon/arrow.webp);
     content: "";
     margin: 14px 0;
 }
@@ -10121,7 +10091,7 @@ select:focus {
     right: 0px;
     margin: 0 auto;
     content: '';
-    background: url(../images/icon/cloud.png);
+    background: url(../images/icon/cloud.webp);
     width: 1200px;
     height: 576px;
     z-index: -1;
@@ -19009,8 +18979,8 @@ select:focus {
 }
 
 /* Google Map Marker Size Fix */
-#contact-google-map img[src*="map-marker.png"],
-.google-map img[src*="map-marker.png"] {
+#contact-google-map img[src*="map-marker.webp"],
+.google-map img[src*="map-marker.webp"] {
     width: 100px !important;
     height: 100px !important;
     object-fit: contain !important;

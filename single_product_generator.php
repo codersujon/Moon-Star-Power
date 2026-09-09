@@ -6,7 +6,7 @@
 ?>      
 
 <!--Start breadcrumb area-->     
-<section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.jpg);">
+<section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.webp);">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
@@ -35,12 +35,12 @@
         <div class="row mb-5">
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-3">
                 <div class="single-project-image-box wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1200ms">
-                    <img src="images/projects/generator/g1.jpeg" alt="Moon Star Generator Product 1" class="img-fluid rounded shadow w-100" style="height: 350px; object-fit: cover;">
+                    <img src="images/projects/generator/g1.webp" alt="Moon Star Generator Product 1" class="img-fluid rounded shadow w-100" style="height: 350px; object-fit: cover;">
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-3">
                 <div class="single-project-image-box wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1200ms">
-                    <img src="images/projects/generator/g2.jpeg" alt="Moon Star Generator Product 2" class="img-fluid rounded shadow w-100" style="height: 350px; object-fit: cover;">
+                    <img src="images/projects/generator/g2.webp" alt="Moon Star Generator Product 2" class="img-fluid rounded shadow w-100" style="height: 350px; object-fit: cover;">
                 </div>
             </div>
         </div>

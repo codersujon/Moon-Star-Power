@@ -6,7 +6,7 @@
 ?> 
 
 <!--Start breadcrumb area-->     
-<section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.jpg);">
+<section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.webp);">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
@@ -46,12 +46,12 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item trans">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
-                        <img src="images/projects/transformer/trans-1.png" alt="Transformer">
+                        <img src="images/projects/transformer/trans-1.webp" alt="Transformer">
                         <div class="overlay-content">
                             <div class="inner-content">
                                 <ul class="links-icons">
                                     <li>
-                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/transformer/trans-1.png">
+                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/transformer/trans-1.webp">
                                             <span class="icon-magnifying-glass"></span>
                                         </a>
                                     </li>
@@ -67,12 +67,12 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item gentr">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
-                        <img src="images/projects/generator/g1.jpeg" alt="Generator">
+                        <img src="images/projects/generator/g1.webp" alt="Generator">
                         <div class="overlay-content">
                             <div class="inner-content">
                                 <ul class="links-icons">
                                     <li>
-                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/generator/g1.jpeg">
+                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/generator/g1.webp">
                                             <span class="icon-magnifying-glass"></span>
                                         </a>
                                     </li>
@@ -88,12 +88,12 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item solar">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
-                        <img src="images/projects/solar/s1.jpg" alt="Solar System">
+                        <img src="images/projects/solar/s1.webp" alt="Solar System">
                         <div class="overlay-content">
                             <div class="inner-content">
                                 <ul class="links-icons">
                                     <li>
-                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/solar/s1.jpg">
+                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/solar/s1.webp">
                                             <span class="icon-magnifying-glass"></span>
                                         </a>
                                     </li>
@@ -109,12 +109,12 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item trans">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
-                        <img src="images/projects/transformer/trans-2.png" alt="Transformer">
+                        <img src="images/projects/transformer/trans-2.webp" alt="Transformer">
                         <div class="overlay-content">
                             <div class="inner-content">
                                 <ul class="links-icons">
                                     <li>
-                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/transformer/trans-2.png">
+                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/transformer/trans-2.webp">
                                             <span class="icon-magnifying-glass"></span>
                                         </a>
                                     </li>
@@ -130,12 +130,12 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item gentr">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
-                        <img src="images/projects/generator/g2.jpeg" alt="Generator">
+                        <img src="images/projects/generator/g2.webp" alt="Generator">
                         <div class="overlay-content">
                             <div class="inner-content">
                                 <ul class="links-icons">
                                     <li>
-                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/generator/g2.jpeg">
+                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/generator/g2.webp">
                                             <span class="icon-magnifying-glass"></span>
                                         </a>
                                     </li>
@@ -151,12 +151,12 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item solar">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
-                        <img src="images/projects/solar/s2.jpg" alt="Solar System">
+                        <img src="images/projects/solar/s2.webp" alt="Solar System">
                         <div class="overlay-content">
                             <div class="inner-content">
                                 <ul class="links-icons">
                                     <li>
-                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/solar/s2.jpg">
+                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/solar/s2.webp">
                                             <span class="icon-magnifying-glass"></span>
                                         </a>
                                     </li>
@@ -172,12 +172,12 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item pfi">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
-                        <img src="images/projects/PFI/PFI-1.jpg" alt="PFI Panel">
+                        <img src="images/projects/PFI/PFI-1.webp" alt="PFI Panel">
                         <div class="overlay-content">
                             <div class="inner-content">
                                 <ul class="links-icons">
                                     <li>
-                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/PFI/PFI-1.jpg">
+                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/PFI/PFI-1.webp">
                                             <span class="icon-magnifying-glass"></span>
                                         </a>
                                     </li>
@@ -193,12 +193,12 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item ltsg">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
-                        <img src="images/projects/LTSG/LTSG-1.png" alt="LT Switchgear">
+                        <img src="images/projects/LTSG/LTSG-1.webp" alt="LT Switchgear">
                         <div class="overlay-content">
                             <div class="inner-content">
                                 <ul class="links-icons">
                                     <li>
-                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/LTSG/LTSG-1.png">
+                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/LTSG/LTSG-1.webp">
                                             <span class="icon-magnifying-glass"></span>
                                         </a>
                                     </li>
@@ -214,12 +214,12 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item htsg">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
-                        <img src="images/projects/HTSG/HTSG-1.png" alt="HT Switchgear">
+                        <img src="images/projects/HTSG/HTSG-1.webp" alt="HT Switchgear">
                         <div class="overlay-content">
                             <div class="inner-content">
                                 <ul class="links-icons">
                                     <li>
-                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/HTSG/HTSG-1.png">
+                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/HTSG/HTSG-1.webp">
                                             <span class="icon-magnifying-glass"></span>
                                         </a>
                                     </li>
@@ -235,12 +235,12 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item trans">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
-                        <img src="images/projects/transformer/trans-3.png" alt="Transformer">
+                        <img src="images/projects/transformer/trans-3.webp" alt="Transformer">
                         <div class="overlay-content">
                             <div class="inner-content">
                                 <ul class="links-icons">
                                     <li>
-                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/transformer/trans-3.png">
+                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/transformer/trans-3.webp">
                                             <span class="icon-magnifying-glass"></span>
                                         </a>
                                     </li>
@@ -256,12 +256,12 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item trans">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
-                        <img src="images/projects/transformer/trans-4.jpg" alt="Transformer">
+                        <img src="images/projects/transformer/trans-4.webp" alt="Transformer">
                         <div class="overlay-content">
                             <div class="inner-content">
                                 <ul class="links-icons">
                                     <li>
-                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/transformer/trans-4.jpg">
+                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/transformer/trans-4.webp">
                                             <span class="icon-magnifying-glass"></span>
                                         </a>
                                     </li>
@@ -277,12 +277,12 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item ltsg">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
-                        <img src="images/projects/LTSG/LTSG-3.jpg" alt="LT Switchgear">
+                        <img src="images/projects/LTSG/LTSG-3.webp" alt="LT Switchgear">
                         <div class="overlay-content">
                             <div class="inner-content">
                                 <ul class="links-icons">
                                     <li>
-                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/LTSG/LTSG-3.jpg">
+                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/LTSG/LTSG-3.webp">
                                             <span class="icon-magnifying-glass"></span>
                                         </a>
                                     </li>
@@ -298,12 +298,12 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item gentr">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
-                        <img src="images/projects/generator/g3.jpeg" alt="Generator">
+                        <img src="images/projects/generator/g3.webp" alt="Generator">
                         <div class="overlay-content">
                             <div class="inner-content">
                                 <ul class="links-icons">
                                     <li>
-                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/generator/g3.jpeg">
+                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/generator/g3.webp">
                                             <span class="icon-magnifying-glass"></span>
                                         </a>
                                     </li>
@@ -319,12 +319,12 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item solar">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
-                        <img src="images/projects/solar/s3.jpg" alt="Solar System">
+                        <img src="images/projects/solar/s3.webp" alt="Solar System">
                         <div class="overlay-content">
                             <div class="inner-content">
                                 <ul class="links-icons">
                                     <li>
-                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/solar/s3.jpg">
+                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/solar/s3.webp">
                                             <span class="icon-magnifying-glass"></span>
                                         </a>
                                     </li>
@@ -340,12 +340,12 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 filter-item ltsg">
                 <div class="single-project-style4 marbtm30">
                     <div class="img-holder">
-                        <img src="images/projects/LTSG/LTSG-2.jpg" alt="LT Switchgear">
+                        <img src="images/projects/LTSG/LTSG-2.webp" alt="LT Switchgear">
                         <div class="overlay-content">
                             <div class="inner-content">
                                 <ul class="links-icons">
                                     <li>
-                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/LTSG/LTSG-2.jpg">
+                                        <a class="lightbox-image" data-fancybox="gallery" href="images/projects/LTSG/LTSG-2.webp">
                                             <span class="icon-magnifying-glass"></span>
                                         </a>
                                     </li>

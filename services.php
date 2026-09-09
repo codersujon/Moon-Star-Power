@@ -6,7 +6,7 @@
 ?> 
         
     <!--Start breadcrumb area-->     
-    <section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.webp);">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -35,7 +35,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12"> 
                     <div class="single-service-style1 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="img-holder">
-                            <img src="images/services/1.jpg" alt="Transformer">
+                            <img src="images/services/1.webp" alt="Transformer">
                             <div class="overlay-style-two"></div>
                             <div class="overlay-content-box">
                                 <div class="icon">
@@ -60,7 +60,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12"> 
                     <div class="single-service-style1 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1200ms">
                         <div class="img-holder">
-                            <img src="images/services/2.jpg" alt="Generator Service">
+                            <img src="images/services/2.webp" alt="Generator Service">
                             <div class="overlay-style-two"></div>
                             <div class="overlay-content-box">
                                 <div class="icon">
@@ -85,7 +85,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12"> 
                     <div class="single-service-style1 wow fadeInRight" data-wow-delay="600ms" data-wow-duration="1200ms">
                         <div class="img-holder">
-                            <img src="images/services/3.jpg" alt="Solar System">
+                            <img src="images/services/3.webp" alt="Solar System">
                             <div class="overlay-style-two"></div>
                             <div class="overlay-content-box">
                                 <div class="icon">
@@ -110,7 +110,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12"> 
                     <div class="single-service-style1 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="img-holder">
-                            <img src="images/services/4.jpg" alt="PFI Service">
+                            <img src="images/services/4.webp" alt="PFI Service">
                             <div class="overlay-style-two"></div>
                             <div class="overlay-content-box">
                                 <div class="icon">
@@ -135,7 +135,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12"> 
                     <div class="single-service-style1 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1200ms">
                         <div class="img-holder">
-                            <img src="images/services/5.jpg" alt="HT Switch Gear service">
+                            <img src="images/services/5.webp" alt="HT Switch Gear service">
                             <div class="overlay-style-two"></div>
                             <div class="overlay-content-box">
                                 <div class="icon">
@@ -160,7 +160,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12"> 
                     <div class="single-service-style1 wow fadeInRight" data-wow-delay="600ms" data-wow-duration="1200ms">
                         <div class="img-holder">
-                            <img src="images/services/6.jpg" alt="LT Switch Gear service">
+                            <img src="images/services/6.webp" alt="LT Switch Gear service">
                             <div class="overlay-style-two"></div>
                             <div class="overlay-content-box">
                                 <div class="icon">

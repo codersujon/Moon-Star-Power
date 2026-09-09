@@ -5,7 +5,7 @@
     require_once 'includes/header.php';
 ?>
     <!--Start breadcrumb area-->     
-    <section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.webp);">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -47,13 +47,13 @@
                 <!-- Left Image Slide In -->
                 <div class="col-xl-6 col-lg-6">
                     <div class="whowe-are-image wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1200ms">
-                        <img src="/images/resources/whowe-are-1.jpg" alt="Moon Star Power Team">    
+                        <img src="/images/resources/whowe-are-1.webp" alt="Moon Star Power Team">    
                     </div>
                 </div>
                 <!-- Right Image Slide In -->
                 <div class="col-xl-6 col-lg-6">
                     <div class="whowe-are-image wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1200ms">
-                        <img src="/images/resources/whowe-are-2.jpg" alt="Electrical Solutions">    
+                        <img src="/images/resources/whowe-are-2.webp" alt="Electrical Solutions">    
                     </div>
                 </div>
             </div>
@@ -110,7 +110,7 @@
                 <div class="col-xl-6 pd0">
                     <div class="video-holder-box wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="img-holder">
-                            <img src="/images/resources/video-gallery-bg.jpg" alt="Video Gallery Background">
+                            <img src="/images/resources/video-gallery-bg.webp" alt="Video Gallery Background">
                             <div class="icon-holder">
                                 <div class="icon">
                                     <div class="inner text-center">
@@ -129,7 +129,7 @@
                         <div class="row mar0">
                             <div class="col-xl-6 col-lg-6 col-md-6 pd0">
                                 <div class="single-box">
-                                    <img src="/images/resources/mission.jpg" alt="Our Mission">
+                                    <img src="/images/resources/mission.webp" alt="Our Mission">
                                     <div class="title">
                                         <h3>Our Mission</h3>
                                     </div>
@@ -149,7 +149,7 @@
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 pd0">
                                 <div class="single-box">
-                                    <img src="/images/resources/vision.jpg" alt="Our Vision">
+                                    <img src="/images/resources/vision.webp" alt="Our Vision">
                                     <div class="title">
                                         <h3>Our Vision</h3>
                                     </div>
@@ -239,7 +239,7 @@
     <!--End Choose area-->
 
     <!--Start Fact Counter Area-->
-    <section class="fact-counter-area" style="background-image:url(/images/parallax-background/fact-counter-bg.jpg);">
+    <section class="fact-counter-area" style="background-image:url(/images/parallax-background/fact-counter-bg.webp);">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">

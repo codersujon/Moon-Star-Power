@@ -45,7 +45,6 @@
     <meta property="og:description" content="<?php echo htmlspecialchars($pageDescription, ENT_QUOTES, 'UTF-8'); ?>"> 
     <meta property="og:url" content="<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8'); ?>"> 
     <meta property="og:site_name" content="Moon Star Power & Technology"> 
-    <meta property="og:image" content="https://www.moonstarpower.com/images/og-image.jpg"> 
     <meta property="og:image:width" content="1200"> <meta property="og:image:height" content="630"> 
     <meta property="og:image:alt" content="Moon Star Power & Technology"> 
     
@@ -53,7 +52,6 @@
     <meta name="twitter:card" content="summary_large_image"> 
     <meta name="twitter:title" content="<?php echo htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8'); ?>"> 
     <meta name="twitter:description" content="<?php echo htmlspecialchars($pageDescription, ENT_QUOTES, 'UTF-8'); ?>"> 
-    <meta name="twitter:image" content="https://www.moonstarpower.com/images/og-image.jpg"> 
     <meta name="twitter:image:alt" content="Moon Star Power & Technology">
     
     <!-- master stylesheet -->
@@ -83,7 +81,7 @@
                         <div class="header-style1 clearfix">
                             <div class="headers1-logo float-left">
                                 <a href="index.php">
-                                    <img src="images/resources/logo.png" alt="Moon Star Power & Technology">
+                                    <img src="images/resources/logo.webp" alt="Moon Star Power & Technology">
                                 </a>                       
                             </div>   
                             <div class="headers1-header-right float-right">
@@ -91,7 +89,7 @@
                                     <li>
                                         <div class="single-item">
                                             <div class="icon">
-                                                <img src="images/icon/header-icon-1.png" alt="Awesome Image">
+                                                <img src="images/icon/header-icon-1.webp" alt="Awesome Image">
                                             </div>
                                             <div class="text">
                                                 <h3>For Visitors</h3>
@@ -102,7 +100,7 @@
                                     <li>
                                         <div class="single-item">
                                             <div class="icon">
-                                                <img src="images/icon/header-icon-2.png" alt="Awesome Image">
+                                                <img src="images/icon/header-icon-2.webp" alt="Awesome Image">
                                             </div>
                                             <div class="text">
                                                 <h3>Mail Us On</h3> 
@@ -153,7 +151,7 @@
                                     <!-- Mobile Logo -->
                                     <div class="mobile-logo">
                                         <a href="index.php">
-                                            <img src="images/resources/logo.png" alt="Moon Star Power & Technology">
+                                            <img src="images/resources/logo.webp" alt="Moon Star Power & Technology">
                                         </a>
                                     </div>
 

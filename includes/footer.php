@@ -11,7 +11,7 @@
                             <div class="contact-info-box">
                                 <div class="footer-logo">
                                     <a href="index.php">
-                                        <img src="images/resources/logo.png" alt="Moon Star Power & Technology" style="height: 60px;">
+                                        <img src="images/resources/logo.webp" alt="Moon Star Power & Technology" style="height: 60px;">
                                     </a>    
                                 </div>
                                 <div class="text">
@@ -96,7 +96,7 @@
                         <ul class="case-studies">
                             <li>
                                 <div class="img-holder">
-                                    <img src="images/footer/case-studie-1.jpg" alt="Awesome Image">
+                                    <img src="images/footer/case-studie-1.webp" alt="Awesome Image">
                                     <div class="overlay-style-one">
                                         <div class="box">
                                             <div class="content">
@@ -108,7 +108,7 @@
                             </li>
                             <li>
                                 <div class="img-holder">
-                                    <img src="images/footer/case-studie-2.jpg" alt="Awesome Image">
+                                    <img src="images/footer/case-studie-2.webp" alt="Awesome Image">
                                     <div class="overlay-style-one">
                                         <div class="box">
                                             <div class="content">
@@ -120,7 +120,7 @@
                             </li>
                             <li>
                                 <div class="img-holder">
-                                    <img src="images/footer/case-studie-3.jpg" alt="Awesome Image">
+                                    <img src="images/footer/case-studie-3.webp" alt="Awesome Image">
                                     <div class="overlay-style-one">
                                         <div class="box">
                                             <div class="content">
@@ -133,7 +133,7 @@
                             
                             <li>
                                 <div class="img-holder">
-                                    <img src="images/footer/case-studie-4.jpg" alt="Awesome Image">
+                                    <img src="images/footer/case-studie-4.webp" alt="Awesome Image">
                                     <div class="overlay-style-one">
                                         <div class="box">
                                             <div class="content">
@@ -145,7 +145,7 @@
                             </li>
                             <li>
                                 <div class="img-holder">
-                                    <img src="images/footer/case-studie-5.jpg" alt="Awesome Image">
+                                    <img src="images/footer/case-studie-5.webp" alt="Awesome Image">
                                     <div class="overlay-style-one">
                                         <div class="box">
                                             <div class="content">
@@ -157,7 +157,7 @@
                             </li>
                             <li>
                                 <div class="img-holder">
-                                    <img src="images/footer/case-studie-6.jpg" alt="Awesome Image">
+                                    <img src="images/footer/case-studie-6.webp" alt="Awesome Image">
                                     <div class="overlay-style-one">
                                         <div class="box">
                                             <div class="content">

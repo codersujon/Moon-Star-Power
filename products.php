@@ -6,7 +6,7 @@
 ?>
 
 <!--Start breadcrumb area-->     
-<section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.jpg);">
+<section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.webp);">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
@@ -47,7 +47,7 @@
                 <div class="single-project-style2">
                     <div class="img-holder">
                         <div class="inner">
-                            <img src="images/projects/transformer/trans-3.png" alt="Transformer">
+                            <img src="images/projects/transformer/trans-3.webp" alt="Transformer">
                         </div>
                         <div class="overlay-content">
                             <div class="title float-left">
@@ -68,7 +68,7 @@
                 <div class="single-project-style2">
                     <div class="img-holder">
                         <div class="inner">
-                            <img src="images/projects/generator/g2.jpeg" alt="Generator">
+                            <img src="images/projects/generator/g2.webp" alt="Generator">
                         </div>
                         <div class="overlay-content">
                             <div class="title float-left">
@@ -89,7 +89,7 @@
                 <div class="single-project-style2">
                     <div class="img-holder">
                         <div class="inner">
-                            <img src="images/projects/solar/3.jpg" alt="Solar">
+                            <img src="images/projects/solar/3.webp" alt="Solar">
                         </div>
                         <div class="overlay-content">
                             <div class="title float-left">
@@ -110,7 +110,7 @@
                 <div class="single-project-style2">
                     <div class="img-holder">
                         <div class="inner">
-                            <img src="images/projects/LTSG/LTSG-1.png" alt="LT Switchgear">
+                            <img src="images/projects/LTSG/LTSG-1.webp" alt="LT Switchgear">
                         </div>
                         <div class="overlay-content">
                             <div class="title float-left">
@@ -131,7 +131,7 @@
                 <div class="single-project-style2">
                     <div class="img-holder">
                         <div class="inner">
-                            <img src="images/projects/PFI/PFI-1.jpg" alt="PFI Panel">
+                            <img src="images/projects/PFI/PFI-1.webp" alt="PFI Panel">
                         </div>
                         <div class="overlay-content">
                             <div class="title float-left">
@@ -152,7 +152,7 @@
                 <div class="single-project-style2">
                     <div class="img-holder">
                         <div class="inner">
-                            <img src="images/projects/HTSG/HTSG-1.png" alt="HT Switchgear">
+                            <img src="images/projects/HTSG/HTSG-1.webp" alt="HT Switchgear">
                         </div>
                         <div class="overlay-content">
                             <div class="title float-left">

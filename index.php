@@ -15,12 +15,12 @@
                     data-hideslideonmobile="off" data-index="rs-1686" data-masterspeed="default" data-param1=""
                     data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
                     data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off"
-                    data-slotamount="default" data-thumb="images/slides/v2-3.jpg" data-title="Slide Title"
+                    data-slotamount="default" data-thumb="images/slides/v2-3.webp" data-title="Slide Title"
                     data-transition="parallaxvertical">
 
                     <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10"
                         data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina=""
-                        src="images/slides/v2-3.jpg">
+                        src="images/slides/v2-3.webp">
 
                     <!-- Icon Layer -->
                     <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
@@ -93,12 +93,12 @@
                     data-hideslideonmobile="off" data-index="rs-1689" data-masterspeed="default" data-param1=""
                     data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
                     data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off"
-                    data-slotamount="default" data-thumb="images/slides/v1-1.jpg" data-title="Slide Title"
+                    data-slotamount="default" data-thumb="images/slides/v1-1.webp" data-title="Slide Title"
                     data-transition="parallaxvertical">
 
                     <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10"
                         data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina=""
-                        src="images/slides/v1-1.jpg">
+                        src="images/slides/v1-1.webp">
 
                     <!-- Icon Layer -->
                     <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
@@ -171,12 +171,12 @@
                     data-hideslideonmobile="off" data-index="rs-1687" data-masterspeed="default" data-param1=""
                     data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
                     data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off"
-                    data-slotamount="default" data-thumb="images/slides/1.jpg" data-title="Slide Title"
+                    data-slotamount="default" data-thumb="images/slides/1.webp" data-title="Slide Title"
                     data-transition="parallaxvertical">
 
                     <img alt="Electrical Transformer" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10"
                         data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina=""
-                        src="images/slides/1.jpg">
+                        src="images/slides/1.webp">
 
                     <!-- Icon Layer -->
                     <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
@@ -249,12 +249,12 @@
                     data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default" data-param1=""
                     data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
                     data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off"
-                    data-slotamount="default" data-thumb="images/slides/2.jpg" data-title="Slide Title"
+                    data-slotamount="default" data-thumb="images/slides/2.webp" data-title="Slide Title"
                     data-transition="parallaxvertical">
                     
                     <img alt="Power Generator" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10"
                         data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina=""
-                        src="images/slides/2.jpg">
+                        src="images/slides/2.webp">
 
                     <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                         data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on"
@@ -323,12 +323,12 @@
                     data-hideslideonmobile="off" data-index="rs-1690" data-masterspeed="default" data-param1=""
                     data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
                     data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off"
-                    data-slotamount="default" data-thumb="images/slides/v2-1.jpg" data-title="Slide Title"
+                    data-slotamount="default" data-thumb="images/slides/v2-1.webp" data-title="Slide Title"
                     data-transition="parallaxvertical">
                     
                     <img alt="PFI Plant Service" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10"
                         data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina=""
-                        src="images/slides/v2-1.jpg">
+                        src="images/slides/v2-1.webp">
 
                     <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                         data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on"
@@ -407,16 +407,16 @@
                         <span class="icon-solar-energy"></span>
                     </div>
                     <div class="image-box-one">
-                        <img src="images/resources/about-1.png" alt="Power Equipment">
+                        <img src="images/resources/about-1.webp" alt="Power Equipment">
                     </div>
                     <div class="image-box-two">
-                        <img src="images/resources/about-2.png" alt="Transformers">
+                        <img src="images/resources/about-2.webp" alt="Transformers">
                     </div>
                     <div class="image-box-three">
-                        <img src="images/resources/about-3.png" alt="Generators">
+                        <img src="images/resources/about-3.webp" alt="Generators">
                     </div>
                     <div class="image-box-four">
-                        <img src="images/resources/about-4.png" alt="Solar Energy">
+                        <img src="images/resources/about-4.webp" alt="Solar Energy">
                     </div>
                 </div>
             </div>
@@ -497,7 +497,7 @@
             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                 <div class="single-service-style1 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1200ms">
                     <div class="img-holder">
-                        <img src="images/services/1.jpg" alt="Transformer Service">
+                        <img src="images/services/1.webp" alt="Transformer Service">
                         <div class="overlay-style-two"></div>
                         <div class="overlay-content-box">
                             <div class="icon">
@@ -522,7 +522,7 @@
             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                 <div class="single-service-style1 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1200ms">
                     <div class="img-holder">
-                        <img src="images/services/2.jpg" alt="Generator Service">
+                        <img src="images/services/2.webp" alt="Generator Service">
                         <div class="overlay-style-two"></div>
                         <div class="overlay-content-box">
                             <div class="icon">
@@ -547,7 +547,7 @@
             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                 <div class="single-service-style1 wow fadeInRight" data-wow-delay="600ms" data-wow-duration="1200ms">
                     <div class="img-holder">
-                        <img src="images/services/3.jpg" alt="Solar Service">
+                        <img src="images/services/3.webp" alt="Solar Service">
                         <div class="overlay-style-two"></div>
                         <div class="overlay-content-box">
                             <div class="icon">
@@ -670,10 +670,10 @@
 <!--End Why Choose Area-->
 
 <!--Start Working Process Area-->
-<section class="working-process-area" style="background-image:url(images/parallax-background/working-process-bg.jpg);">
+<section class="working-process-area" style="background-image:url(images/parallax-background/working-process-bg.webp);">
     <div class="image-box wow fadeInRight" data-wow-duration="2000ms" data-wow-delay="200ms">
         <div class="image paroller">
-            <img class="zoom-fade" src="images/resources/working-process.png" alt="Moon Star Power Working Process">
+            <img class="zoom-fade" src="images/resources/working-process.webp" alt="Moon Star Power Working Process">
         </div>
     </div>
     <div class="container">
@@ -749,7 +749,7 @@
                 <div class="blog-carousel owl-carousel owl-theme wow zoomIn" data-wow-delay="200ms" data-wow-duration="1200ms">
                     <div class="single-blog-post">
                         <div class="img-holder">
-                            <img src="images/blog/v1-1.jpg" alt="PFI Panel & Transformer Maintenance">
+                            <img src="images/blog/v1-1.webp" alt="PFI Panel & Transformer Maintenance">
                             <div class="overlay-style-two"></div>
                             <div class="post-date">
                                 <h3><span>Aug</span><br> 28</h3>
@@ -774,7 +774,7 @@
                     </div>
                     <div class="single-blog-post">
                         <div class="img-holder">
-                            <img src="images/blog/v1-2.jpg" alt="Industrial Generator Service">
+                            <img src="images/blog/v1-2.webp" alt="Industrial Generator Service">
                             <div class="overlay-style-two"></div>
                             <div class="post-date">
                                 <h3><span>Aug</span><br> 15</h3>
@@ -798,7 +798,7 @@
                     </div>
                     <div class="single-blog-post">
                         <div class="img-holder">
-                            <img src="images/blog/v1-3.jpg" alt="On-Grid Solar System Installation">
+                            <img src="images/blog/v1-3.webp" alt="On-Grid Solar System Installation">
                             <div class="overlay-style-two"></div>
                             <div class="post-date">
                                 <h3><span>Jul</span><br> 30</h3>
@@ -843,7 +843,7 @@
                     <!--Testimonial 1: Transformer & PFI Panel-->
                     <div class="single-testimonial-item text-center">
                         <div class="img-box">
-                            <img src="images/testimonial/1.png" alt="Engr. Md. Rafiqul Islam">
+                            <img src="images/testimonial/1.webp" alt="Engr. Md. Rafiqul Islam">
                         </div>
                         <div class="inner-content">
                             <div class="text-box">
@@ -860,7 +860,7 @@
                     <!--Testimonial 2: Diesel Generator-->
                     <div class="single-testimonial-item text-center">
                         <div class="img-box">
-                            <img src="images/testimonial/2.png" alt="Tanvir Ahmed">
+                            <img src="images/testimonial/2.webp" alt="Tanvir Ahmed">
                         </div>
                         <div class="inner-content">
                             <div class="text-box">
@@ -877,7 +877,7 @@
                     <!--Testimonial 3: PFI Panel & Bill Reduction-->
                     <div class="single-testimonial-item text-center">
                         <div class="img-box">
-                            <img src="images/testimonial/1.png" alt="Hajji Md. Selim Hossain">
+                            <img src="images/testimonial/1.webp" alt="Hajji Md. Selim Hossain">
                         </div>
                         <div class="inner-content">
                             <div class="text-box">
@@ -894,7 +894,7 @@
                     <!--Testimonial 4: Solar Energy Project-->
                     <div class="single-testimonial-item text-center">
                         <div class="img-box">
-                            <img src="images/testimonial/2.png" alt="Mahmudul Hasan">
+                            <img src="images/testimonial/2.webp" alt="Mahmudul Hasan">
                         </div>
                         <div class="inner-content">
                             <div class="text-box">

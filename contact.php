@@ -5,7 +5,7 @@
     require_once 'includes/header.php'; 
 ?>
     <!--Start breadcrumb area-->     
-    <section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.webp);">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -118,7 +118,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                     <div class="single-contact-details-box text-center wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1200ms">
                         <div class="image-box">
-                            <img src="images/resources/contact-details-1.jpg" alt="Contact Phone">
+                            <img src="images/resources/contact-details-1.webp" alt="Contact Phone">
                         </div>
                         <div class="text">
                             <p>Ph: (+880) 1911-284405<br> Email: msptl.amr@gmail.com</p>
@@ -146,7 +146,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                     <div class="single-contact-details-box text-center wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1200ms">
                         <div class="image-box">
-                            <img src="images/resources/contact-details-2.jpg" alt="Customer Support">
+                            <img src="images/resources/contact-details-2.webp" alt="Customer Support">
                         </div>
                         <div class="text">
                             <p>We’re here to help with any question<br> of our customers.</p>
